@@ -1,13 +1,14 @@
 
-Le but de cet exercice est de désincliner l'image: 
-<img src="images/07_desincliner_contenu_pris_compte.jpg">
-***  
+Le but de cet exercice est de désincliner l'image:
+
+![](../assets/image/07_desincliner_contenu_pris_compte.jpg)
+
+***
 
 ## Matériel
-Télécharger et ouvrer le fichier Photoshop suivant:   
-[📁 Document de départ](.images/07_desincliner_contenu_pris_compte.jpg){ .md-button }   <br>
 
-
+Télécharger et ouvrer le fichier Photoshop suivant:
+[📁 Document de départ](../assets/image/07_desincliner_contenu_pris_compte.jpg){ .md-button }
 
 ## Étapes
 
@@ -17,10 +18,8 @@ Télécharger et ouvrer le fichier Photoshop suivant:
 - [ ] Sélectionner la queue du requin dans l'image pour l'inclure dans la zone de recadrage.
 - [ ] Terminer
 
+***
 
-***  
 ## Tutoriel 📚
-[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ee3Gmwbq6xFCjD5qV47wwKYBtD_Fjw86v87ejTjPlIOnXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GY50o7){ .md-button }   <br>
 
-
-
+[📖 Pour en savoir plus](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/Ee3Gmwbq6xFCjD5qV47wwKYBtD_Fjw86v87ejTjPlIOnXQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GY50o7){ .md-button }
