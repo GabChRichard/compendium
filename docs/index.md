@@ -1,29 +1,20 @@
-# Compendium
+---
+hide:
+  - toc
+---
 
-## Session 1
+# Vidéo 2
 
-* [582-111 | Web 1](./582-111-web1)
-* [582-121 | Illustration numérique](./582-121–illustration-numerique)
+## Descriptif du cours
 
-## Session 2
+Dans ce deuxième cours de vidéo, l’élève explore le processus de production d’une vidéo avec effets spéciaux. L’élève utilise différentes techniques de tournage pointues qui lui permettent de créer des œuvres vidéo avec des effets. Enfin, l’élève utilise les différentes fonctions des logiciels de montage vidéo afin de générer des effets visuels et sonores.
 
-* [582-201 | Design graphique](./582-201-design-graphique)
-* [582-211 | Web 2](./582-211-web2)
-* [582-212 | Vidéo 1](./582-212-video1)
-* [582-214 | Animation 2D](./582-214-animation2d-jf-mm)
 
-## Session 3
+| Spécifications        | Valeur  |
+| --------------------- | ------- |
+| Code                  | 582-312 |
+| Pondération           | 2-2-3   |
+| Unités                | 2⅓      |
+| Heures d’enseignement | 60      |
+| Session               | 3       |
 
-* [582-311 | Web 3](./582-311-web3)
-* [582-312 | Vidéo 2](./582-312–video2)
-
-## Session 4
-
-* [582-401 | Réalité mixte](./582-401-realite-mixte)
-* [582-411 | Web 4](./582-411-web4)
-
-## Session 5
-
-* [582-511 | Web 5](./582-511-web5)
-* [582-533 | Controle qualité](./582-533-controle-qualite)
-* [582-541 | Préparation en milieu de travail](./582-541–preparation-milieu-travail)
