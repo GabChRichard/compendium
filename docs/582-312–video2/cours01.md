@@ -1,7 +1,7 @@
 # Cours 1 - Bienvenue!
 
 ## Plan de cours
-[📁 Plan de cours](){ .md-button }   <br>
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC3M-UHBqpMSKpo0h5SywmFATJXHgk7OoHtBoQb_500pjY?e=W8n97j){ .md-button }   <br>
 
 ## Présentation des règles du cours
 * Remise des travaux.
@@ -22,17 +22,17 @@
 * On me contacte uniquement par Teams, je ne vais pas répondre via Col.net.
 * Local : C-1651.
   
-## Projet 1 
+<!-- ## Projet 1 
 * Explication du [projet 1](projet_01.md)
 * [Formation des équipes](https://cmontmorency365.sharepoint.com/:w:/s/stockageFLPilote/Eanb1Rd6dcZFhLmPFDvnD_YBeqiVc978kvOhiuiebzwmOA?e=J98Iwu)
 * Choisir journée de tournage (entre le 8 septembre après votre cours et avant le 30 septembre).
 * [Réservation des studios](https://teamup.com/ks5tb2ed4b9yetgo9v)
     * 1 équipe par studio (3, 4 ou 5 par équipe).
-    * Plage de tournage (7h00 à 14h00 ou 15h00 à 22h00).
+    * Plage de tournage (7h00 à 14h00 ou 15h00 à 22h00). -->
 
 ## L'esthétique visuelle et sonore
-* [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EXngM1RITXtCjr4M-CwvYs4BNOnE6Ux89wYgerIvACzF9g?e=Uri2m8)
-* [Le sonore](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EVYtu8fNOnNJnFoR1yifeygBMPQEWFQW_Ex9S52lYviJqw?e=bwPmiA)
+* [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBHR16kXidyRI6tGqDnoqZoAZ0ihzJOR0WGv84FpM-GM8o?e=5hfyWF)
+* [Le sonore]()
 
 
 ## La caméra
