@@ -1,18 +1,22 @@
-# Projet 1 – *Le Corps*
+# Projet 1 – L'entrevue
 
+### Description
+Réaliser une entrevue qui pourrait être mise en ligne sur les réseaux sociaux. L'entrevue totale devra être d'une durée d'environ deux minutes et devra être par la suite découpée pour en faire du contenu de format court et vertical. 
 ---
 
-## Partie 1 – Présentation du projet
+## Partie 1 – Montage Offline
 
 ### Objectif
-Créer une **vidéo expérimentale de 1 minute 30** sur le **corps humain**, où **l’accumulation d’images et de sons** exprime une **émotion**, une **matière** ou **raconte une histoire** sans paroles.  
-L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à travers une approche **sensorielle**, **poétique** ou **abstraite**.
+Réaliser une entrevue sur le thème de votre choix et réaliser un montage bout-à-bout sans effets ni transition. Chaque membre de l'équipe doit faire un montage d'environ deux minutes.
+
+<!-- Créer une **vidéo expérimentale de 1 minute 30** sur le **corps humain**, où **l’accumulation d’images et de sons** exprime une **émotion**, une **matière** ou **raconte une histoire** sans paroles.  
+L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à travers une approche **sensorielle**, **poétique** ou **abstraite**. -->
 
 ---
 
 ### Contraintes visuelles
 
-- **Utilisation de lentilles macro :**
+<!-- - **Utilisation de lentilles macro :**
   - Tout doit être filmé en **très gros plan**, sauf **3 plans** maximum autorisés en gros plan.
 - **Tournage corporel :**
   - Filmer **au moins 20 plans** de différentes parties du corps (mains, yeux, bouche, peau, cheveux…).
@@ -25,13 +29,13 @@ L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à tr
 - **Effet mosaïque :**
   - Obligation d’intégrer un effet ou une séquence en mosaïque.
 - **Colorisation :**
-  - En **noir et blanc**, **désaturée**, ou **noir et blanc avec un objet coloré**.
+  - En **noir et blanc**, **désaturée**, ou **noir et blanc avec un objet coloré**. -->
 
----
+<!-- ---
 
-### Contraintes sonores
+### Contraintes sonores -->
 
-- **Création sonore originale :**
+<!-- - **Création sonore originale :**
   - Réaliser un **micro-montage** à partir de sons enregistrés pendant le tournage.
 - **Synchronisation avec l’image :**
   - Assurer une **cohérence temporelle et rythmique** entre son et image.
@@ -40,27 +44,39 @@ L’objectif est d’utiliser le corps comme **langage visuel et sonore**, à tr
   - Modifier les **fréquences** pour créer des effets de proximité ou de distance.
   - Appliquer des **réverbérations**, **pans** et effets d’espace.
 - **Musique générée par IA :**
-  - Possibilité d’utiliser une **musique Udio** ou **libre de droits**, **découpée et remixée** dans le micro-montage.
+  - Possibilité d’utiliser une **musique Udio** ou **libre de droits**, **découpée et remixée** dans le micro-montage. -->
 
 ---
 
 ### Critères de réussite
 
-1. **Qualité visuelle :** Respect des contraintes macro et variété des plans.  
+<!-- 1. **Qualité visuelle :** Respect des contraintes visuel et .  
 2. **Création sonore :** Cohérence et richesse du micro-montage.  
-3. **Expérimentation :** Capacité à explorer et à combiner des effets visuels et sonores de manière expressive.  
+3. **Expérimentation :** Capacité à explorer et à combiner des effets visuels et sonores de manière expressive.   -->
 
 ---
 
-## Partie 2 – Présentation en classe
+## Partie 2 – Montage Online
 
-### Objectif de la présentation
+Mettre en commun vos montages offline pour faire un seul montage et mettre des effets de transitions avec une introduction et une fin. 
+
+<!-- ### Objectif de la présentation
 Durée maximale : **5 minutes**  
-Cette présentation sert à **expliquer ta démarche artistique** et à **montrer ton moodboard** pour illustrer les **choix visuels et sonores** de ton projet.
+Cette présentation sert à **expliquer ta démarche artistique** et à **montrer ton moodboard** pour illustrer les **choix visuels et sonores** de ton projet. -->
 
 ---
 
-### Partie 1 – Idée de départ
+### Critères de réussite
+
+---
+
+## Partie 3 - Le Reel
+
+Découper les moments forts du montage online de votre entrevue et faire des vidéos en format vertical d'environ trente secondes.
+
+---
+
+<!-- ### Partie 1 – Idée de départ
 Présente la **genèse du projet** :  
 - Quelle était **l’idée ou le concept initial** ?  
 - Quelle **émotion, question ou situation** voulais-tu explorer à travers ce film ?  
@@ -115,4 +131,4 @@ Termine ta présentation par une **synthèse claire** :
 - Quelle **émotion** ou **expérience sensorielle** veux-tu provoquer chez le spectateur ?  
 - Quelle **réflexion ou ressenti** veux-tu laisser après la projection ?  
 
-**Conclusion :** ton film doit être perçu comme une **expérience sensorielle cohérente**, où le corps devient **langage**, **matière** et **émotion**.
+**Conclusion :** ton film doit être perçu comme une **expérience sensorielle cohérente**, où le corps devient **langage**, **matière** et **émotion**. -->
