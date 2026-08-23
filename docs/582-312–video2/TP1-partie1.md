@@ -4,7 +4,9 @@ Note individuelle *(15% de la note finale)*
 
 ## Consignes
 
-Vous êtes approchés pour préparer et tourner une courte entrevue documentaire en appliquant les compétences de tournage avancées. Le travail est en équipe (4 personnes). La partie 1 comprend : 
+Vous êtes approchés pour préparer et tourner une courte entrevue documentaire en appliquant les compétences de tournage avancées. Le travail est en équipe (4 personnes). 
+
+## La partie 1 comprend : 
 
 ### Le fichier écrit (Word) de préparation du tournage doit comprendre :
 
@@ -38,7 +40,7 @@ Vous êtes approchés pour préparer et tourner une courte entrevue documentaire
 
 ### Consignes additionnelles 
 
-- La vidéo doit durer environ  
+- La vidéo doit durer environ deux (2) minutes
 
 ## Critères d'évaluation
 
