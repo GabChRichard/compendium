@@ -9,8 +9,13 @@ nav:
       - Midjourney: 582-312–video2/ai/midjourney.md
       - Midjourney code: 582-312–video2/ai/midjourney_code.md
       - Runway: 582-312–video2/ai/runway.md
-      - Projet 1: 582-312–video2/projet_01.md
-      - Projet 2: 582-312–video2/projet_02.md
+      # - Projet 1: 582-312–video2/projet_01.md
+      # - Projet 2: 582-312–video2/projet_02.md
+      - TP1-partie-1: 582-312–video2/TP1-partie1.md
+      - TP1-partie-2: 582-312–video2/TP1-partie2.md
+      - TP1-partie-3: 582-312–video2/TP1-partie3.md
+      - TP2-partie-1: 582-312–video2/TP2-partie1.md
+      - TP1-partie-2: 582-312–video2/TP1-partie2.md
       - Cours 1: 582-312–video2/c1.md
       # - Cours 2: 582-312–video2/cours02.md
       # - Cours 3: 582-312–video2/cours03.md
