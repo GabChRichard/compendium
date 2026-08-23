@@ -50,6 +50,9 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.prefetch
+    - search.suggest
+    - search.highlight
+    - search.share
   palette:
     - media: "(prefers-color-scheme: dark)"
       primary: red
@@ -119,7 +122,11 @@ extra_css:
   - https://unpkg.com/tippy.js@6/animations/shift-away.css
   - https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css
+  - https://unpkg.com/reveal.js@6.0.1/dist/reveal.css
+  - https://unpkg.com/reveal.js@6.0.1/dist/theme/black.css
   - _/extra.css
+  - _/presentation.css
+  - _/course-search.css
 #  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css
 
 extra_javascript:
@@ -131,12 +138,16 @@ extra_javascript:
   - https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js
   - https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js
+  - https://unpkg.com/reveal.js@6.0.1/dist/reveal.js
   - _/extra.js
   - _/image-zoom.js
   - _/gallery.js
   - _/tooltip.js
+  - _/presentation.js
 
 plugins:
+  - search:
+      lang: [fr]
   - material/offline
   - material/tags
   - material/typeset
