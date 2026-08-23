@@ -32,7 +32,7 @@
 
 ## L'esthétique visuelle et sonore
 * [Le visuel](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBHR16kXidyRI6tGqDnoqZoAZ0ihzJOR0WGv84FpM-GM8o?e=5hfyWF)
-* [Le sonore]()
+* [Le sonore](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBHR16kXidyRI6tGqDnoqZoAZ0ihzJOR0WGv84FpM-GM8o?e=aFecwf)
 
 
 ## La caméra
