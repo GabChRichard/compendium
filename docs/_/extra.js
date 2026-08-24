@@ -41,22 +41,6 @@ const toggleLogoButtonVisibility = () => {
   }
 };
 
-// Remplacement du lien du logo par un élément non-cliquable
-// C'est surtout pour éviter que l'utilisateur sorte du contexte de son cours
-const replaceLogoLinkWithSpan = () => {
-  const logoLink = document.querySelector(".md-header__button.md-logo");
-  if (!logoLink) return;
-
-  const spanElement = document.createElement("span");
-  Array.from(logoLink.attributes).forEach((attr) =>
-    spanElement.setAttribute(attr.name, attr.value)
-  );
-  while (logoLink.firstChild) {
-    spanElement.appendChild(logoLink.firstChild);
-  }
-  logoLink.parentNode.replaceChild(spanElement, logoLink);
-};
-
 // Ajout d'un lien "Ouvrir l'exemple" sous les iframes spécifiques de codepen
 // Si le iframe est configuré à éditable et que le theme est celui sans tabs, on ajoute un lien vers l'exemple.
 const addOpenExampleLinks = () => {
@@ -438,7 +422,6 @@ function runFunctions() {
 
 function runOnce() {
   removeMainTabsNavigation();
-  replaceLogoLinkWithSpan();
 }
 
 

@@ -9,8 +9,12 @@
   // pour parcourir le site en local via file://), donc les pages sont
   // servies en URLs plates ("c1.html"), pas en URLs de type dossier
   // ("c1/"). On accepte les deux formes au cas où la config changerait.
-  const COURSE_SESSION_RE =
-    /\/582-312–video2\/(c\d+|cours\d+(?:_[a-z0-9]+)?)(?:\.html|\/(?:index\.html)?)?(?:[?#].*)?$/i;
+  const COURSE_FOLDERS =
+    "582-312–video2|582-121–illustration-numerique|582-101–domaines-multimedias";
+  const COURSE_SESSION_RE = new RegExp(
+    `/(?:${COURSE_FOLDERS})/(c\\d+|cours\\d+(?:_[a-z0-9]+)?)(?:\\.html|/(?:index\\.html)?)?(?:[?#].*)?$`,
+    "i"
+  );
 
   const isCourseSessionPage = (pathname) => {
     // location.pathname pourcent-encode les caractères non-ASCII (le tiret
