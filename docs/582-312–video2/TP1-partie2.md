@@ -1,5 +1,7 @@
 # TP1 – Réalisation d'une entrevue documentaire - Partie 2 : le montage online 
 
+> Le devis du TP est sujet à changement d'ici sa distribution officielle
+
 *(15% de la note finale)*
 
 ## Consignes

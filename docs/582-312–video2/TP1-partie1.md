@@ -1,5 +1,7 @@
 # TP1 – Réalisation d'une entrevue documentaire - Partie 1 : le montage offline 
 
+> Le devis du TP est sujet à changement d'ici sa distribution officielle
+
 Note individuelle *(15% de la note finale)*
 
 ## Consignes

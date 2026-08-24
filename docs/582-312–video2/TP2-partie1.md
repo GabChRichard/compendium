@@ -1,4 +1,6 @@
-# Projet 2 : Installation Immersive et Vidéo Mosaïque  
+# Projet 2 : Installation Immersive et Vidéo Mosaïque 
+
+> Le devis du TP est sujet à changement d'ici sa distribution officielle
 
 ![](assets/image/installation_01.png)
 

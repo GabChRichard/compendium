@@ -5,12 +5,16 @@
 
 ![](assets/image2.png)
 
-- Tour de classe et présentation de l'enseignant 
-- Présentation de l'activité brise-glace
-- Bienvenue à l'agence du Domaine : la logique du cours
-- Guide étudiant et calendrier
-- Contrat d'embauche
-- Teams et les outils de l'agence
+- [Présentation de l'activité brise-glace](#présentation-de-lactivité-brise-glace)
+- [Tour de classe](#tour-de-classe) et [présentation de l'enseignant](#presentation-de-lenseignant)
+- [Bienvenue à l'agence du Domaine](#bienvenue-a-lagence-du-domaine) : la logique du cours
+- [Guide étudiant](#guide-etudiant) et [calendrier](#le-plan-de-cours)
+- [Contrat d'embauche](#le-contrat-dembauche)
+- [Teams](#introduction-a-teams) et [les outils de l'agence](#les-outils-de-lagence)
+
+## Présentation de l'activité brise-glace
+
+C'est une activité obligatoire qui fait une présentation du parcours, des enseignants, des outils et des locaux. Ce sera mardi le 1er septembre à midi au local C-1570. 
 
 ## Tour de classe
 
@@ -127,11 +131,17 @@ Quelques astuces importantes :
 - Répondez aux questions puis sauvegardez le fichier.
 - Remettez ensuite votre fichier dans l'espace de remise.
 
-## Devoir — préparation pour la mise en poste
+## Devoir — activité brise-glace et préparation pour la mise en poste
+
+Pour l'activité brise-glace : 
+
+- Quoi? Une activité obligatoire de présentation du programme
+- Quand? Le 1er septembre à midi
+- Où? Au local C-1570
 
 Pour votre première semaine « au bureau », procurez-vous :
 
-- Un disque dur externe
+- Un disque dur externe [meilleur prix pour un SSD en ce moment : 200$ pour 1Tb](https://www.bestbuy.ca/fr-ca/produit/disque-ssd-externe-pny-pro-elite-v2-de-1-to-usb-3-2-psd0cs2160-1tb-rb-noir/19839299?cmp=knc-s-21259789674&&x&utm_source=google&utm_id=240828cac942&utm_medium=troas&utm_creativeformat=pmax&gclsrc=aw.ds&gad_source=1&gad_campaignid=21259793913&gbraid=0AAAAAD-7qGzDpvxRizGmiotulhVQ7J6gV&gclid=CjwKCAjwtKrUBhAhEiwAr77ZorpW0qDTpQhGlrzoaLyNZCUIxke0ExVAsxTSA6xPjuVmLqfvQgx_HhoC4eEQAvD_BwE)
 - Une clé USB
 - Une carte SD
 
