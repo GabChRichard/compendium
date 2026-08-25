@@ -1,5 +1,28 @@
 # Cours 2
- 
+
+
+
+## Les bases du design
+### La composition 
+#### Atelier
+À tour de rôle, chaque personne pige une carte et nous explique commment l'oeuvre présenté exprime le concept de la carte.
+
+##### Oeuvre 1 : La nuit Étoilé - Vincent Van Gogh
+![La nuit étoilé - Vincent Van Gogh](./assets/image/cours-2/Van_Gogh_starry_night.jpg)
+
+##### Oeuvre 2 : L'école d'Athene - Raphael
+![L'école d'Athene](./assets/image/cours-2/school_of_athens_raphael.jpg)
+
+
+### Les courants artistiques
+
+#### Définition
+"Période de l'histoire de l'art ou du design marquée par une idéologie distinctive et des caractéristiques formelles et esthétiques communes."
+[Courant Artistique - Vitrine Linguistique](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26579335/courant-artistique)
+
+* [Les Courants Artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCUGzybNC7ORqsvXICL5x0xAVMt4fFIDUvmM6Yerb5JrHk?e=gzHX3f)
+### La composition
+### Le 
 
 ## Photoshop
 
