@@ -5,7 +5,7 @@
 
 ![](assets/image2.png)
 
-- [Présentation de l'activité brise-glace](#présentation-de-lactivité-brise-glace)
+- [Présentation de l'activité brise-glace](#presentation-de-lactivite-brise-glace)
 - [Tour de classe](#tour-de-classe) et [présentation de l'enseignant](#presentation-de-lenseignant)
 - [Bienvenue à l'agence du Domaine](#bienvenue-a-lagence-du-domaine) : la logique du cours
 - [Guide étudiant](#guide-etudiant) et [calendrier](#le-plan-de-cours)
@@ -32,7 +32,8 @@ Ma plus grande passion est l'entretien d'une architecture informatique pour sout
 
 Je suis vraiment passionné par le game design, les nouvelles formes médiatiques (mapping vidéo, réalité virtuelle et réalité augmentée) le making (FabLab, impression 3D, découpe laser, CNC automatisée, cosplay, etc.).
 
-Je suis ici pour vous aider à trouver vos forces dans le domaine numérique.
+Je suis ici pour vous aider à trouver vos forces dans le domaine numérique.  
+
 ![](assets/image3.jpeg)
 
 ## Attitude de réussite
@@ -40,7 +41,7 @@ Je suis ici pour vous aider à trouver vos forces dans le domaine numérique.
 - Avoir l'esprit ouvert
 - Apprendre à se connaître (forces et faiblesses)
 - [Apprendre de ses erreurs](https://www.youtube.com/watch?v=wCsO56kWwTc)
-- Qui a vu le film La Matrice?
+- Qui a vu le film [La Matrice](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/gabriel_chrichard_cmontmorency_qc_ca/IQASl4RCTApMR5jZuyc53LBNASBKDGZb3_9Yj9TupyrS7cQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RU0flj)?
 
 <video controls src="assets/matrix.mp4" style="max-height: 400px;"></video>
 
