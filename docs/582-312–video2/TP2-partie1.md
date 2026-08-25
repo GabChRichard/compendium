@@ -10,7 +10,10 @@
 Créer une expérience immersive en utilisant des éléments visuels et sonores pour raconter une histoire. Le travail est en équipe (4 personnes). 
 Pour réaliser ce projet, nous vous suggerons le thème suivant : </br>
 
-✨ Anomalie ✨
+- Anomalie
+- Passage
+- Rupture
+- Amalgamme 
 
 Exemples:  
 [Projets artistes ](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EdWLzr5Q0PdOnqxowv9_kBYBJzHbx4gT3zch9B2hIO3jzw?e=84Ld9o)
