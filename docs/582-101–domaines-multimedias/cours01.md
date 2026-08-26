@@ -9,7 +9,6 @@
 - [Tour de classe](#tour-de-classe) et [présentation de l'enseignant](#presentation-de-lenseignant)
 - [Bienvenue à l'agence du Domaine](#bienvenue-a-lagence-du-domaine) : la logique du cours
 - [Guide étudiant](#guide-etudiant) et [calendrier](#le-plan-de-cours)
-- [Contrat d'embauche](#le-contrat-dembauche)
 - [Teams](#introduction-a-teams) et [les outils de l'agence](#les-outils-de-lagence)
 
 ## Présentation de l'activité brise-glace
@@ -87,26 +86,12 @@ Pour aller plus loin, nous allons apprendre également à :
 
 Nous allons maintenant regarder le calendrier complet de la session : les mandats, les évaluations, la sortie et les conférences.
 
+[Plan de cours groupe mardi](./assets/plan-cours-domaine-A2026-mardi.pdf)
+[Plan de cours groupe vendredi](./assets/plan-cours-domaine-A2026-vendredi.pdf)
+
 ## Guide étudiant
 
 Nous allons maintenant regarder [le guide étudiant](assets/guide_etudiants.docx) et nous intéresser à son contenu.
-
-## Le contrat d'embauche
-
-Avant de commencer, chaque « employé » signe symboliquement son contrat d'embauche : un engagement à respecter les échéances, à collaborer avec ses collègues et à soigner la qualité de ses livrables — les mêmes attentes qu'en agence réelle.
-
-### Exercice
-
-Signature du contrat d'embauche et consultation d'anciens dossiers de mandats (projets d'ex-élèves) pour voir le niveau attendu.
-
-## Les outils de l'agence
-
-À travers votre formation, vous allez utiliser de très nombreux logiciels, mais vous allez certainement utiliser Teams, OneDrive, Word et Outlook de Microsoft en particulier.
-
-- **Teams** — logiciel de communication et collaboration numérique (semblable à Discord, mais pour le travail). Principalement utilisé comme outil de communication, mais aussi pour la remise de travaux.
-- **OneDrive** — logiciel de stockage infonuagique (cloud). Utilisé pour stocker des notes et des projets, mais surtout pour avoir des copies de sauvegarde (backup).
-- **Word** — logiciel de traitement de texte, utilisé pour prendre des notes, rédiger des travaux et partager du contenu écrit.
-- **Outlook** — service de messagerie numérique (e-mail), utilisé pour les communications externes et pour être informé des évènements importants du collège. C'est certainement le meilleur moyen de communiquer avec moi.
 
 ## Introduction à Teams
 
@@ -124,13 +109,14 @@ Quelques astuces importantes :
 - Utiliser la fonction @mention pour interpeller quelqu'un (moi en particulier)
 - Planifiez vos cours et remises dans le calendrier
 
-## Exercice
+## Les outils de l'agence
 
-- Vous allez commencer par installer Teams comme application sur vos téléphones.
-- Ensuite, vous allez vous authentifier sur vos PC avec votre matricule.
-- Vous allez ensuite vous rendre dans l'équipe Teams du cours et télécharger le fichier : « Exercice cours 1 »
-- Répondez aux questions puis sauvegardez le fichier.
-- Remettez ensuite votre fichier dans l'espace de remise.
+À travers votre formation, vous allez utiliser de très nombreux logiciels, mais vous allez certainement utiliser Teams, OneDrive, Word et Outlook de Microsoft en particulier.
+
+- **Teams** — logiciel de communication et collaboration numérique (semblable à Discord, mais pour le travail). Principalement utilisé comme outil de communication, mais aussi pour la remise de travaux. C'est certainement le meilleur moyen de communiquer avec moi.
+- **OneDrive** — logiciel de stockage infonuagique (cloud). Utilisé pour stocker des notes et des projets, mais surtout pour avoir des copies de sauvegarde (backup).
+- **Word** — logiciel de traitement de texte, utilisé pour prendre des notes, rédiger des travaux et partager du contenu écrit.
+- **Outlook** — service de messagerie numérique (e-mail), utilisé pour les communications externes et pour être informé des évènements importants du collège. 
 
 ## Devoir — activité brise-glace et préparation pour la mise en poste
 
@@ -143,8 +129,8 @@ Pour l'activité brise-glace :
 Pour votre première semaine « au bureau », procurez-vous :
 
 - Un disque dur externe [meilleur prix pour un SSD en ce moment : 200$ pour 1Tb](https://www.bestbuy.ca/fr-ca/produit/disque-ssd-externe-pny-pro-elite-v2-de-1-to-usb-3-2-psd0cs2160-1tb-rb-noir/19839299?cmp=knc-s-21259789674&&x&utm_source=google&utm_id=240828cac942&utm_medium=troas&utm_creativeformat=pmax&gclsrc=aw.ds&gad_source=1&gad_campaignid=21259793913&gbraid=0AAAAAD-7qGzDpvxRizGmiotulhVQ7J6gV&gclid=CjwKCAjwtKrUBhAhEiwAr77ZorpW0qDTpQhGlrzoaLyNZCUIxke0ExVAsxTSA6xPjuVmLqfvQgx_HhoC4eEQAvD_BwE)
-- Une clé USB
-- Une carte SD
+- Une clé USB d'au moins 4 Go
+- Une carte SD [Sandisk SDXC 128go Extreme Pro UHS-1 U3 Class 10](https://www.amazon.ca/-/fr/SanDisk-Extreme-UHS-I-Carte-m%C3%A9moire/dp/B0BJRVB9Y4/ref=asc_df_B0BJRVB9Y4?mcid=7efbe1964b6c347f9705b495b204222d&tag=cafrdeshadgo-20&linkCode=df0&hvadid=724312695082&hvpos=&hvnetw=g&hvrand=12168725414706235678&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9000619&hvtargid=pla-2008270935813&psc=1&language=fr_CA&gad_source=1) 
 
 ## Merci et à la semaine prochaine!
 
