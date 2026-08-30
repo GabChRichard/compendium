@@ -2,12 +2,22 @@
 
 ## Ordre du jour
 
+- Retour sur Teams
+- Sondage sur la population étudiante  
 - Rencontre avec les TTP (Techniciens en travaux pratiques)
 - Composantes d'un ordinateur
 - Systèmes d'exploitation, pilotes et applications
 - Gestion de fichiers et formats
 - Formatage de disques durs
 - Aménagement de votre poste de travail
+
+## Retour sur Teams
+
+## Sondage sur la population étudiante (20 mins)
+
+Nous allons maintenant prendre un moment pour répondre à un sondage pour aider le département à obtenir un portrait global de la nouvelle population étudiante. 
+
+[Lien pour le sondage](https://sondage-spec.com/sondage/c443a486fa27e5e3058ef15920ad37a8)
 
 ## Rencontre avec les TTP
 
