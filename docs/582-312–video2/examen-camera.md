@@ -18,12 +18,12 @@ Faire le montage de la caméra, de l'éclairage et du Sound Device.
 
 - Montage de la perche.
 - Paramétrage du Sound Device.
-- Prise de son
+- Prise de son.
 
 ### Le dossier de remise doit comprendre les éléments suivants :
 
-- Vos deux plan vidéo
-- Votre prise de son
+- Vos deux plan vidéo.
+- Votre prise de son.
 
 ## Critères d'évaluation
 
