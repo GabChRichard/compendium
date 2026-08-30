@@ -12,7 +12,10 @@ Faire le montage de la caméra, de l'éclairage et du Sound Device.
 - Paramétrage de la caméra.
 - Installation d'un éclairage en 3 points.
 - Paramétrage de l'éclairage. 
-- Prise de deux plans donné par l'enseignant.
+- Prise de trois plans avec mouvement.
+    - Un **plan d'ensemble** avec un **mouvement de pan**.
+    - Un **plan rapproché** avec un **mouvement de tilt**.
+    - Un **gros plan** avec un **mouvement de zoom-in**.
 
 ### Partie audio :
 
@@ -22,7 +25,7 @@ Faire le montage de la caméra, de l'éclairage et du Sound Device.
 
 ### Le dossier de remise doit comprendre les éléments suivants :
 
-- Vos deux plan vidéo.
+- Vos trois plans vidéo.
 - Votre prise de son.
 
 ## Critères d'évaluation
@@ -34,10 +37,10 @@ Les aspects évalués sont les suivants :
 | **Caméra** | | **/20** |
 | | Installation de la caméra | /10 |
 | | Paramétrage de la caméra | /10 |
-| **Éclairage** | | **/30** |
-| | Installation de l'éclairage en trois points | /30 |
-| **Captation** | | **/20** |
-| | Qualité des plans remis | /20 |
+| **Éclairage** | | **/20** |
+| | Installation de l'éclairage en trois points | /20 |
+| **Captation** | | **/30** |
+| | Qualité des plans remis | /30 |
 | **Son** | | **/30** |
 | | Préparation de la perche | /10 |
 | | Paramétrage du Sound Device | /10 |
