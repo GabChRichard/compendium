@@ -8,7 +8,7 @@
 
 Vous êtes approchés pour adapter une courte entrevue documentaire en format mobile en appliquant les compétences de traitement d'images avancées. Le travail est individuel. La partie 3 comprend : 
 
-### Le reel :
+### Le reel (individuel) :
 
 - Un montage de l'entrevue résumée (30 sec. max)
 - Une trame sonore
