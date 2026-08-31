@@ -11,20 +11,26 @@
 ![Regle des tiers](./assets/image/cours-2/regle_tier_3.jpg)
 
 ### Lignes de forces
+![Liberté guidant le peuple](./assets/image/cours-2/liberte_guidant_peuple.jpg)
+![Lignes de forces](./assets/image/cours-2/ligne_force_2.jpg)
+![Radeau de la Méduse](./assets/image/cours-2/radeau_de_la_meduse.jpg)
 
 ### CRAP
 ![Crap](./assets/image/cours-2/crap_1.png)
 
-#### Contraste
-#### Repetition
-#### Alignement
-#### Proximité
+- Contraste
+- Repetition
+- Alignement
+- Proximité
 
 ## Les courants artistiques
 
 ### Définition
 "Période de l'histoire de l'art ou du design marquée par une idéologie distinctive et des caractéristiques formelles et esthétiques communes."
 [Courant Artistique - Vitrine Linguistique](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26579335/courant-artistique)
+
+![Dali](./assets/image/cours-2/dali_les_horloges.jpg)
+![de Chirico](./assets/image/cours-2/de_chirico.jpg)
 
 * [Les Courants Artistique](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCUGzybNC7ORqsvXICL5x0xAVMt4fFIDUvmM6Yerb5JrHk?e=gzHX3f)
 
@@ -310,13 +316,13 @@ caractérisé par l'utilisation de couleurs vives et saturées, de typographies 
 
 ​​![Neon](./assets/image/cours-2/neon_1.jpg)
 
-### Le Rétro-Futurisme
+<!-- ### Le Rétro-Futurisme
 ### Le Brutalisme
 ### Le Flat 2.0
 ### Le Vintage
-### Le Néo-Minimalisme
+### Le Néo-Minimalisme -->
 
-## Tendances 2026
+<!-- ## Tendances 2026 -->
 
 <!-- ## La composition 
 ### Atelier
