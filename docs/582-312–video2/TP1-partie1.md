@@ -28,7 +28,7 @@ Vous êtes approchés pour préparer et tourner une courte entrevue documentaire
 - 20 plans de coupe tournés (objets significatifs, environnement, images d'archives, etc.)
 - Veiller à la qualité technique (image stable, son clair, éclairage adéquat)
 
-### Le montage offline de la vidéo doit comprendre :
+### Le montage offline (individuel) de la vidéo doit comprendre :
 
 - Un montage bout à bout de toute l'entrevue 
 - Une trame sonore 

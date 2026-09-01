@@ -61,7 +61,7 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 - 20 plans de coupe tournés (objets significatifs, environnement, images d'archives, etc.) -->
 - Veiller à la qualité technique (image nette, composition cohérente, éclairage adéquat)
 
-### Le montage offline de la vidéo doit comprendre :
+### Le montage offline (individuel) de la vidéo doit comprendre :
 
 - Un montage bout à bout rythmé de tout le vidéo
 - Une trame sonore 
