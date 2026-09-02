@@ -1,99 +1,79 @@
-# Cours 5 – Mandat client 1 : Web
+# Cours 5 – ÉVALUATION : Test d'embauche
 
 ## Ordre du jour
 
-- Présentation du mandat Web
-- Étude de cas : le domaine web
-- Markdown, Git et GitHub
-- GitHub Pages
-- Atelier de production
+*Durée totale estimée : ~2h15 de contenu dirigé sur 4h. Le reste du temps est absorbé par le test lui-même : la partie théorique et individuelle se font au rythme de chacun, et la section supervisée avance en file d'attente selon le nombre de superviseurs disponibles — prévoir que cette dernière puisse occuper la salle jusqu'à la fin du cours.*
 
-## Le mandat : Café Lunaire
+- Rappel des attentes de l'agence (10 mins)
+- Test d'embauche — partie théorique (45 mins)
+- Test d'embauche — partie pratique (section individuelle) (40 mins)
+- Test d'embauche — partie pratique (section supervisée) (variable, en file d'attente)
+- Confirmation d'embauche (5 mins)
 
-**Client fictif :** Café Lunaire, un café-librairie de quartier qui n'a aucune présence en ligne et veut une page simple pour annoncer ses heures, son menu et ses événements.
+## Pourquoi un test d'embauche? (5 mins)
 
-**Livrable attendu :** une page web statique publiée sur GitHub Pages, avec une section d'accueil, un menu, une section événements et une façon de contacter le café.
+Après un premier mandat client à l'essai, l'agence doit confirmer que vous maîtrisez les bases du poste : le matériel, les logiciels, les réseaux et les outils de production web. C'est la même logique qu'une période d'essai en entreprise.
 
-Consultez la grille de correction complète (10 points) dans le plan de cours.
+Réussir ce test, c'est **confirmer votre embauche** et débloquer l'accès à la suite de la phase des mandats.
 
-## Étude de cas : le domaine web
+## Partie théorique (45 mins)
 
-En termes professionnels, le domaine web réfère au personnel impliqué dans la construction et le maintien des pages, services et applications web.
+40 questions à choix de réponse sur les sujets vus depuis le cours 1 :
 
-- **Front-end** : la façade du site (interface, couleurs, textes, images) et l'expérience utilisateur
-- **Back-end** : la logique côté serveur (requêtes, bases de données, routes)
-- Une personne qui fait les deux est dite **full-stack**
+- Histoire de l'informatique (associer une innovation à une période)
+- Composantes d'un ordinateur (CPU, RAM, disques, carte mère, GPU)
+- Langages de programmation (identifier les langages web et le C)
+- Concepts de base en programmation (variables, boucles, fonctions, évènements)
+- Préfixes de données (Kilo, Méga, Giga, Téra)
+- Systèmes d'exploitation (Windows, MacOS, Linux, Android, iOS)
+- Formats de fichiers (texte, image, audio/vidéo, web)
+- Formatage (exFAT vs NTFS vs Mac OS étendu journalisé)
+- Réseaux et web (Internet, réseau local, domaine, hébergeur, front-end vs back-end)
+- Branchements (HDMI, DisplayPort, Ethernet, USB, XLR)
+- Markdown, Git vs GitHub, GitHub Pages
+- Bonnes pratiques d'utilisation d'un LLM
 
-### Quelques spécialisations
+## Partie pratique — section individuelle (6 %, ~40 mins)
 
-- **Designer** : conçoit le plan du site, son agencement (layout) et ses éléments visuels
-- **Designer UX/UI** : se concentre sur l'expérience utilisateur et la conception d'interface
-- **Opérateur web (webmaster)** : gère le site, le domaine, les performances et les mises à jour
-- **Expert en accessibilité** : s'assure que le site est utilisable par tous
-- **Créateur de contenu** : produit du contenu écrit/visuel optimisé pour la recherche
+Procédures à réaliser à votre poste, avec remise sur Teams :
 
-## Markdown
+- Télécharger le dossier de classement de fichiers dans le dossier Examen du groupe Teams
+- Classer les fichiers dans les dossiers correspondants selon leur format
+- Créer un nouveau fichier Word et y écrire le nom et les spécifications du processeur et de la mémoire vive
+- Sauvegarder le fichier Word dans le dossier Textes et classeurs
+- Compresser le dossier et le remettre dans le devoir du cours
+- Réserver le Cubicule-3 pour une heure, en date d'aujourd'hui, pour l'heure de fin du cours
+- Faire une demande de matériel pour le cours de Photographie (caméra et trépied) pour une date de sortie dans 2 jours ouvrables, et copier le lien dans le canal Réservation du Teams du cours
 
-Le Markdown est un langage de balisage (comme le HTML) pour rédiger du texte formaté simplement, sans logiciel de mise en page.
+**Barème :** dossier de classement /2, réservation de cubicule /2, réservation de matériel /2 — total /6
 
-- Extension de fichier : `.md`
-- Utilisé pour la documentation sur GitHub, mais compatible avec Notion, Discord, Obsidian, etc.
-- Feuille de référence : [markdownguide.org/cheat-sheet](https://www.markdownguide.org/cheat-sheet/)
+## Partie pratique — section supervisée (4 %, en file d'attente)
 
-### Démo
+Procédures à réaliser devant un superviseur :
 
-Avant de travailler dans GitHub, un tour d'horizon rapide avec un éditeur Markdown en ligne : [stackedit.io](https://stackedit.io/)
+- Installer le logiciel Brave
+- Ouvrir le logiciel Brave
+- Désinstaller le logiciel Brave
+- Formater une clé USB au format exFAT avec le gestionnaire de disques
+- Ranger et classer les fils présentés
 
-## Git
+**Barème :** installation d'un logiciel /1, formatage d'une clé USB /2, rangement et classement de fils /1 — total /4
 
-Git est un logiciel local de contrôle de versions : il permet de suivre les changements d'un projet dans le temps, de collaborer et de revenir à une version antérieure si nécessaire.
+### Critères de performance
 
-- Fonctionne sans connexion réseau — pas besoin de compte pour l'utiliser localement
-- Chaque sauvegarde d'une version s'appelle un **commit**
-- Git garde l'historique de tous les commits et permet de comparer les versions
+Pour chacune des deux sections, la performance est distribuée ainsi :
 
-## GitHub
+- Procédures réussies sans erreur/intervention : 100 %
+- Procédures réussies avec une erreur/peu d'intervention : 75 %
+- Procédures réussies avec beaucoup d'erreurs/d'intervention : 50 %
+- Procédures difficilement réussies, avec beaucoup d'erreurs/d'intervention : 25 %
+- Procédures non réussies : 0 %
 
-GitHub est un service d'hébergement infonuagique pour des dépôts Git — un peu comme Google Drive, mais pensé pour le code et la collaboration.
+La qualité de la langue est évaluée jusqu'à concurrence de 10 % de la note finale du travail (1 % par faute).
 
-- Héberger un projet et son historique en ligne
-- Collaborer via un historique de modifications
-- Suivre qui a modifié quoi et corriger des erreurs en revenant en arrière
-- Publier un projet en le rendant public
+## Confirmation d'embauche (5 mins)
 
-### Vocabulaire GitHub
-
-- **Repository (repo)** : le dépôt du projet
-- **Commit** : sauvegarde de l'état du projet
-- **Push** : envoie les commits sur GitHub
-- **Pull** : récupère les mises à jour du dépôt
-- **Branche** : copie parallèle du projet
-- **Pull request** : requête pour fusionner une contribution
-- **Fork** : copie personnelle d'un dépôt existant
-
-## GitHub Pages
-
-Service gratuit de GitHub qui permet de publier un site web statique directement à partir d'un dépôt. On peut y mettre du code HTML/CSS ou du Markdown — GitHub le transforme en site public accessible par une adresse.
-
-### Publier sur GitHub Pages
-
-1. Aller dans son dépôt → onglet **Settings**
-2. Dans le menu de gauche, choisir **Pages**
-3. Sous *Branch*, choisir **Main** puis **Root**
-4. Cliquer sur **Save**, rafraîchir après 1-2 minutes
-5. GitHub affiche l'adresse du site publié
-
-## Atelier — Création du dépôt Café Lunaire
-
-- Créer un compte GitHub (si ce n'est pas déjà fait)
-- Créer un dépôt avec un fichier README.md
-- Rédiger le contenu de la page en Markdown : accueil, menu, événements, contact
-- Publier sur GitHub Pages
-- Vérifier que le site est en ligne
-
-## Mise à jour de la feuille de suivi
-
-Après ce premier mandat, évaluez-vous sur « Caractériser les domaines en multimédia » et « Utiliser un ordinateur, ses périphériques et les réseaux » (0 à 4).
+À l'issue du test, votre embauche est confirmée : vous accédez officiellement à la suite des **mandats clients**. Mettez à jour votre feuille de suivi de compétences avec les résultats de ce premier jalon.
 
 ## Préparation pour la semaine prochaine
 
