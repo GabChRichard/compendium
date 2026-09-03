@@ -1,0 +1,1920 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://tim-montmorency.com/compendium/582-101%E2%80%93domaines-multimedias/cours03.html">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../_/favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+  <!-- Meta tags pour éviter l'indexation par les moteurs de recherche -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="slurp" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="duckduckbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  
+  <!-- En-têtes HTTP supplémentaires via meta tags -->
+  <meta http-equiv="X-Robots-Tag" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  
+  
+      
+        <title>Cours 3 – Mise en poste : branchements et réseaux - Notes de cours</title>
+      
+    
+
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/reveal.js@6.0.1/dist/reveal.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/reveal.js@6.0.1/dist/theme/black.css">
+    
+      <link rel="stylesheet" href="../_/extra.css">
+    
+      <link rel="stylesheet" href="../_/presentation.css">
+    
+      <link rel="stylesheet" href="../_/course-search.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-BFKT7FS4P2"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-BFKT7FS4P2",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-BFKT7FS4P2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cours-3-mise-en-poste-branchements-et-reseaux" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Notes de cours" class="md-header__button md-logo" aria-label="Notes de cours" data-md-component="logo">
+      
+  <img src="../_/logo-tim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Notes de cours
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cours 3 – Mise en poste : branchements et réseaux
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../582-312%E2%80%93video2/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Video 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../582-121%E2%80%93illustration-numerique/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Illustration numérique
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Domaines multimédias
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Notes de cours" class="md-nav__button md-logo" aria-label="Notes de cours" data-md-component="logo">
+      
+  <img src="../_/logo-tim.svg" alt="logo">
+
+    </a>
+    Notes de cours
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../582-312%E2%80%93video2/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video 2
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Video 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/references.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Références
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/da_vinci_base.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capsules Da Vinci / La base
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/da_vinci_colorisation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capsules Da Vinci / La colo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/ai.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/prompt.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/midjourney.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Midjourney
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/midjourney_code.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Midjourney code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/runway.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Runway
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP1-partie1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP1-partie2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP1-partie3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP2-partie1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP2-partie-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP2-partie2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP2-partie-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/notions-camera-video.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notion caméra vidéo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/examen-camera.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examen Caméra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/aide-memoire-parametrage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aide-Memoire-Parametrage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/c1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/c2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../582-121%E2%80%93illustration-numerique/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illustration numérique
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Illustration numérique
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/references.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Références
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121-illustration-numerique/projets/projet01.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projet 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domaines multimédias
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domaines multimédias
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ordre-du-jour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Ordre du jour
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rappel-reservation-de-materiel-10-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Rappel — Réservation de matériel (10 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rappel — Réservation de matériel (10 mins)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exercice
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branchements-25-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Branchements (25 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Branchements (25 mins)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hdmi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          HDMI
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displayport" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          DisplayPort
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ethernet-rj45" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Ethernet (RJ45)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#powercon-et-adaptateur-ac" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          PowerCon et adaptateur AC
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xlr-et-prises-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          XLR et prises audio
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          USB
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comment-bien-ranger-un-cable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Comment bien ranger un câble?
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atelier-branchement-et-rangement-20-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Atelier — Branchement et rangement (20 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-de-peripheriques-bluetooth-5-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Installation de périphériques Bluetooth (5 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mise-a-jour-des-pilotes-5-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Mise à jour des pilotes (5 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-a-lia-generative-25-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Introduction à l'IA générative (25 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction à l&#39;IA générative (25 mins)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-considerer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          À considérer
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pour-une-utilisation-efficace-et-ethique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Pour une utilisation efficace et éthique
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercice_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exercice
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-branches-de-linformatique-15-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les branches de l'informatique (15 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-a-la-programmation-30-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Introduction à la programmation (30 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction à la programmation (30 mins)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-principaux-langages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les principaux langages
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#certains-concepts-de-base-en-programmation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Certains concepts de base en programmation
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#un-youtuber-a-suivre-fireship" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Un YouTuber à suivre : Fireship
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atelier-scratch-35-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Atelier Scratch (35 mins)
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Atelier Scratch (35 mins)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercice_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exercice
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation-pour-la-semaine-prochaine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Préparation pour la semaine prochaine
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#merci-et-a-la-semaine-prochaine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Merci et à la semaine prochaine!
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="cours-3-mise-en-poste-branchements-et-reseaux">Cours 3 – Mise en poste : branchements et réseaux<a class="headerlink" href="#cours-3-mise-en-poste-branchements-et-reseaux" title="Permanent link">¶</a></h1>
+<h2 id="ordre-du-jour">Ordre du jour<a class="headerlink" href="#ordre-du-jour" title="Permanent link">¶</a></h2>
+<p><em>Durée totale estimée : ~2h50 sur 4h (inclut une bonne marge — les réseaux et le web sont maintenant vus au cours 4).</em></p>
+<ul>
+<li>Rappel — Réservation de matériel (10 mins)</li>
+<li>Branchements et câblage (25 mins)</li>
+<li>Atelier — Branchement et rangement (20 mins)</li>
+<li>Installation de périphériques Bluetooth (5 mins)</li>
+<li>Mise à jour de pilotes (5 mins)</li>
+<li>Introduction à l'IA générative (25 mins)</li>
+<li>Les branches de l'informatique (15 mins)</li>
+<li>Introduction à la programmation (30 mins)</li>
+<li>Atelier Scratch (35 mins)</li>
+</ul>
+<h2 id="rappel-reservation-de-materiel-10-mins">Rappel — Réservation de matériel (10 mins)<a class="headerlink" href="#rappel-reservation-de-materiel-10-mins" title="Permanent link">¶</a></h2>
+<p>Un rappel rapide de la procédure de réservation de local et de matériel auprès des TTP, avant de plonger dans les branchements.</p>
+<h3 id="exercice">Exercice<a class="headerlink" href="#exercice" title="Permanent link">¶</a></h3>
+<p>Faire une réservation de local et une réservation de matériel avec le formulaire officiel.</p>
+<h2 id="branchements-25-mins">Branchements (25 mins)<a class="headerlink" href="#branchements-25-mins" title="Permanent link">¶</a></h2>
+<p>Au cours de votre parcours à l'agence, vous allez très certainement utiliser beaucoup de câbles. Il devient donc important d'apprendre à les connaître, mais aussi à les ranger.</p>
+<h3 id="hdmi">HDMI<a class="headerlink" href="#hdmi" title="Permanent link">¶</a></h3>
+<p><img alt="HDMI" src="assets/cours03/hdmi.png"></p>
+<p>Transmet des signaux audio et vidéo dans un seul fil compact. Supporte des résolutions jusqu'à 8K, des taux de rafraîchissement jusqu'à 240 Hz, le HDR et le VRR. Utilisé pour brancher moniteurs, consoles et téléviseurs. Il existe plusieurs standards (1.0, 2.0, 2.1…) et types (Standard, mini, micro).</p>
+<h3 id="displayport">DisplayPort<a class="headerlink" href="#displayport" title="Permanent link">¶</a></h3>
+<p><img alt="DisplayPort" src="assets/cours03/displayport.png"></p>
+<p>Très semblable au HDMI — transmet audio et vidéo dans un seul fil. Offre généralement de meilleures résolutions et taux de rafraîchissement, mais les différences avec le HDMI sont aujourd'hui minimes.</p>
+<h3 id="ethernet-rj45">Ethernet (RJ45)<a class="headerlink" href="#ethernet-rj45" title="Permanent link">¶</a></h3>
+<p><img alt="Ethernet" src="assets/cours03/ethernet.png"></p>
+<p>Le câble réseau « par défaut », utilisé pour connecter des périphériques entre eux ou à des appareils réseau (routeur, commutateur). Il existe plusieurs catégories, qui permettent des vitesses de transfert plus élevées ou un blindage contre le bruit électronique (<em>shield</em>) — un câble de catégorie 5 permet une vitesse de transfert de 1 Go/s.</p>
+<h3 id="powercon-et-adaptateur-ac">PowerCon et adaptateur AC<a class="headerlink" href="#powercon-et-adaptateur-ac" title="Permanent link">¶</a></h3>
+<p><img alt="PowerCon" src="assets/cours03/powercon.png">
+<img alt="Adaptateur AC" src="assets/cours03/adaptateur-ac.png"></p>
+<p>Deux câbles d'alimentation. Le PowerCon se distingue par le fait qu'il peut être verrouillé.</p>
+<h3 id="xlr-et-prises-audio">XLR et prises audio<a class="headerlink" href="#xlr-et-prises-audio" title="Permanent link">¶</a></h3>
+<p><img alt="XLR" src="assets/cours03/xlr.png"></p>
+<p>Le <strong>XLR</strong> est un connecteur robuste pour les signaux audio, utilisé pour les consoles, instruments et micros. Les prises audio se distinguent par leur taille : la grande prise (1/4 po) sert à l'équipement professionnel, la petite (mini-jack) aux produits grand public.</p>
+<h3 id="usb">USB<a class="headerlink" href="#usb" title="Permanent link">¶</a></h3>
+<p><img alt="USB" src="assets/cours03/usb.png"></p>
+<p>Connecteur standardisé qui permet l'alimentation et le transfert de données entre périphériques (clavier, souris, caméra, clé USB…). Le USB4 permet des vitesses de 40 Go/s. Connecteurs les plus courants aujourd'hui : USB-A et USB-C.</p>
+<h3 id="comment-bien-ranger-un-cable">Comment bien ranger un câble?<a class="headerlink" href="#comment-bien-ranger-un-cable" title="Permanent link">¶</a></h3>
+<p>Rouler le fil en suivant le sens des brins (avec une légère torsion) pour éviter de l'endommager, puis utiliser une attache pour le conserver en place.</p>
+<h2 id="atelier-branchement-et-rangement-20-mins">Atelier — Branchement et rangement (20 mins)<a class="headerlink" href="#atelier-branchement-et-rangement-20-mins" title="Permanent link">¶</a></h2>
+<p>Démonstration et classification des câbles de l'agence, méthode de rangement.</p>
+<h2 id="installation-de-peripheriques-bluetooth-5-mins">Installation de périphériques Bluetooth (5 mins)<a class="headerlink" href="#installation-de-peripheriques-bluetooth-5-mins" title="Permanent link">¶</a></h2>
+<p>Certains périphériques doivent être ajoutés manuellement via le menu Bluetooth et autres paramètres du système. Il suffit de mettre l'appareil en mode découvrable, puis de l'ajouter et de le mettre en pair.</p>
+<h2 id="mise-a-jour-des-pilotes-5-mins">Mise à jour des pilotes (5 mins)<a class="headerlink" href="#mise-a-jour-des-pilotes-5-mins" title="Permanent link">¶</a></h2>
+<p>La plupart des périphériques sont détectés et installés automatiquement par Windows, mais certains (comme les cartes graphiques) nécessitent une mise à jour manuelle plus fréquente.</p>
+<ul>
+<li>Identifier le modèle dans le gestionnaire de périphériques</li>
+<li>Se rendre sur le site du fabricant, télécharger le pilote pour le modèle</li>
+<li>Lancer l'installation</li>
+<li>Une fois le logiciel de la carte graphique installé (GeForce Experience, AMD Software), la mise à jour peut se faire directement de là</li>
+</ul>
+<h2 id="introduction-a-lia-generative-25-mins">Introduction à l'IA générative (25 mins)<a class="headerlink" href="#introduction-a-lia-generative-25-mins" title="Permanent link">¶</a></h2>
+<p>Un grand modèle de langage (LLM) est un type d'intelligence artificielle entraîné sur de larges corpus de contenu, capable de générer du contenu spécifique à une demande.</p>
+<h3 id="a-considerer">À considérer<a class="headerlink" href="#a-considerer" title="Permanent link">¶</a></h3>
+<ul>
+<li>Les résultats sont basés sur des probabilités : erreurs et hallucinations possibles</li>
+<li>Les résultats sont biaisés selon l'entraînement du modèle</li>
+<li>Un LLM demande énormément de calcul et d'électricité</li>
+</ul>
+<h3 id="pour-une-utilisation-efficace-et-ethique">Pour une utilisation efficace et éthique<a class="headerlink" href="#pour-une-utilisation-efficace-et-ethique" title="Permanent link">¶</a></h3>
+<ul>
+<li>Définir le rôle demandé (« agis en tant que… »)</li>
+<li>Demander un format précis, encourager le raisonnement étape par étape</li>
+<li>Raffiner de manière itérative, éviter les questions vagues ou multiples</li>
+<li>Ne jamais transmettre de données confidentielles, toujours vérifier l'information</li>
+<li>Toujours citer l'utilisation d'un LLM, ne jamais faire passer son travail pour le vôtre</li>
+</ul>
+<h3 id="exercice_1">Exercice<a class="headerlink" href="#exercice_1" title="Permanent link">¶</a></h3>
+<p>En petite équipe, discutez de la manière dont un outil d'IA générative pourrait vous aider (ou nuire) dans un mandat client, sans jamais remplacer votre jugement professionnel.</p>
+<h2 id="les-branches-de-linformatique-15-mins">Les branches de l'informatique (15 mins)<a class="headerlink" href="#les-branches-de-linformatique-15-mins" title="Permanent link">¶</a></h2>
+<p>Dans le monde professionnel, l'informatique s'étend sur de nombreuses branches. Chacune d'entre elles représente un domaine en soi et donc de nombreuses possibilités de carrière pour vous.</p>
+<p>D'après vous, quelles sont ces branches? Vous aurez 2 minutes individuellement, 4 minutes en équipe de deux, puis nous ferons un retour en grand groupe.</p>
+<ul>
+<li><strong>Technicien</strong> : dépannage et gestion du matériel</li>
+<li><strong>La programmation</strong> : création d'algorithmes et de logiciels (ex. : applications, jeux, scripts)</li>
+<li><strong>Réseaux et télécommunication</strong> : gestion de serveurs, branchement et communication</li>
+<li><strong>Cybersécurité</strong> : protection des données, des systèmes et des communications</li>
+<li><strong>Base de données</strong> : stockage, organisation et gestion de données</li>
+<li><strong>Électromécanique</strong> : automatisation et intégration informatique (voitures, télévision, etc.)</li>
+<li><strong>Intelligence artificielle</strong> : conception d'apprentissage machine et réseaux neuronaux</li>
+<li><strong>Informatique quantique</strong> : développement informatique par physique quantique</li>
+</ul>
+<h2 id="introduction-a-la-programmation-30-mins">Introduction à la programmation (30 mins)<a class="headerlink" href="#introduction-a-la-programmation-30-mins" title="Permanent link">¶</a></h2>
+<p>La programmation est sans doute un des plus grands aspects de l'informatique. Certains diront que ceux qui ne savent pas programmer seront les illettrés du monde de demain, d'autres diront que la programmation sera inutile puisque l'IA le fera à notre place.</p>
+<p>Quoi qu'il en soit, il sera pertinent pour nous aujourd'hui de survoler les concepts de base.</p>
+<p>Pour aller au plus simple, on pourrait dire que la programmation c'est de parler le langage de la machine pour communiquer et exécuter des instructions. Ainsi, c'est un langage entre l'humain et la machine qui permet de donner vie aux applications, jeux vidéo, sites web et autres logiciels.</p>
+<h3 id="les-principaux-langages">Les principaux langages<a class="headerlink" href="#les-principaux-langages" title="Permanent link">¶</a></h3>
+<p>Quels langages connaissez-vous et à quoi servent-ils principalement? Vous aurez 2 minutes individuellement, 4 minutes en équipe de deux, puis nous ferons un retour en grand groupe.</p>
+<p>Bien qu'il existe des milliers de langages, certains sont universellement reconnus et utilisés :</p>
+<ul>
+<li><strong>Python</strong> : utilisation générale, IA et data science</li>
+<li><strong>JavaScript</strong> : très populaire, principalement pour faire du web</li>
+<li><strong>HTML/CSS</strong> : structure et design de sites web</li>
+<li><strong>C</strong> : langage machine avec peu de niveau d'abstraction, principalement utilisé pour les systèmes d'exploitation et l'électronique</li>
+<li><strong>C++ / C#</strong> : langage près de la machine, mais avec un niveau d'abstraction plus élevé, principalement utilisé pour les applications exigeantes comme les jeux vidéo</li>
+<li><strong>PHP</strong> : opérations de serveur, surtout utilisé en web</li>
+<li><strong>SQL</strong> : gestion de base de données</li>
+</ul>
+<h3 id="certains-concepts-de-base-en-programmation">Certains concepts de base en programmation<a class="headerlink" href="#certains-concepts-de-base-en-programmation" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Algorithmes</strong> : suite logique d'instructions pour résoudre un problème</li>
+<li><strong>Variables</strong> : conteneurs d'information (textes, chiffres, etc.)</li>
+<li><strong>Conditions</strong> : décisions à prendre selon une situation (si... alors)</li>
+<li><strong>Boucles</strong> : répétitions d'actions (tant que, pour chaque)</li>
+<li><strong>Fonctions</strong> : blocs de code réutilisables</li>
+<li><strong>Événements</strong> : interactions déclenchées par l'utilisateur (clic, mouvement, etc.)</li>
+</ul>
+<h3 id="un-youtuber-a-suivre-fireship">Un YouTuber à suivre : Fireship<a class="headerlink" href="#un-youtuber-a-suivre-fireship" title="Permanent link">¶</a></h3>
+<p><a href="https://www.youtube.com/watch?v=-uleG_Vecis">Fireship</a></p>
+<h2 id="atelier-scratch-35-mins">Atelier Scratch (35 mins)<a class="headerlink" href="#atelier-scratch-35-mins" title="Permanent link">¶</a></h2>
+<p>Nous allons maintenant mettre les notions d'aujourd'hui en pratique avec une petite interface de programmation simple : Scratch.</p>
+<p>Scratch est un environnement développé par le MIT qui permet de programmer des animations et des jeux par le moyen d'une interface simple. C'est l'environnement idéal pour découvrir les notions de programmation de base.</p>
+<p>Nous allons donc nous rendre sur le site web et construire un petit jeu où il faut ramasser des objets pour augmenter son score. Ce petit exercice nous permettra de mettre en pratique les notions d'évènements, boucles, conditions et variables.</p>
+<h3 id="exercice_2">Exercice<a class="headerlink" href="#exercice_2" title="Permanent link">¶</a></h3>
+<p>Allez dans l'équipe Teams du cours et téléchargez le fichier « Exercice cours 2 ». Répondez aux questions puis sauvegardez le fichier. Remettez ensuite votre fichier dans l'espace de remise.</p>
+<h2 id="preparation-pour-la-semaine-prochaine">Préparation pour la semaine prochaine<a class="headerlink" href="#preparation-pour-la-semaine-prochaine" title="Permanent link">¶</a></h2>
+<p>Le mandat client 1 (Web) débute la semaine prochaine. Créez-vous un compte GitHub si ce n'est pas déjà fait.</p>
+<h2 id="merci-et-a-la-semaine-prochaine">Merci et à la semaine prochaine!<a class="headerlink" href="#merci-et-a-la-semaine-prochaine" title="Permanent link">¶</a></h2>
+<p>Commentaires ou questions?</p></div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Techniques d’intégration multimédia | Collège Montmorency
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.instant.prefetch", "search.suggest", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../_/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
+      
+        <script src="https://unpkg.com/lightgallery@2.8.2/lightgallery.min.js"></script>
+      
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+      
+        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+      
+        <script src="https://unpkg.com/reveal.js@6.0.1/dist/reveal.js"></script>
+      
+        <script src="../_/extra.js"></script>
+      
+        <script src="../_/image-zoom.js"></script>
+      
+        <script src="../_/gallery.js"></script>
+      
+        <script src="../_/tooltip.js"></script>
+      
+        <script src="../_/presentation.js"></script>
+      
+    
+  </body>
+</html>
