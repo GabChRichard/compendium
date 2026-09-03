@@ -38,7 +38,8 @@ Les aspects évalués sont les suivants :
 | | Installation de la caméra | /10 |
 | | Paramétrage de la caméra | /10 |
 | **Éclairage** | | **/20** |
-| | Installation de l'éclairage en trois points | /20 |
+| | Installation d'un Lite Panel | /10 |
+| | Paramétrage du Lite Panel | /10 |
 | **Captation** | | **/30** |
 | | Qualité des plans remis | /30 |
 | **Son** | | **/30** |
