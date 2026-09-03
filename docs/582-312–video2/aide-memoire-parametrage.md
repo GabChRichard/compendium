@@ -66,9 +66,41 @@
 
 ## Moniteur
 
+### Son
+
+- Menu 5 → Descendre le volume du moniteur à 0
+
 ### Zebra
+
+- Menu 4 → Activer le overexposure (zebra)
+    - *Ajuster le niveau du zebra selon vos besoins*
+- Attribuer le overexposure(zebra) au bouton F2 du moniteur. 
 
 ### Peaking
 
+- Menu 4 → Activer le focus assist (peaking)
+    - *Ajuster le niveau d'intensification selon vos besoins*
+- Attribuer le focus assist (peaking) au bouton F1 du moniteur. 
+
 ## Lite Panel
+
+### Température
+
+- *Ajuster la molette de température selon vos besoins.*
+
+### Intensité
+
+- *Ajuster la molette d'intensité selonvos besoins.*
+
 ## Sound Device
+
+### Preset
+
+- Menu Hamburger (1/3) → Presets
+    - Load Preset → 3. ENG [Int4]
+
+### Record Settings
+
+- Menu Hamburger (2/3) → Record
+    - Sample rate (1/2) → 48KHz
+    - Bit Depth (2/2) → 24
