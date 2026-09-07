@@ -1,9 +1,40 @@
 
 # Cours 3
+14 - 8 septembre
+
+[📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC6pqzd3FtqTbsiE_AmQkYVAbR1Wa-iEJhAQrFbLbUFROs?e=vX5U0c){ .md-button }   <br>
+
+## Retour sur la Composition
+
+### Les Courants (suite)
+[📑 Courants Artistiques](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCUGzybNC7ORqsvXICL5x0xAVMt4fFIDUvmM6Yerb5JrHk?e=0jbY18)
+
+#### Caractéristique formelles 
+
+### Atelier 1
+
+En équipe de deux, trouvez deux oeuvres et lister au moins trois caractéristiques formelles ou esthétiques similaire. 
+
+### Atelier 2
+
+En équipe de deux, trouvez deux oeuvres et lister au moins trois caractéristiques formelles ou esthétiques qui les différencie. 
+
+### Atelier 3
+
+Exercice de composition
+
+## Le Moodboard
+![exemple moodboard autoportrait](./assets/image/cours-3/moodboard_portrait_02.jpg)
+
+![exemple moodboard signature](./assets/image/cours-3/moodboard_signature_02.jpg)
 
 * Ouverture des Pinterest  <br>
 
 ### Notions : outils de typographie
+
+![L'anatomie de la typographie](./assets/image/cours-3/anatomy_of_typography.avif)
+[Image tirée de figma.com ](https://www.figma.com/resource-library/typography-anatomy/)
+
 * [▶️ Les bases de la typographie](https://www.youtube.com/watch?v=7jmrsrRL6FA)  /  [📑 Powerpoint](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EdiVzwl-4CVPqGD9EM5Xe5IBgpcSI58BI6Dj8Vybwal3sg?e=ZBDYag)  <br>
 * [▶️ Installer une typographie](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EY9E_od0N_RAkXPuA25134QB1Md_l5bCWuzIIHh7N-I7fw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gXAay8)  <br>
 * [▶️ Formater du texte avec une typographie](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcDOsZrLm2RLs9sElLYQaGkBTOMTfZS7uAs0s5ofUORH0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=c0BSza)  <br>
@@ -21,8 +52,7 @@
 
 ### Notions: outils de sélection
 * [▶️ Outil de sélection rectangulaire](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUIRW4pQSMpBtjKbTmMVQukBEivertajTWLyRGHdfiU5GA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tnT6zj) <br>
-* [▶️ Outil de sélection elliptique (circulaire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZd7q9svWmpBiU4DtveYlq8B7jew9aOFR7vlbAEC5c9Evg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0rhfqg
-) <br>
+* [▶️ Outil de sélection elliptique (circulaire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZd7q9svWmpBiU4DtveYlq8B7jew9aOFR7vlbAEC5c9Evg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0rhfqg) <br>
 * [▶️ Outil lasso pour sélections libres](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcpIxiMY4SpIjD-g9N90958BWt1JmWKD9XGZdHKmIrmW4A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=37E5MN) <br>   
   [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>
 
