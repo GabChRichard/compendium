@@ -4,6 +4,16 @@
 
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC6pqzd3FtqTbsiE_AmQkYVAbR1Wa-iEJhAQrFbLbUFROs?e=vX5U0c){ .md-button }   <br>
 
+## Ordre du jour
+
+- Retour sur la composition
+
+- La typographie
+
+- Notions sur Photoshop
+
+- Démonstration du moodboard
+
 ## Retour sur la Composition
 
 ### Caractéristique formelle et esthétique
