@@ -63,7 +63,7 @@
 
 **Épais - Fin**
 
-![Épais - Fin]()
+![Épais - Fin](./assets/image/cours-3/epais-fin.jpg)
 
 **Profond - Plat**
 
