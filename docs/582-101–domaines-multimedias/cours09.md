@@ -1,4 +1,4 @@
-# Cours 9 – Mandat client 5 : Jeu vidéo / interactif
+# Cours 9 – Mandat client 5 : Jeu vidéo 
 
 ## Ordre du jour
 

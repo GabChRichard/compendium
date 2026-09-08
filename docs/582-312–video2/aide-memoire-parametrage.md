@@ -1,18 +1,18 @@
-# Aide ménoire parametrage
+# Aide mémoire paramétrage
 ## Caméra
 ### Mode
 
-- Choisir l'icone film sur la molette de la caméra 
+- Choisir l’icône film sur la molette de la caméra 
 
 ### Formater 
 
 - Menu → Réglages : page 6/7
     - Formater
 
-### Rétablirlesréglages de bases de la Caméra
+### Rétablir les réglages de bases de la Caméra
 
 - Menu → Réglages : page 6/7
-    - Rétablir le réglge → Réinit. param. appar. photo
+    - Rétablir le réglage → Réinit. param. appar. photo
 
 ### Format de fichier
 
@@ -38,7 +38,7 @@
 > Activer le son seulement si on a besoin du son de la caméra.
 
 - Menu → Réglages prise de vue 2 : page 2/9
-    - Enregistrem. audio → *On ou Off dépendemment de si on veut le son de la caméra ou non*
+    - Enregistrem. audio → *On ou Off dépendamment de si on veut le son de la caméra ou non*
 
 ### Balance des blancs
 
@@ -46,7 +46,7 @@
     - Temp./Filtre C. → *À ajuster selon l'éclairage*
 
 ### Zebra
-> Activer seulement si on ne travail pas avec un tépiedou un stabilisateur (Ronin).
+> Activer seulement si on ne travail pas avec un tépied ou un stabilisateur (Ronin).
 
 - Menu → Réglages prise de vue 2 : page 4/9
     - SteadyShot → Off
@@ -62,7 +62,7 @@
 
 - Menu → Réglages prise de vue 1 : page 13/14
     - Niv. d'intensification → Élevé
-    - Couleur d'intensification → *À ajuster selon vos gouts*
+    - Couleur d'intensification → *À ajuster selon vos goûts*
 
 ## Moniteur
 

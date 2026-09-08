@@ -1,64 +1,107 @@
-# Cours 7 – Mandat client 3 : Son
+# Cours 7 – Mandat client 3 : Vidéo
 
 ## Ordre du jour
 
-- Présentation du mandat Son
-- Conférence — Akousma (conduction osseuse)
-- Conférence — Ubisoft (son ludique)
-- Câblage et matériel audio
-- Ressources sonores libres de droits
+- Présentation du mandat Vidéo
+- Étapes de production d'un projet multimédia
+- Éléments importants en audiovisuel
+- Introduction à OBS Studio
 - Atelier de production
 
-## Le mandat : Studio Ambiance Zen
+## Le mandat : Sport-Action Plein Air
 
-**Client fictif :** Studio Ambiance Zen, un centre de bien-être qui veut une courte ambiance sonore pour sa salle d'attente.
+**Client fictif :** Sport-Action Plein Air, un commerce d'équipement sportif qui veut une courte capsule pour promouvoir sa nouvelle collection d'automne.
 
-**Livrable attendu :** une piste sonore de 30 à 90 secondes (ambiance ou jingle), construite à partir de ressources libres de droits, accompagnée d'une courte justification des choix sonores.
+**Livrable attendu :** une capsule promotionnelle de 30 à 60 secondes, précédée d'un mini-storyboard (3 à 5 cases).
 
 Consultez la grille de correction complète (10 points) dans le plan de cours.
 
-## Conférence — Akousma
+## Les étapes de production d'un projet multimédia
 
-Conférence externe sur la conduction osseuse et les technologies sonores émergentes. Prenez des notes : elles pourront nourrir vos choix pour le mandat Son.
+Pour la plupart des projets, on identifie les grandes phases suivantes :
 
-## Conférence — Ubisoft
+- **Idéation / recherche** — définir l'idée, le concept, la clientèle
+- **Préproduction** — planification, scénarisation, storyboard, moodboard
+- **Production** — réalisation, création, captation
+- **Postproduction** — montage, retouches, optimisation, livraison
+- **Opération** — surveillance, mise à jour, modération
 
-Conférence externe sur le son ludique (sound design pour le jeu vidéo) : ambiance, effets sonores et musique interactive.
+Selon le projet, certaines étapes peuvent être imbriquées, répétées ou partagées.
 
-## Câblage et matériel audio
+### Préproduction
 
-Rappel du matériel utilisé pour la captation et l'écoute :
+C'est l'étape de planification : on détermine la portée (scope), le temps et l'argent, on scénarise, on schématise avec des storyboards/moodboards, et on identifie les besoins humains, techniques et logistiques.
 
-- **XLR** — connecteur robuste pour les signaux audio, utilisé pour consoles, instruments et micros
-- **Prise audio 1/4 po** — plus large, utilisée en équipement professionnel (consoles, amplificateurs)
-- **Mini-jack** — plus compacte, utilisée pour les produits grand public (écouteurs, systèmes de son)
+### Production
 
-## Droits d'auteur et ressources libres
+C'est l'étape où l'on construit : production du contenu (vidéo, images, audio), tests internes et corrections en continu.
 
-Toute œuvre que vous produisez vous appartient et nécessite votre autorisation pour être modifiée ou publiée. À l'inverse, avant d'utiliser une ressource externe dans un mandat client, il faut toujours vous assurer d'en posséder les droits.
+### Postproduction
 
-### Ressources sonores libres de droits
+C'est l'étape de finition : montage final, effets visuels, mix audio, étalonnage des couleurs, export et rendu, tests publics et correction des bogues, puis livraison.
 
-- **Sons** — [freesound.org](https://freesound.org/)
-- **Musique** — [bensound.com](https://www.bensound.com/), [incompetech.com/music/royalty-free](https://incompetech.com/music/royalty-free/), [freemusicarchive.org](https://freemusicarchive.org/search)
+## Éléments importants en audiovisuel
 
-Vérifiez toujours les conditions de la licence (attribution requise? usage commercial permis?) avant d'intégrer un son à un mandat client.
+- Un concept adapté à l'audience
+- Un scénario qui décrit visuellement l'action
+- Un storyboard qui représente l'évolution de l'image (mouvements de caméra, mise en scène)
+- Une intrigue qui surprend ou amène le suspense
+- Des personnages avec des motivations claires
+- Une direction cinématographique cohérente
+- Un montage rythmique
 
-## Atelier — Production de l'ambiance sonore
+## Introduction à OBS Studio
 
-1. Rechercher et sélectionner des sons/musiques libres de droits pour le Studio Ambiance Zen
-2. Assembler une piste de 30 à 90 secondes
-3. Exporter en .mp3 ou .wav
-4. Rédiger une courte justification des choix sonores (2-3 phrases) avec les sources et attributions
+OBS Studio est un logiciel de capture vidéo et de streaming en direct, open-source.
+
+- Création de scènes avec différentes sources (audio, vidéo, écran, fureteur)
+- Transitions entre scènes
+- Mixeur audio pour ajuster les niveaux et ajouter des effets
+- Possibilité d'ajouter des widgets et des plugins
+
+Pour ce mandat, vous allez créer une scène simple : partage d'écran et enregistrement du micro.
+
+## Atelier — Production de la capsule
+
+1. Rédiger un mini-storyboard (3 à 5 cases) pour la capsule Sport-Action Plein Air
+2. Capter le contenu avec OBS Studio ou une caméra
+3. Monter la capsule (30 à 60 secondes)
+4. Exporter en .mp4
+
+## Introduction à l'IA générative (25 mins)
+
+Un grand modèle de langage (LLM) est un type d'intelligence artificielle entraîné sur de larges corpus de contenu, capable de générer du contenu spécifique à une demande.
+
+### À considérer
+
+- Les résultats sont basés sur des probabilités : erreurs et hallucinations possibles
+- Les résultats sont biaisés selon l'entraînement du modèle
+- Un LLM demande énormément de calcul et d'électricité
+
+### Pour une utilisation efficace et éthique
+
+- Définir le rôle demandé (« agis en tant que… »)
+- Demander un format précis, encourager le raisonnement étape par étape
+- Raffiner de manière itérative, éviter les questions vagues ou multiples
+- Ne jamais transmettre de données confidentielles, toujours vérifier l'information
+- Toujours citer l'utilisation d'un LLM, ne jamais faire passer son travail pour le vôtre
+
+### Exercice
+
+En petite équipe, discutez de la manière dont un outil d'IA générative pourrait vous aider (ou nuire) dans un mandat client, sans jamais remplacer votre jugement professionnel.
+
 
 ## Mise à jour de la feuille de suivi
 
-Après ce mandat, évaluez-vous sur « Analyser la fonction de travail » (respect des droits d'auteur, rigueur professionnelle).
+Après ce mandat, évaluez-vous sur « Réaliser une présentation numérique » et sur votre gestion du temps de production.
+
 
 ## Préparation pour la semaine prochaine
 
-Le mandat client 4 (Design / 3D) débute la semaine prochaine. Pensez à des références visuelles qui vous inspirent (couleurs, typographies).
+Le mandat client 3 (Son) débute la semaine prochaine, avec deux conférences externes sur le son. Apportez vos écouteurs.
 
 ## Merci et à la semaine prochaine!
 
 Commentaires ou questions?
+
+

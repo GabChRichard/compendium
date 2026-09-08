@@ -1,4 +1,4 @@
-# Cours 8 – Mandat client 4 : Design / 3D
+# Cours 8 – Mandat client 4 : Installation interactive
 
 ## Ordre du jour
 

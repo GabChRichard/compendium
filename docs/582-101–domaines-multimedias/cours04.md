@@ -2,27 +2,16 @@
 
 ## Ordre du jour
 
-*Durée totale estimée : ~4h05 sur 4h (le reste est absorbé par l'atelier de production, qui se termine à la maison au besoin).*
+- Réseaux locaux et Internet
+- Introduction au web
+- Étude de cas : le domaine web
+- Markdown
+- Git et GitHub
+- GitHub Pages
+- Atelier de production
+- Mise à jour de la feuille de suivi
 
-- Présentation du mandat Web (10 mins)
-- Réseaux locaux et Internet (20 mins)
-- Introduction au web (15 mins)
-- Étude de cas : le domaine web (20 mins)
-- Markdown (15 mins)
-- Git et GitHub (25 mins)
-- GitHub Pages (10 mins)
-- Atelier de production (120 mins)
-- Mise à jour de la feuille de suivi (5 mins)
-
-## Le mandat : Café Lunaire (10 mins)
-
-**Client fictif :** Café Lunaire, un café-librairie de quartier qui n'a aucune présence en ligne et veut une page simple pour annoncer ses heures, son menu et ses événements.
-
-**Livrable attendu :** une page web statique publiée sur GitHub Pages, avec une section d'accueil, un menu, une section événements et une façon de contacter le café.
-
-Consultez la grille de correction complète (10 points) dans le plan de cours.
-
-## Les réseaux (10 mins)
+## Les réseaux
 
 Connecter plusieurs périphériques informatiques (ordinateurs, imprimantes, serveurs) pour communiquer, partager des ressources ou échanger des données, selon des protocoles définis.
 
@@ -31,13 +20,13 @@ Connecter plusieurs périphériques informatiques (ordinateurs, imprimantes, ser
 
 ![Carte d'un réseau](./assets/cours04/network-map.jpg)
 
-## Introduction à Internet (10 mins)
+## Introduction à Internet
 
 Internet est un réseau de réseaux qui connecte de nombreux dispositifs par le moyen de routeurs. Il permet le partage de contenu (courriels, pages web, fichiers, jeu en ligne, streaming) en reliant des appareils entre eux — un peu comme un système routier.
 
 La quantité de dispositifs connectés dépasse les calculs simples, mais reste représentable : [mapping the internet](https://torontocreatives.com/graphic-design/mapping-the-internet/)
 
-## Introduction au web (15 mins)
+## Introduction au web
 
 Le web (World Wide Web) est le service qui rend le partage de ressources possible par le moyen d'un fureteur (browser), via une adresse url et un cycle de requête/réponse. Le contenu d'un site doit être hébergé; les entreprises qui gèrent cet hébergement sont des **hébergeurs**. Une page web est constituée de HTML, CSS et JavaScript.
 
@@ -51,7 +40,7 @@ Le web (World Wide Web) est le service qui rend le partage de ressources possibl
 - **Hébergement** — espace privé (serveur) qui stocke des fichiers accessibles par le web
 - **Fureteur (Browser)** — logiciel qui affiche des pages web à partir d'une adresse
 
-## Étude de cas : le domaine web (20 mins)
+## Étude de cas : le domaine web
 
 En termes professionnels, le domaine web réfère au personnel impliqué dans la construction et le maintien des pages, services et applications web.
 
@@ -67,7 +56,7 @@ En termes professionnels, le domaine web réfère au personnel impliqué dans la
 - **Expert en accessibilité** : s'assure que le site est utilisable par tous
 - **Créateur de contenu** : produit du contenu écrit/visuel optimisé pour la recherche
 
-## Markdown (15 mins)
+## Markdown
 
 Le Markdown est un langage de balisage (comme le HTML) pour rédiger du texte formaté simplement, sans logiciel de mise en page.
 
@@ -79,7 +68,7 @@ Le Markdown est un langage de balisage (comme le HTML) pour rédiger du texte fo
 
 Avant de travailler dans GitHub, un tour d'horizon rapide avec un éditeur Markdown en ligne : [stackedit.io](https://stackedit.io/)
 
-## Git (10 mins)
+## Git
 
 Git est un logiciel local de contrôle de versions : il permet de suivre les changements d'un projet dans le temps, de collaborer et de revenir à une version antérieure si nécessaire.
 
@@ -87,7 +76,7 @@ Git est un logiciel local de contrôle de versions : il permet de suivre les cha
 - Chaque sauvegarde d'une version s'appelle un **commit**
 - Git garde l'historique de tous les commits et permet de comparer les versions
 
-## GitHub (15 mins)
+## GitHub
 
 GitHub est un service d'hébergement infonuagique pour des dépôts Git — un peu comme Google Drive, mais pensé pour le code et la collaboration.
 
@@ -106,7 +95,7 @@ GitHub est un service d'hébergement infonuagique pour des dépôts Git — un p
 - **Pull request** : requête pour fusionner une contribution
 - **Fork** : copie personnelle d'un dépôt existant
 
-## GitHub Pages (10 mins)
+## GitHub Pages
 
 Service gratuit de GitHub qui permet de publier un site web statique directement à partir d'un dépôt. On peut y mettre du code HTML/CSS ou du Markdown — GitHub le transforme en site public accessible par une adresse.
 
@@ -115,24 +104,67 @@ Service gratuit de GitHub qui permet de publier un site web statique directement
 1. Aller dans son dépôt → onglet **Settings**
 2. Dans le menu de gauche, choisir **Pages**
 3. Sous *Branch*, choisir **Main** puis **Root**
-4. Cliquer sur **Save**, rafraîchir après 1-2 minutes
+4. Cliquer sur **Save**, puis rafraîchir la page
 5. GitHub affiche l'adresse du site publié
 
-## Atelier — Création du dépôt Café Lunaire (120 mins)
+## Atelier — Création d'un site de révision pour l'examen 
 
 - Créer un compte GitHub (si ce n'est pas déjà fait)
-- Créer un dépôt avec un fichier README.md
-- Rédiger le contenu de la page en Markdown : accueil, menu, événements, contact
+- Créer une page HTML 
+- Rédiger le contenu de la page à partir du document de révision
 - Publier sur GitHub Pages
 - Vérifier que le site est en ligne
 
-## Mise à jour de la feuille de suivi (5 mins)
+## Branchements 
 
-Après ce premier mandat, évaluez-vous sur « Caractériser les domaines en multimédia » et « Utiliser un ordinateur, ses périphériques et les réseaux » (0 à 4).
+Au cours de votre parcours à l'agence, vous allez très certainement utiliser beaucoup de câbles. Il devient donc important d'apprendre à les connaître, mais aussi à les ranger.
 
-## Préparation pour la semaine prochaine
+### HDMI
 
-Révisez les notions des semaines 2 à 4 (composantes, données, logiciels, formats, branchements, réseaux, web, programmation, Markdown, Git et GitHub) : le test d'embauche est la semaine prochaine.
+![HDMI](./assets/cours03/hdmi.png)
+
+Transmet des signaux audio et vidéo dans un seul fil compact. Supporte des résolutions jusqu'à 8K, des taux de rafraîchissement jusqu'à 240 Hz, le HDR et le VRR. Utilisé pour brancher moniteurs, consoles et téléviseurs. Il existe plusieurs standards (1.0, 2.0, 2.1…) et types (Standard, mini, micro).
+
+### DisplayPort
+
+![DisplayPort](./assets/cours03/displayport.png)
+
+Très semblable au HDMI — transmet audio et vidéo dans un seul fil. Offre généralement de meilleures résolutions et taux de rafraîchissement, mais les différences avec le HDMI sont aujourd'hui minimes.
+
+### Ethernet (RJ45)
+
+![Ethernet](./assets/cours03/ethernet.png)
+
+Le câble réseau « par défaut », utilisé pour connecter des périphériques entre eux ou à des appareils réseau (routeur, commutateur). Il existe plusieurs catégories, qui permettent des vitesses de transfert plus élevées ou un blindage contre le bruit électronique (*shield*) — un câble de catégorie 5 permet une vitesse de transfert de 1 Go/s.
+
+### PowerCon et adaptateur AC
+
+![PowerCon](./assets/cours03/powercon.png)
+![Adaptateur AC](./assets/cours03/adaptateur-ac.png)
+
+Deux câbles d'alimentation. Le PowerCon se distingue par le fait qu'il peut être verrouillé.
+
+### XLR et prises audio
+
+![XLR](./assets/cours03/xlr.png)
+
+Le **XLR** est un connecteur robuste pour les signaux audio, utilisé pour les consoles, instruments et micros. Les prises audio se distinguent par leur taille : la grande prise (1/4 po) sert à l'équipement professionnel, la petite (mini-jack) aux produits grand public.
+
+### USB
+
+![USB](./assets/cours03/usb.png)
+
+Connecteur standardisé qui permet l'alimentation et le transfert de données entre périphériques (clavier, souris, caméra, clé USB…). Le USB4 permet des vitesses de 40 Go/s. Connecteurs les plus courants aujourd'hui : USB-A et USB-C.
+
+### Comment bien ranger un câble?
+
+Rouler le fil en suivant le sens des brins (avec une légère torsion) pour éviter de l'endommager, puis utiliser une attache pour le conserver en place.
+
+## Atelier — Branchement et rangement
+
+Démonstration et classification des câbles du département, méthode de rangement.
+
+## Préparation pour l'examen
 
 ## Merci et à la semaine prochaine!
 

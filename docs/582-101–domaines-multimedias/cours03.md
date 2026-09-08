@@ -2,80 +2,113 @@
 
 ## Ordre du jour
 
-*Durée totale estimée : ~2h50 sur 4h (inclut une bonne marge — les réseaux et le web sont maintenant vus au cours 4).*
+- [Rappel — Réservation de matériel et de local](#rappel-reservation-de-materiel-et-de-local)
+- [Données et préfixes de mémoire](#donnees-et-prefixes-de-memoire)
+- [Les logiciels d'un ordinateur](#les-logiciels-dun-ordinateur)
+- [Les formats de fichiers](#les-formats-de-fichiers)
+- [Formatage de disques durs](#formatage-de-disques-durs)
+- [Installation de périphériques Bluetooth](#installation-de-peripheriques-bluetooth)
+- [Mise à jour de pilotes](#mise-a-jour-des-pilotes)
+- [Les branches de l'informatique](#les-branches-de-linformatique)
+- [Introduction à la programmation](#introduction-a-la-programmation)
+- [Atelier Scratch](#atelier-scratch)
 
-- Rappel — Réservation de matériel (10 mins)
-- Branchements et câblage (25 mins)
-- Atelier — Branchement et rangement (20 mins)
-- Installation de périphériques Bluetooth (5 mins)
-- Mise à jour de pilotes (5 mins)
-- Introduction à l'IA générative (25 mins)
-- Les branches de l'informatique (15 mins)
-- Introduction à la programmation (30 mins)
-- Atelier Scratch (35 mins)
+## Rappel — Réservation de matériel et de local
 
-## Rappel — Réservation de matériel (10 mins)
+Un rappel rapide de la procédure de réservation de local et de matériel auprès des TTP.
 
-Un rappel rapide de la procédure de réservation de local et de matériel auprès des TTP, avant de plonger dans les branchements.
+## Données et préfixes de mémoire
 
-### Exercice
+De manière générale, une donnée correspond à une information factuelle (fait) ou une mesure. En informatique, cette information peut prendre plusieurs formes (chiffres, textes, sons ou images) traduites en courant électrique et sauvegardées dans la mémoire sous forme de **bits** (0 ou 1).
 
-Faire une réservation de local et une réservation de matériel avec le formulaire officiel.
+Un bit seul ne contient pas beaucoup d'information. On les assemble donc généralement en série de 8, qu'on appelle un **octet** (8 bits = 1 octet, *bits and bytes* en anglais). La capacité d'une composante de mémoire — comme la RAM ou les disques vus plus haut — se calcule en nombre d'octets.
 
-## Branchements (25 mins)
+Puisque la quantité de mémoire nécessaire ne cesse d'augmenter, on utilise des préfixes métriques pour garder un suivi précis :
 
-Au cours de votre parcours à l'agence, vous allez très certainement utiliser beaucoup de câbles. Il devient donc important d'apprendre à les connaître, mais aussi à les ranger.
+- **Kilo-octet** : 1 000 octets (mille)
+- **Méga-octet** : 1 000 000 octets (million)
+- **Giga-octet** : 1 000 000 000 octets (milliard)
+- **Téra-octet** : 1 000 000 000 000 octets (trillion)
 
-### HDMI
+## Les logiciels d'un ordinateur
 
-![HDMI](./assets/cours03/hdmi.png)
+Pour qu'un ordinateur fonctionne, il a besoin de logiciels. Ces programmes envoient des instructions aux composantes pour exécuter des opérations. Trois grandes catégories :
 
-Transmet des signaux audio et vidéo dans un seul fil compact. Supporte des résolutions jusqu'à 8K, des taux de rafraîchissement jusqu'à 240 Hz, le HDR et le VRR. Utilisé pour brancher moniteurs, consoles et téléviseurs. Il existe plusieurs standards (1.0, 2.0, 2.1…) et types (Standard, mini, micro).
+- **Système d'exploitation** : gère les composantes, les processus, les fichiers et l'interaction avec l'utilisateur via une interface. Les plus connus : Windows, MacOS, Linux, Android, iOS.
+- **Pilotes** : petits programmes qui permettent au système d'exploitation de communiquer avec un périphérique matériel. Chaque pièce physique a besoin de son pilote.
+- **Applications** : programmes utilisés pour accomplir des tâches précises, exécutés « sur » le système d'exploitation (traitement de texte, traitement d'images, navigateur web, jeux vidéo, logiciels de programmation, moteurs de jeux, logiciels de montage, etc.)
 
-### DisplayPort
+## Les formats de fichiers
 
-![DisplayPort](./assets/cours03/displayport.png)
+Un format de fichier représente la façon dont l'information est structurée et/ou encodée pour le stockage. Il communique au logiciel les procédures d'encodage/décodage nécessaires.
 
-Très semblable au HDMI — transmet audio et vidéo dans un seul fil. Offre généralement de meilleures résolutions et taux de rafraîchissement, mais les différences avec le HDMI sont aujourd'hui minimes.
+### Textes et documents
 
-### Ethernet (RJ45)
+- **.txt** : texte brut, universellement reconnu
+- **.doc/.docx** : texte avec mise en forme (Microsoft Word)
+- **.pdf** : format propriétaire d'Adobe, conserve les fonctionnalités entre plateformes
+- **.csv** : données en tableau (Excel)
 
-![Ethernet](./assets/cours03/ethernet.png)
+### Images
 
-Le câble réseau « par défaut », utilisé pour connecter des périphériques entre eux ou à des appareils réseau (routeur, commutateur). Il existe plusieurs catégories, qui permettent des vitesses de transfert plus élevées ou un blindage contre le bruit électronique (*shield*) — un câble de catégorie 5 permet une vitesse de transfert de 1 Go/s.
+- **.jpg** : compressé, petit fichier, perte de qualité
+- **.gif** : couleurs limitées, permet l'animation, volumineux
+- **.tif** : meilleure qualité, très volumineux
+- **.png** : qualité moyenne à bonne, permet la transparence
+- **.webp** : format récent (Google), petit et transparent
 
-### PowerCon et adaptateur AC
+### Audio, vidéo, web
 
-![PowerCon](./assets/cours03/powercon.png)
-![Adaptateur AC](./assets/cours03/adaptateur-ac.png)
+- **.mp3** : compressé, perte de qualité — **.wav** : meilleure qualité, volumineux — **.flac** : qualité moyenne
+- **.mp4** : conteneur multimédia (vidéo, audio, sous-titres)
+- **.html / .css / .js** : structure, style et interactivité web
+- **.md** : Markdown (balisage simplifié) — **.json** : notation d'objets (clé/valeur)
 
-Deux câbles d'alimentation. Le PowerCon se distingue par le fait qu'il peut être verrouillé.
+### Zip et archives
 
-### XLR et prises audio
+Un fichier ou dossier archivé est compressé pour prendre moins d'espace (idéal pour les transferts).
 
-![XLR](./assets/cours03/xlr.png)
+- Formats courants : .zip, .rar, .7z, .iso
+- Extraire : clic droit → Extraire
+- Compresser : sélectionner les fichiers → clic droit → Compresser
 
-Le **XLR** est un connecteur robuste pour les signaux audio, utilisé pour les consoles, instruments et micros. Les prises audio se distinguent par leur taille : la grande prise (1/4 po) sert à l'équipement professionnel, la petite (mini-jack) aux produits grand public.
+### Démonstration 
 
-### USB
+- Classer des fichiers de votre poste par format
+- Les mettre dans une archive et la remettre sur Teams
 
-![USB](./assets/cours03/usb.png)
+## Formatage de disques durs
 
-Connecteur standardisé qui permet l'alimentation et le transfert de données entre périphériques (clavier, souris, caméra, clé USB…). Le USB4 permet des vitesses de 40 Go/s. Connecteurs les plus courants aujourd'hui : USB-A et USB-C.
+Il est possible de travailler sur le disque interne, mais pour circuler entre plusieurs ordinateurs, un disque externe (idéalement SSD) est préférable. Certains logiciels (After Effects, DaVinci) exigent un format précis — mal formaté, vous risquez de perdre vos projets.
 
-### Comment bien ranger un câble?
+- **Mac** : Mac OS étendu journalisé
+- **PC** : exFAT ou NTFS (exFAT recommandé, lisible aussi sur Mac)
+- **Clé USB** : exFAT pour plus de 4 Go, FAT32 pour moins de 4 Go
+- Ne jamais travailler directement sur une clé USB — toujours garder une sauvegarde (ex. OneDrive)
 
-Rouler le fil en suivant le sens des brins (avec une légère torsion) pour éviter de l'endommager, puis utiliser une attache pour le conserver en place.
+### Formater et partitionner
 
-## Atelier — Branchement et rangement (20 mins)
+Formater prépare un disque à être utilisé par le système d'exploitation. Une partition est une division du disque, réservée au système ou au stockage.
 
-Démonstration et classification des câbles de l'agence, méthode de rangement.
+- Formats les plus connus : exFAT, FAT32, NTFS, Mac OS étendu journalisé
+- **NTFS** : idéal pour un disque uniquement Windows
+- **Mac OS étendu journalisé** : idéal pour un disque uniquement Mac
+- **exFAT** : disques de plus de 4 Go, multiplateforme
+- **FAT32** : disques de moins de 4 Go, multiplateforme
 
-## Installation de périphériques Bluetooth (5 mins)
+### Comment formater?
+
+Pour un formatage rapide dans windows, il suffit de se rendre sur le disque dur de son choix à partir de Ce Pc, de cliquer sur le bouton droit de la souris, puis de choisir formater. De là, un wizard apparaît et on peut choisir le format ainsi que le volume de nos partitions.  
+
+Pour une vue détaillée, on peut aller dans le gestionnaire de disques, néanmoins ce menu n’est pas accessible avec les ordinateurs de l’école.  
+
+Pour le montrer, nous allons faire une [petite démonstration](https://www.youtube.com/watch?v=g4yr_jI9NTs)
+
+## Installation de périphériques Bluetooth
 
 Certains périphériques doivent être ajoutés manuellement via le menu Bluetooth et autres paramètres du système. Il suffit de mettre l'appareil en mode découvrable, puis de l'ajouter et de le mettre en pair.
 
-## Mise à jour des pilotes (5 mins)
+## Mise à jour des pilotes
 
 La plupart des périphériques sont détectés et installés automatiquement par Windows, mais certains (comme les cartes graphiques) nécessitent une mise à jour manuelle plus fréquente.
 
@@ -84,33 +117,11 @@ La plupart des périphériques sont détectés et installés automatiquement par
 - Lancer l'installation
 - Une fois le logiciel de la carte graphique installé (GeForce Experience, AMD Software), la mise à jour peut se faire directement de là
 
-## Introduction à l'IA générative (25 mins)
-
-Un grand modèle de langage (LLM) est un type d'intelligence artificielle entraîné sur de larges corpus de contenu, capable de générer du contenu spécifique à une demande.
-
-### À considérer
-
-- Les résultats sont basés sur des probabilités : erreurs et hallucinations possibles
-- Les résultats sont biaisés selon l'entraînement du modèle
-- Un LLM demande énormément de calcul et d'électricité
-
-### Pour une utilisation efficace et éthique
-
-- Définir le rôle demandé (« agis en tant que… »)
-- Demander un format précis, encourager le raisonnement étape par étape
-- Raffiner de manière itérative, éviter les questions vagues ou multiples
-- Ne jamais transmettre de données confidentielles, toujours vérifier l'information
-- Toujours citer l'utilisation d'un LLM, ne jamais faire passer son travail pour le vôtre
-
-### Exercice
-
-En petite équipe, discutez de la manière dont un outil d'IA générative pourrait vous aider (ou nuire) dans un mandat client, sans jamais remplacer votre jugement professionnel.
-
-## Les branches de l'informatique (15 mins)
+## Les branches de l'informatique
 
 Dans le monde professionnel, l'informatique s'étend sur de nombreuses branches. Chacune d'entre elles représente un domaine en soi et donc de nombreuses possibilités de carrière pour vous.
 
-D'après vous, quelles sont ces branches? Vous aurez 2 minutes individuellement, 4 minutes en équipe de deux, puis nous ferons un retour en grand groupe.
+D'après vous, quelles sont ces branches? Réfléchissez-y individuellement, puis en équipe de deux, avant un retour en grand groupe.
 
 - **Technicien** : dépannage et gestion du matériel
 - **La programmation** : création d'algorithmes et de logiciels (ex. : applications, jeux, scripts)
@@ -121,7 +132,7 @@ D'après vous, quelles sont ces branches? Vous aurez 2 minutes individuellement,
 - **Intelligence artificielle** : conception d'apprentissage machine et réseaux neuronaux
 - **Informatique quantique** : développement informatique par physique quantique
 
-## Introduction à la programmation (30 mins)
+## Introduction à la programmation
 
 La programmation est sans doute un des plus grands aspects de l'informatique. Certains diront que ceux qui ne savent pas programmer seront les illettrés du monde de demain, d'autres diront que la programmation sera inutile puisque l'IA le fera à notre place.
 
@@ -131,7 +142,7 @@ Pour aller au plus simple, on pourrait dire que la programmation c'est de parler
 
 ### Les principaux langages
 
-Quels langages connaissez-vous et à quoi servent-ils principalement? Vous aurez 2 minutes individuellement, 4 minutes en équipe de deux, puis nous ferons un retour en grand groupe.
+Quels langages connaissez-vous et à quoi servent-ils principalement? Réfléchissez-y individuellement, puis en équipe de deux, avant un retour en grand groupe.
 
 Bien qu'il existe des milliers de langages, certains sont universellement reconnus et utilisés :
 
@@ -152,11 +163,7 @@ Bien qu'il existe des milliers de langages, certains sont universellement reconn
 - **Fonctions** : blocs de code réutilisables
 - **Événements** : interactions déclenchées par l'utilisateur (clic, mouvement, etc.)
 
-### Un YouTuber à suivre : Fireship
-
-[Fireship](https://www.youtube.com/watch?v=-uleG_Vecis)
-
-## Atelier Scratch (35 mins)
+## Atelier Scratch
 
 Nous allons maintenant mettre les notions d'aujourd'hui en pratique avec une petite interface de programmation simple : Scratch.
 
