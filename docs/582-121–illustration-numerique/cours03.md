@@ -19,65 +19,67 @@
 
 ### Un Peu De Vocabulaire
 
-- Organique - Géométrique
+**Organique - Géométrique**
 
 ![Organique - Géométrique](./assets/image/cours-3/organique-geometrique.jpg)
 
-- Figuratif - Abstrait
+**Figuratif - Abstrait**
 
 ![Figuratif - Abstrait](./assets/image/cours-3/figuratif-abstrait.jpg)
 
-- Figure - Fond
+**Figure - Fond**
 
 ![Figure - Fond](./assets/image/cours-3/figure-fond.jpg)
 
-- Plein - Vide
+**Plein - Vide**
 
 ![Plein - Vide](./assets/image/cours-3/plein-vide.jpg)
 
-- Lisse - Rugueux
+**Lisse - Rugueux**
 
 ![Lisse - Rugueux](./assets/image/cours-3/lisse-rugueux.jpg)
 
-- Cadré - Débordant
+**Cadré - Débordant**
 
 ![Cadré - Débordant](./assets/image/cours-3/cadre-debordant.jpg)
 
-- Simple - Complexe
+**Simple - Complexe**
 
 ![Simple - Complexe](./assets/image/cours-3/simple-complexe.jpg)
 
-- Précis - Intuitif
+**Précis - Intuitif**
 
 ![Précis - Intuitif](./assets/image/cours-3/precis-intuitif.jpg)
 
-- Épais - Fin
+**Épais - Fin**
 
 ![Épais - Fin]()
 
-- Profond - Plat
+**Profond - Plat**
 
 ![Profond - Plat](./assets/image/cours-3/profond-plat.jpg)
 
-- Fragmenté - Unifié
+**Fragmenté - Unifié**
 
 ![Fragmenté - Unifié](./assets/image/cours-3/fragmente-unifie.jpg)
 
-- Ouvert - Fermé
+**Ouvert - Fermé**
 
 ![Ouvert - Fermé](./assets/image/cours-3/ouvert-ferme.jpg)
 
-- Massif - Léger
+**Massif - Léger**
 
 ![Massif - Léger](./assets/image/cours-3/massif-leger.jpg)
 
-- Anguleux - Arrondi
+**Anguleux - Arrondi**
 
 ![Anguleux - Arrondi](./assets/image/cours-3/anguleux-arrondi.jpg)
 
-- Bidimensionnel - Tridimensionnel
+**Bidimensionnel - Tridimensionnel**
 
 ![Bidimensionnel - Tridimensionnel](./assets/image/cours-3/bidimensionnel-tridimensionnel.jpg)
+
+*Images gracieuseté de Claude*
 
 ### Les Courants (suite)
 [📑 Courants Artistiques](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCUGzybNC7ORqsvXICL5x0xAVMt4fFIDUvmM6Yerb5JrHk?e=0jbY18)
@@ -88,7 +90,7 @@ En équipe de deux, trouvez deux oeuvres et lister au moins trois caractéristiq
 
 ### Atelier 2
 
-En équipe de deux, trouvez deux oeuvres et lister au moins trois caractéristiques formelles ou esthétiques qui les différencie. 
+En équipe de deux, trouvez deux oeuvres et lister au moins trois caractéristiques formelles ou esthétiques qui les différencient. 
 
 ## Photoshop
 ### Notions : outils de typographie
