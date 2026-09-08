@@ -44,20 +44,21 @@ Le superviseur pourra attester de la conformité à chacune des pratiques montr�
 
 La captation se fait à une des stations où la caméra est déjà installée. Cette partie se fait en équipe de deux (non prédéterminées) où la première personne agit comme acteur pour la deuxième personne. L'objectif est de paramétrer la caméra pour prendre les plans demandés, puis remettre la caméra par défaut. Vous n'êtes pas autorisé à discuter des réglages et faire en tant que tel sera considéré comme du plagiat.   
  
-4. **Paramétrage de la caméra**
+1. **Paramétrage de la caméra**
     - Obtenir un blanc neutre, une exposition neutre (ni sous-exposée ni surexposée) et une image nette.
     - Utilisez le zebra et le peaking du moniteur pour valider l'exposition et la mise au point (voir l'[aide-mémoire paramétrage](aide-memoire-parametrage.md)).
-5. **Paramétrage de l'éclairage**
+2. **Paramétrage de l'éclairage**
     - Ajuster l'intensité et la température de couleur du Lite Panel pour qu'elles correspondent aux réglages de la caméra.
-6. **Paramétrage du son**
+3. **Paramétrage du son**
     - Régler le niveau d'entrée (gain) et sélectionner la bonne piste, puis valider avec un test d'écoute au casque : le son ne doit jamais *clipper*, tout en restant assez fort pour bien entendre les sons faibles.
-7. **Captation de trois plans avec mouvement**
+4. **Captation de trois plans avec mouvement**
     - Un **plan d'ensemble** avec un **mouvement de pan** pour suivre une personne qui marche.
     - Un **plan rapproché** avec un **mouvement de tilt** pour passer des jambes au visage.
     - Un **gros plan** avec un **mouvement de zoom-in** sur les yeux.
-8. **Prise de son**
+5. **Prise de son**
     - Capter une prise de son claires où le dialogue est : C'était [nom de la personne] pour Vidéo 2 au Collège Montmorency. 
-9. **Remise du dossier** (voir plus bas).
+6. **Réinitialisation des paramètres**
+7. **Remise du dossier** (voir plus bas).
 
 ## Règles à respecter
 
