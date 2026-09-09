@@ -17,7 +17,7 @@ Téléchargez et ouvrez le fichier suivant:
 - [ ] Dans le panneau d'option, aller dans sélectionner et masquer. Aller améliorer le contour de la sélection. Lorsque c'est terminé cliquez sur ok.
 - [ ] Dans le panneau de calques, cliquer sur l'icône de masque de fusion située en bas pour masquer les zones en dehors de la sélection.
 - [ ] Double-cliquer sur le nom du calque pour nommer "oiseau_orange".
-- [ ] Créer un calque de fond uni avec la couleur #ff7758. Aller dans le menu Calque > Nouveau calque de remplissage > Couleur unie, puis entrer le code couleur #ffed94.
+- [ ] Créer un calque de fond uni avec la couleur #ff7758. Aller dans le menu Calque > Nouveau calque de remplissage > Couleur unie, puis entrer le code couleur #ff7758.
 - [ ] Double-cliquer sur le nom du calque pour nommer "#ff7758".
 
 ***

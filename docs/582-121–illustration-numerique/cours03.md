@@ -143,7 +143,7 @@ En équipe de deux, trouvez deux oeuvres et lister au moins trois caractéristiq
 ## Devoir
 * [📁 Projet 1/partie 1](./projets/projet01.md){ .md-button }   <br>
 
-<!-- * Faire [le devoir 1 / partie 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Ev3sg_u6lPhJrOXz_YBdIYMBXUVSAP7yQXQFNX5oDif8DQ?e=x3VgU0) suivant pour la semaine prochaine. -->
+<!--  -->
 
 * [📁 Dossier de remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgDrklOoUUowTqGB8Ebp2NIuAWQeJBnObfSohoQDF4W9VgY?e=XQGztH){ .md-button } 
 

@@ -21,20 +21,5 @@ comment choisir une bonne typo
 la typo dans les génériques
 
 
-## outils de sélection
 
-peut ctrl-c ctrl-v
-contour progressif
-selection complexe
-	- shift -> ajoute
-	- alt -> réduit
-
-les différents types de sélectionneurs
-- carré
-- ellipsoidale
-- lasso libre
-- lasso a angle
-- lasso magnétique
-
-Les masques
 

@@ -1,5 +1,8 @@
 
-# Cours 5
+# Cours 4
+21 - 15 septembre
+
+
 
 ## Photoshop
 
@@ -11,8 +14,6 @@
 
 * [▶️ Outil lasso pour sélections libres](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcpIxiMY4SpIjD-g9N90958BWt1JmWKD9XGZdHKmIrmW4A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=37E5MN) <br>   
   [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>
-
-<br>
 
 * [▶️ Outil de sélection d'objet, sélection rapide, ou baguette magique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERykK6yyvu1Mo-UT8CVtgg0BUTW4K7PYD929XCOrHTaQbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XDNnCI) [📁 gradient](./assets/image/08_gradient.tif)<br>
 * [▶️ Commande pour inverser la sélection](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXaZjlULzVdInWfOPqSdr4EB5FIfSPvj0pfdh3AZvG0pPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8VoABH) <br>
@@ -47,4 +48,4 @@
 
 ## Devoir
 
-Faire [le devoir 1 / partie 2](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/Ev3sg_u6lPhJrOXz_YBdIYMBXUVSAP7yQXQFNX5oDif8DQ?e=x3VgU0) suivant pour la semaine prochaine.
+* Faire [le devoir 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAR6R3wKZwzTIYRAw2SgVWvAQtWIlJJq4pZ6zZaGpxl6n8?e=aY497J) suivant pour la semaine prochaine.
