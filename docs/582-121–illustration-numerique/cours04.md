@@ -3,8 +3,16 @@
 
 ## Photoshop
 
-
 ### Notions: outils de sélection
+
+* [▶️ Outil de sélection rectangulaire](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EUIRW4pQSMpBtjKbTmMVQukBEivertajTWLyRGHdfiU5GA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tnT6zj) <br>
+
+* [▶️ Outil de sélection elliptique (circulaire)](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EZd7q9svWmpBiU4DtveYlq8B7jew9aOFR7vlbAEC5c9Evg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0rhfqg) <br>
+
+* [▶️ Outil lasso pour sélections libres](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EcpIxiMY4SpIjD-g9N90958BWt1JmWKD9XGZdHKmIrmW4A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=37E5MN) <br>   
+  [🛠️ 08_Sélectionner grâce à l'outil circulaire](./exercices_photoshop/08_Sélectionner_grâce_à_l'outil_circulaire.md){ .md-button }  <br>
+
+<br>
 
 * [▶️ Outil de sélection d'objet, sélection rapide, ou baguette magique](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ERykK6yyvu1Mo-UT8CVtgg0BUTW4K7PYD929XCOrHTaQbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XDNnCI) [📁 gradient](./assets/image/08_gradient.tif)<br>
 * [▶️ Commande pour inverser la sélection](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EXaZjlULzVdInWfOPqSdr4EB5FIfSPvj0pfdh3AZvG0pPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8VoABH) <br>

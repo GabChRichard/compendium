@@ -33,6 +33,9 @@
 
 ## Partie 1 – Moodboards
 
+### Capsules Vidéos
+- [▶️ Capsules Explicatives](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgCgkUprO6hhR4_IpFCCr2mHAV75zdL13L5OxEBLyIn7Dk0?e=EnFRXm)
+
 ### 🛠️ Réalisation de deux moodboards
 - [ ] Choisir un **courant artistique** pour la signature et l’autoportrait.  
   → [Lien vers le document de référence](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbWlYrtLqN1Mlf0xWOwJArEB92yLuuZ_LoN2-32pD9rcwQ?e=d63kE3)
