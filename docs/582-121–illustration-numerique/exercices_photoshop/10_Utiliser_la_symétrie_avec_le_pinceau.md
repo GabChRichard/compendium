@@ -14,7 +14,6 @@ Télécharger et ouvrer le fichier suivant:
 ## Étapes
 
 - [ ] Sélectionner l'outil Pinceau (B).
-- [ ] Utiliser l'outil Pipette (I) pour prélever la couleur de l'image originale directement à partir de votre document.
 - [ ] Aller dans la barre des options en haut et cliquer sur l'icône de papillon (Symétrie).
 - [ ] Choisir un type de symétrie (verticale, horizontale, circulaire, etc.) dans le menu déroulant.
 - [ ] Ajuster la ligne de symétrie sur votre document selon vos besoins.
