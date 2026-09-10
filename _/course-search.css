@@ -1,0 +1,43 @@
+.course-search-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem;
+  padding: 0.5rem 0.5rem 0.5rem 1.25rem;
+  border-radius: 2rem;
+  border: 2px solid var(--md-default-fg-color--lightest);
+  background: var(--md-code-bg-color);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.course-search-box:focus-within {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 0 0 3px var(--md-accent-fg-color--transparent);
+}
+.course-search-box input[type="search"] {
+  flex: 1 1 auto;
+  border: 0;
+  background: transparent;
+  font-size: 1.1rem;
+  padding: 0.6rem 0;
+  color: var(--md-typeset-color);
+  outline: none;
+}
+.course-search-box button {
+  flex: 0 0 auto;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 50%;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+.course-search-box .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

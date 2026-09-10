@@ -1,0 +1,25 @@
+# illustration num -- cours 3
+
+## la typo
+L'anatomie 
+- cap-height -> la hauteur total d'une lettre
+- x-height -> représente la hauteur de la lettre x (aussi les autres lettres minuscule)
+- baseline -> ligne de base sur laquelle les lettres reposent
+- descender -> c'est ce que dépasse de la baseline
+- Stem -> les lignes
+
+## le powerpoint
+les poids de type
+
+les seriff
+
+Les types de typo
+- chaque font véhicule une histoire
+
+comment choisir une bonne typo
+
+la typo dans les génériques
+
+
+
+
