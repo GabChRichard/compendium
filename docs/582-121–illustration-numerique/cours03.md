@@ -45,9 +45,9 @@
 
 ![Plein - Vide](./assets/image/cours-3/plein-vide.jpg)
 
-**Lisse - Rugueux**
+<!-- **Lisse - Rugueux**
 
-![Lisse - Rugueux](./assets/image/cours-3/lisse-rugueux.jpg)
+![Lisse - Rugueux](./assets/image/cours-3/lisse-rugueux.jpg) -->
 
 **Cadré - Débordant**
 
