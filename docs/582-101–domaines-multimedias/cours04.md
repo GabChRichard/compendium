@@ -1,6 +1,10 @@
 # Cours 4 – Réseaux, branchements et markdown
 
+![](../582-101–domaines-multimedias/assets/cours04/network.jpg)
+
 ## Ordre du jour
+
+![](assets/image2.png)
 
 - [Retour sur le classement de fichiers](#retour-sur-le-classement-de-fichiers)
 - [Retour sur formater et partitionner](#comment-formater)
@@ -23,6 +27,8 @@
 Un format de fichier représente la façon dont l'information est structurée et/ou encodée pour le stockage. Il communique au logiciel les procédures d'encodage/décodage nécessaires. En ce qui nous concerne, il sera important de rapidement identifier les formats et d'être capable de les classer/archiver. 
 
 ### Atelier classement de fichier
+
+[Fichier de départ](https://cmontmorency365-my.sharepoint.com/:u:/r/personal/gabriel_chrichard_cmontmorency_qc_ca/Documents/Domaines-2026/exercice%20classement%20de%20fichiers%202.zip?d=wa1254252b5754e5988208381fed9a731&csf=1&web=1&e=hR2daa)
 
 ## Comment formater?
 
