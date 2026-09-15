@@ -4,7 +4,7 @@ Note individuelle *(15% de la note finale)*
 
 ## Consignes
 
-Faire le montage de la caméra, de l'éclairage et du Sound Device.
+Faire le montage de la caméra et de l'éclairage.
 
 ### Partie vidéo : 
 
@@ -14,14 +14,6 @@ Faire le montage de la caméra, de l'éclairage et du Sound Device.
 - Paramétrage de l'éclairage. 
 - Prise de trois plans avec mouvement.
     - Un **plan d'ensemble** avec un **mouvement de pan**.
-    - Un **plan rapproché** avec un **mouvement de tilt**.
-    - Un **gros plan** avec un **mouvement de zoom-in**.
-
-### Partie audio :
-
-- Montage de la perche.
-- Paramétrage du Sound Device.
-- Prise de son.
 
 ### Le dossier de remise doit comprendre les éléments suivants :
 
@@ -36,27 +28,21 @@ Les aspects évalués sont les suivants :
 
 | Catégorie | Sous-critère | Points |
 |---|---|---|
-| **Caméra** | | **/10** |
-| | Installation de la caméra | /10 |
-| **Éclairage** | | **/10** |
-| | Installation d'un Lite Panel | /10 |
-| **Son** | | **/20** |
-| | Préparation du sound device | /10 |
-| | Préparation de la perche | /10 |
+| **Caméra** | | **/20** |
+| | Installation de la caméra | /20 |
+| **Éclairage** | | **/20** |
+| | Installation d'un Lite Panel | /20 |
 | **Total Installation** | | **/40** |
 
 ### Captation
 
 | Catégorie | Sous-critère | Points |
 |---|---|---|
-| **Paramétrage** | | **/30** |
-| | Paramétrage de la caméra | /10 |
-| | Paramétrage du Lite Panel | /10 |
-| | Paramétrage du Sound Device | /10 |
-| **Captation** | | **/30** |
-| | Qualité du panoramique | /10 |
-| | Qualité du tilt | /10 |
-| | Qualité du zoom | /10 |
+| **Paramétrage** | | **/40** |
+| | Paramétrage de la caméra | /20 |
+| | Paramétrage du Lite Panel | /20 |
+| **Captation** | | **/20** |
+| | Triangle d'exposition | /20 |
 
 **Total : /100**
 

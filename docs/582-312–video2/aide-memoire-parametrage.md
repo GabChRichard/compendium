@@ -52,8 +52,8 @@
 
     - Temp./Filtre C. → *À ajuster selon l'éclairage*
 
-### Zebra
-> Activer seulement si on ne travail pas avec un tépied ou un stabilisateur (Ronin).
+### Steady Shot
+> Activer seulement si on ne travail pas avec un trépied ou un stabilisateur (Ronin).
 
 - Menu → Réglages prise de vue 2 : page 4/9
 
