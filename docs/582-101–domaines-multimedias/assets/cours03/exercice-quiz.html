@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Quiz : les bases de la programmation</title>
+<style>
+  :root {
+    --bg: #f6f5f3;
+    --card: #ffffff;
+    --text: #1c1c1c;
+    --muted: #6b6b6b;
+    --border: #e2e0dc;
+    --accent: #6a4fb3;
+    --accent-text: #ffffff;
+    --danger: #b3402f;
+    --danger-bg: #fbeae7;
+    --success: #2f8f4e;
+    --success-bg: #e8f6ec;
+    --chip-bg: #efeaf9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17171a;
+      --card: #212126;
+      --text: #ececec;
+      --muted: #a1a1a1;
+      --border: #34343a;
+      --accent: #9b83e0;
+      --accent-text: #17171a;
+      --danger: #ff8a75;
+      --danger-bg: #3a2320;
+      --success: #7fd39a;
+      --success-bg: #1f3327;
+      --chip-bg: #2c2740;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); margin-top: 0; margin-bottom: 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .card h2 { margin-top: 0; font-size: 1.1rem; }
+  .progress-track {
+    height: 8px;
+    background: var(--chip-bg);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    width: 0%;
+    transition: width 0.25s ease;
+  }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  .question-text { font-size: 1.1rem; font-weight: 600; margin: 4px 0 16px; }
+  .options { display: flex; flex-direction: column; gap: 10px; }
+  .option-btn {
+    text-align: left;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .option-btn:hover { border-color: var(--accent); }
+  .option-btn.correct { background: var(--success-bg); border-color: var(--success); }
+  .option-btn.incorrect { background: var(--danger-bg); border-color: var(--danger); }
+  .option-btn:disabled { cursor: default; opacity: 0.9; }
+  .feedback {
+    display: none;
+    margin-top: 14px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+  }
+  .feedback.visible { display: block; }
+  .feedback.correct { background: var(--success-bg); color: var(--success); }
+  .feedback.incorrect { background: var(--danger-bg); color: var(--danger); }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; justify-content: space-between; margin-top: 16px; }
+  button.primary {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    background: var(--accent);
+    color: var(--accent-text);
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  button.primary:disabled { opacity: 0.5; cursor: default; }
+  button.secondary {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .score-screen { text-align: center; }
+  .score-big { font-size: 2.2rem; font-weight: 700; margin: 8px 0; color: var(--accent); }
+  details.concept {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+  }
+  details.concept summary { cursor: pointer; font-weight: 600; }
+  details.concept pre {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    margin: 10px 0 6px;
+  }
+  code { font-family: "Cascadia Code", Consolas, "Courier New", monospace; }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🧠 Quiz : les bases de la programmation</h1>
+  <p class="subtitle">5 questions pour vérifier ce que vous avez retenu.</p>
+
+  <div class="card" id="quizCard">
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <p class="muted" id="questionCompteur">Question 1 / 5</p>
+    <p class="question-text" id="questionTexte"></p>
+    <div class="options" id="options"></div>
+    <p class="feedback" id="feedback"></p>
+    <div class="row">
+      <p class="muted" id="scoreCourant">Score : 0 / 5</p>
+      <button class="primary" id="suivantBtn" disabled>Suivant</button>
+    </div>
+  </div>
+
+  <div class="card score-screen" id="scoreCard" style="display:none">
+    <h2>Résultat</h2>
+    <div class="score-big" id="scoreFinal">0 / 5</div>
+    <p class="muted" id="scoreMessage"></p>
+    <button class="primary" id="recommencerBtn">Recommencer</button>
+  </div>
+
+  <div class="card">
+    <h2>📚 Les concepts derrière ce quiz</h2>
+    <p class="muted">Ce quiz utilise les 5 mêmes concepts vus en classe. Ouvrez chaque bloc pour voir le code correspondant.</p>
+
+    <details class="concept">
+      <summary>🧱 Variables</summary>
+      <p>Le programme garde en mémoire où on en est dans le quiz et le score accumulé :</p>
+      <pre><code>let indexQuestion = 0;
+let score = 0;</code></pre>
+      <p class="muted">Ces deux variables changent à chaque réponse et à chaque question.</p>
+    </details>
+
+    <details class="concept">
+      <summary>🔀 Conditions</summary>
+      <p>Quand on clique sur une réponse, le programme compare le choix à la bonne réponse :</p>
+      <pre><code>if (indexChoisi === question.bonneReponse) {
+  score++;
+  afficherRetour(true);
+} else {
+  afficherRetour(false);
+}</code></pre>
+      <p class="muted">C'est cette condition qui décide si le score augmente ou non.</p>
+    </details>
+
+    <details class="concept">
+      <summary>🔁 Boucles</summary>
+      <p>Une boucle parcourt la liste des choix de réponse pour créer un bouton par option, sans jamais réécrire le même code 4 fois :</p>
+      <pre><code>question.options.forEach((texteOption, i) => {
+  const bouton = document.createElement("button");
+  bouton.textContent = texteOption;
+  bouton.addEventListener("click", () => verifierReponse(i));
+  optionsEl.appendChild(bouton);
+});</code></pre>
+      <p class="muted">La même boucle fonctionne peu importe le nombre de choix ou de questions.</p>
+    </details>
+
+    <details class="concept">
+      <summary>⚙️ Fonctions</summary>
+      <p>Chaque étape du quiz est une fonction réutilisable, appelée encore et encore au fil des questions :</p>
+      <pre><code>function afficherQuestion() { ... }
+function verifierReponse(indexChoisi) { ... }
+function questionSuivante() { ... }
+function recommencer() { ... }</code></pre>
+      <p class="muted"><code>afficherQuestion()</code> est appelée une fois par question, mais c'est toujours le même code.</p>
+    </details>
+
+    <details class="concept">
+      <summary>🖱️ Événements</summary>
+      <p>Le quiz avance seulement quand l'utilisateur·rice clique quelque part :</p>
+      <pre><code>bouton.addEventListener("click", () => verifierReponse(i));
+suivantBtn.addEventListener("click", questionSuivante);
+recommencerBtn.addEventListener("click", recommencer);</code></pre>
+      <p class="muted">Sans ces événements, la page resterait figée sur la première question.</p>
+    </details>
+  </div>
+
+  <footer>Cours 3 — Introduction à la programmation</footer>
+</div>
+
+<script>
+  // --- Variables ---
+  const questions = [
+    {
+      texte: "Qu'est-ce qu'une variable en programmation ?",
+      options: [
+        "Un conteneur qui garde une information en mémoire",
+        "Une décision à prendre selon une situation",
+        "Une répétition d'actions",
+        "Un fichier image"
+      ],
+      bonneReponse: 0
+    },
+    {
+      texte: "Quel mot-clé JavaScript sert à écrire une condition ?",
+      options: ["for", "function", "if", "let"],
+      bonneReponse: 2
+    },
+    {
+      texte: "À quoi sert une boucle (comme 'for') ?",
+      options: [
+        "À réagir à un clic de souris",
+        "À répéter une action plusieurs fois",
+        "À stocker un seul nombre",
+        "À styliser une page web"
+      ],
+      bonneReponse: 1
+    },
+    {
+      texte: "Pourquoi regrouper du code dans une fonction ?",
+      options: [
+        "Pour le rendre plus lent",
+        "Pour l'empêcher de s'exécuter",
+        "Pour pouvoir le réutiliser sans le réécrire",
+        "Pour cacher les variables"
+      ],
+      bonneReponse: 2
+    },
+    {
+      texte: "Un clic de souris est un exemple de...",
+      options: ["Variable", "Boucle", "Fonction", "Événement"],
+      bonneReponse: 3
+    }
+  ];
+
+  let indexQuestion = 0;
+  let score = 0;
+
+  const questionTexteEl = document.getElementById("questionTexte");
+  const optionsEl = document.getElementById("options");
+  const questionCompteurEl = document.getElementById("questionCompteur");
+  const scoreCourantEl = document.getElementById("scoreCourant");
+  const progressFillEl = document.getElementById("progressFill");
+  const feedbackEl = document.getElementById("feedback");
+  const suivantBtn = document.getElementById("suivantBtn");
+  const quizCard = document.getElementById("quizCard");
+  const scoreCard = document.getElementById("scoreCard");
+  const scoreFinalEl = document.getElementById("scoreFinal");
+  const scoreMessageEl = document.getElementById("scoreMessage");
+  const recommencerBtn = document.getElementById("recommencerBtn");
+
+  // --- Fonction : afficher la question courante ---
+  function afficherQuestion() {
+    const question = questions[indexQuestion];
+    questionTexteEl.textContent = question.texte;
+    questionCompteurEl.textContent = "Question " + (indexQuestion + 1) + " / " + questions.length;
+    scoreCourantEl.textContent = "Score : " + score + " / " + questions.length;
+    progressFillEl.style.width = Math.round((indexQuestion / questions.length) * 100) + "%";
+    feedbackEl.classList.remove("visible", "correct", "incorrect");
+    feedbackEl.textContent = "";
+    suivantBtn.disabled = true;
+    optionsEl.innerHTML = "";
+
+    // Boucle : un bouton par option
+    question.options.forEach((texteOption, i) => {
+      const bouton = document.createElement("button");
+      bouton.className = "option-btn";
+      bouton.textContent = texteOption;
+      bouton.addEventListener("click", () => verifierReponse(i));
+      optionsEl.appendChild(bouton);
+    });
+  }
+
+  // --- Fonction : vérifier la réponse choisie ---
+  function verifierReponse(indexChoisi) {
+    const question = questions[indexQuestion];
+    const boutons = optionsEl.querySelectorAll(".option-btn");
+
+    boutons.forEach((bouton) => (bouton.disabled = true));
+
+    // Condition : bonne ou mauvaise réponse ?
+    if (indexChoisi === question.bonneReponse) {
+      score++;
+      boutons[indexChoisi].classList.add("correct");
+      feedbackEl.textContent = "✅ Bonne réponse !";
+      feedbackEl.classList.add("visible", "correct");
+    } else {
+      boutons[indexChoisi].classList.add("incorrect");
+      boutons[question.bonneReponse].classList.add("correct");
+      feedbackEl.textContent = "❌ Pas tout à fait — la bonne réponse est surlignée.";
+      feedbackEl.classList.add("visible", "incorrect");
+    }
+
+    scoreCourantEl.textContent = "Score : " + score + " / " + questions.length;
+    suivantBtn.disabled = false;
+  }
+
+  // --- Fonction : passer à la question suivante ou terminer ---
+  function questionSuivante() {
+    indexQuestion++;
+    if (indexQuestion < questions.length) {
+      afficherQuestion();
+    } else {
+      afficherResultat();
+    }
+  }
+
+  function afficherResultat() {
+    quizCard.style.display = "none";
+    scoreCard.style.display = "block";
+    scoreFinalEl.textContent = score + " / " + questions.length;
+
+    if (score === questions.length) {
+      scoreMessageEl.textContent = "Parfait ! Vous maîtrisez les 5 concepts.";
+    } else if (score >= questions.length / 2) {
+      scoreMessageEl.textContent = "Pas mal ! Une petite révision et ce sera parfait.";
+    } else {
+      scoreMessageEl.textContent = "Retournez voir les concepts, puis réessayez.";
+    }
+  }
+
+  // --- Fonction : recommencer le quiz ---
+  function recommencer() {
+    indexQuestion = 0;
+    score = 0;
+    quizCard.style.display = "block";
+    scoreCard.style.display = "none";
+    afficherQuestion();
+  }
+
+  // --- Événements ---
+  suivantBtn.addEventListener("click", questionSuivante);
+  recommencerBtn.addEventListener("click", recommencer);
+
+  afficherQuestion();
+</script>
+</body>
+</html>

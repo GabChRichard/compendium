@@ -25,10 +25,12 @@ Un bit seul ne contient pas beaucoup d'information. On les assemble donc génér
 
 Puisque la quantité de mémoire nécessaire ne cesse d'augmenter, on utilise des préfixes métriques pour garder un suivi précis :
 
-- **Kilo-octet** : 1 000 octets (mille)
-- **Méga-octet** : 1 000 000 octets (million)
-- **Giga-octet** : 1 000 000 000 octets (milliard)
-- **Téra-octet** : 1 000 000 000 000 octets (trillion)
+- **Kilo-octet (Ko)** : 1 024 octets (mille) 
+- **Méga-octet (Mo)** : 1 048 576 (million) 
+- **Giga-octet (Go)** : 1 073 741 824 octets (milliard) 
+- **Téra-octet (To)** : 1 099 511 627 776 octets (trillion) 
+
+> Cet écart vient du fait que les fabricants de disques utilisent la base 1 000 (décimale), alors que les systèmes d'exploitation comptent en base 1 024 (binaire, puisque l'ordinateur travaille en bits). C'est pourquoi un disque dur vendu « 1 To » affiche un peu moins d'espace une fois branché à l'ordinateur.
 
 ## Les logiciels d'un ordinateur
 
@@ -163,21 +165,10 @@ Bien qu'il existe des milliers de langages, certains sont universellement reconn
 - **Fonctions** : blocs de code réutilisables
 - **Événements** : interactions déclenchées par l'utilisateur (clic, mouvement, etc.)
 
-## Atelier Scratch
+### Exercice pratique
 
-Nous allons maintenant mettre les notions d'aujourd'hui en pratique avec une petite interface de programmation simple : Scratch.
+Pour voir ces 5 concepts à l'œuvre dans un vrai petit programme, essayez le [Tirage au sort d'équipes](assets/cours03/exercice-tirage-equipes.html) : vous y ajoutez des noms, formez des équipes au hasard, puis pouvez consulter le code derrière chaque concept.
 
-Scratch est un environnement développé par le MIT qui permet de programmer des animations et des jeux par le moyen d'une interface simple. C'est l'environnement idéal pour découvrir les notions de programmation de base.
-
-Nous allons donc nous rendre sur le site web et construire un petit jeu où il faut ramasser des objets pour augmenter son score. Ce petit exercice nous permettra de mettre en pratique les notions d'évènements, boucles, conditions et variables.
-
-### Exercice
-
-Allez dans l'équipe Teams du cours et téléchargez le fichier « Exercice cours 2 ». Répondez aux questions puis sauvegardez le fichier. Remettez ensuite votre fichier dans l'espace de remise.
-
-## Préparation pour la semaine prochaine
-
-Le mandat client 1 (Web) débute la semaine prochaine. Créez-vous un compte GitHub si ce n'est pas déjà fait.
 
 ## Merci et à la semaine prochaine!
 
