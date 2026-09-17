@@ -1,15 +1,46 @@
-# Cours 4 – Mandat client 1 : Web
+# Cours 4 – Réseaux, branchements et markdown
+
+![](../582-101–domaines-multimedias/assets/cours04/network.jpg)
 
 ## Ordre du jour
 
-- Réseaux locaux et Internet
-- Introduction au web
-- Étude de cas : le domaine web
-- Markdown
-- Git et GitHub
-- GitHub Pages
-- Atelier de production
-- Mise à jour de la feuille de suivi
+![](assets/image2.png)
+
+- [Retour sur le classement de fichiers](#retour-sur-le-classement-de-fichiers)
+- [Retour sur formater et partitionner](#comment-formater)
+- [Retour sur la programmation](#retour-sur-la-programmation)
+- [Les réseaux](#les-reseaux)
+- [Introduction à Internet](#introduction-a-internet)
+- [Introduction au web](#introduction-au-web)
+- [Étude de cas : le domaine web](#etude-de-cas-le-domaine-web)
+- [Branchements](#branchements)
+- [Atelier — Branchement et rangement](#atelier-branchement-et-rangement)
+- [Markdown](#markdown)
+- [Git](#git)
+- [GitHub](#github)
+- [GitHub Pages](#github-pages)
+- [Atelier — Création d'un site de révision pour l'examen](#atelier-creation-dun-site-de-revision-pour-lexamen)
+- [Préparation pour l'examen](#preparation-pour-lexamen)
+
+## Retour sur le classement de fichiers
+
+Un format de fichier représente la façon dont l'information est structurée et/ou encodée pour le stockage. Il communique au logiciel les procédures d'encodage/décodage nécessaires. En ce qui nous concerne, il sera important de rapidement identifier les formats et d'être capable de les classer/archiver. 
+
+### Atelier classement de fichier
+
+[Fichier de départ](https://cmontmorency365-my.sharepoint.com/:u:/r/personal/gabriel_chrichard_cmontmorency_qc_ca/Documents/Domaines-2026/exercice%20classement%20de%20fichiers%202.zip?d=wa1254252b5754e5988208381fed9a731&csf=1&web=1&e=hR2daa)
+
+## Comment formater?
+
+Pour un formatage rapide dans windows, il suffit de se rendre sur le disque dur de son choix à partir de Ce Pc, de cliquer sur le bouton droit de la souris, puis de choisir formater. De là, un wizard apparaît et on peut choisir le format ainsi que le volume de nos partitions.  
+
+Pour une vue détaillée, on peut aller dans le gestionnaire de disques, néanmoins ce menu n’est pas accessible avec les ordinateurs de l’école.  
+
+Pour le montrer, nous allons faire une [petite démonstration](https://www.youtube.com/watch?v=g4yr_jI9NTs)
+
+## Retour sur la programmation 
+
+Pour voir les concepts du dernier cours en action, essayez le [Tirage au sort d'équipes](assets/cours03/exercice-tirage-equipes.html) : vous y ajoutez des noms, formez des équipes au hasard, puis pouvez consulter le code derrière chaque concept.
 
 ## Les réseaux
 
@@ -33,8 +64,8 @@ Le web (World Wide Web) est le service qui rend le partage de ressources possibl
 ### Quelques définitions
 
 - **Internet** — l'infrastructure globale (réseau de réseaux)
-- **Réseau local** — périphériques connectés par un routeur/commutateur
-- **Web** — service qui permet d'afficher des pages web
+- **Réseau local** — périphériques connectés par un routeur/commutateur(switch)
+- **Web** — service qui permet d'afficher des pages 
 - **Site web** — ensemble de pages web
 - **Domaine** — adresse qui permet d'accéder à une page/un fichier web
 - **Hébergement** — espace privé (serveur) qui stocke des fichiers accessibles par le web
@@ -55,6 +86,55 @@ En termes professionnels, le domaine web réfère au personnel impliqué dans la
 - **Opérateur web (webmaster)** : gère le site, le domaine, les performances et les mises à jour
 - **Expert en accessibilité** : s'assure que le site est utilisable par tous
 - **Créateur de contenu** : produit du contenu écrit/visuel optimisé pour la recherche
+
+## Branchements 
+
+Au cours de votre parcours à l'agence, vous allez très certainement utiliser beaucoup de câbles. Il devient donc important d'apprendre à les connaître, mais aussi à les ranger.
+
+### HDMI
+
+![HDMI](./assets/cours03/hdmi.png)
+
+Transmet des signaux audio et vidéo dans un seul fil compact. Supporte des résolutions jusqu'à 8K, des taux de rafraîchissement jusqu'à 240 Hz, le HDR et le VRR. Utilisé pour brancher moniteurs, consoles et téléviseurs. Il existe plusieurs standards (1.0, 2.0, 2.1…) et types (Standard, mini, micro).
+
+### DisplayPort
+
+![DisplayPort](./assets/cours03/displayport.png)
+
+Très semblable au HDMI — transmet audio et vidéo dans un seul fil. Offre généralement de meilleures résolutions et taux de rafraîchissement, mais les différences avec le HDMI sont aujourd'hui minimes.
+
+### Ethernet (RJ45)
+
+![Ethernet](./assets/cours03/ethernet.png)
+
+Le câble réseau « par défaut », utilisé pour connecter des périphériques entre eux ou à des appareils réseau (routeur, commutateur). Il existe plusieurs catégories, qui permettent des vitesses de transfert plus élevées ou un blindage contre le bruit électronique (*shield*) — un câble de catégorie 5 permet une vitesse de transfert de 1 Go/s.
+
+### PowerCon et adaptateur AC
+
+![PowerCon](./assets/cours03/powercon.png)
+![Adaptateur AC](./assets/cours03/adaptateur-ac.png)
+
+Deux câbles d'alimentation. Le PowerCon se distingue par le fait qu'il peut être verrouillé.
+
+### XLR et prises audio
+
+![XLR](./assets/cours03/xlr.png)
+
+Le **XLR** est un connecteur robuste pour les signaux audio, utilisé pour les consoles, instruments et micros. Les prises audio se distinguent par leur taille : la grande prise (1/4 po) sert à l'équipement professionnel, la petite (mini-jack) aux produits grand public.
+
+### USB
+
+![USB](./assets/cours03/usb.png)
+
+Connecteur standardisé qui permet l'alimentation et le transfert de données entre périphériques (clavier, souris, caméra, clé USB…). Le USB4 permet des vitesses de 40 Go/s. Connecteurs les plus courants aujourd'hui : USB-A et USB-C.
+
+### Comment bien ranger un câble?
+
+Rouler le fil en suivant le sens des brins (avec une légère torsion) pour éviter de l'endommager, puis utiliser une attache pour le conserver en place.
+
+## Atelier — Branchement et rangement
+
+Démonstration et classification des câbles du département, méthode de rangement.
 
 ## Markdown
 
@@ -114,55 +194,6 @@ Service gratuit de GitHub qui permet de publier un site web statique directement
 - Rédiger le contenu de la page à partir du document de révision
 - Publier sur GitHub Pages
 - Vérifier que le site est en ligne
-
-## Branchements 
-
-Au cours de votre parcours à l'agence, vous allez très certainement utiliser beaucoup de câbles. Il devient donc important d'apprendre à les connaître, mais aussi à les ranger.
-
-### HDMI
-
-![HDMI](./assets/cours03/hdmi.png)
-
-Transmet des signaux audio et vidéo dans un seul fil compact. Supporte des résolutions jusqu'à 8K, des taux de rafraîchissement jusqu'à 240 Hz, le HDR et le VRR. Utilisé pour brancher moniteurs, consoles et téléviseurs. Il existe plusieurs standards (1.0, 2.0, 2.1…) et types (Standard, mini, micro).
-
-### DisplayPort
-
-![DisplayPort](./assets/cours03/displayport.png)
-
-Très semblable au HDMI — transmet audio et vidéo dans un seul fil. Offre généralement de meilleures résolutions et taux de rafraîchissement, mais les différences avec le HDMI sont aujourd'hui minimes.
-
-### Ethernet (RJ45)
-
-![Ethernet](./assets/cours03/ethernet.png)
-
-Le câble réseau « par défaut », utilisé pour connecter des périphériques entre eux ou à des appareils réseau (routeur, commutateur). Il existe plusieurs catégories, qui permettent des vitesses de transfert plus élevées ou un blindage contre le bruit électronique (*shield*) — un câble de catégorie 5 permet une vitesse de transfert de 1 Go/s.
-
-### PowerCon et adaptateur AC
-
-![PowerCon](./assets/cours03/powercon.png)
-![Adaptateur AC](./assets/cours03/adaptateur-ac.png)
-
-Deux câbles d'alimentation. Le PowerCon se distingue par le fait qu'il peut être verrouillé.
-
-### XLR et prises audio
-
-![XLR](./assets/cours03/xlr.png)
-
-Le **XLR** est un connecteur robuste pour les signaux audio, utilisé pour les consoles, instruments et micros. Les prises audio se distinguent par leur taille : la grande prise (1/4 po) sert à l'équipement professionnel, la petite (mini-jack) aux produits grand public.
-
-### USB
-
-![USB](./assets/cours03/usb.png)
-
-Connecteur standardisé qui permet l'alimentation et le transfert de données entre périphériques (clavier, souris, caméra, clé USB…). Le USB4 permet des vitesses de 40 Go/s. Connecteurs les plus courants aujourd'hui : USB-A et USB-C.
-
-### Comment bien ranger un câble?
-
-Rouler le fil en suivant le sens des brins (avec une légère torsion) pour éviter de l'endommager, puis utiliser une attache pour le conserver en place.
-
-## Atelier — Branchement et rangement
-
-Démonstration et classification des câbles du département, méthode de rangement.
 
 ## Préparation pour l'examen
 
