@@ -50,4 +50,4 @@
 
 * Faire [le devoir 1](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAR6R3wKZwzTIYRAw2SgVWvAQtWIlJJq4pZ6zZaGpxl6n8?e=aY497J) suivant pour la semaine prochaine.
 
-  * [Dossier de Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAzP-tOuYw_Tomrq2ePc1bAARXu1rgNFCUInUTMEf8zG1A?e=aNrU7u)
+  * [Dossier de Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAzP-tOuYw_Tomrq2ePc1bAARXu1rgNFCUInUTMEf8zG1A?e=aNrU7u){ .md-button } 
