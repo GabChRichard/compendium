@@ -18,6 +18,8 @@
 <!-- * [582-311 | Web 3](./582-311-web3) -->
 * [582-312 | Vidéo 2](./582-312–video2)
 
+* [582-312 | Vidéo 2 Groupe 1](./582-312–video2-dom)
+
 <!-- ## Session 4
 
 * [582-401 | Réalité mixte](./582-401-realite-mixte)
