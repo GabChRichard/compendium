@@ -23,7 +23,7 @@ Téléchargez et ouvrez les fichiers suivants:
 - [ ] Dans le panneau d'option, aller dans sélectionner et masquer. Aller améliorer le contour de la sélection. Lorsque c'est terminé cliquez sur ok.
 - [ ] Dans le panneau de calques, cliquer sur l'icône de masque de fusion située en bas pour masquer les zones en dehors de la sélection.
 - [ ] Double-cliquer sur le nom du calque pour nommer "oiseau_orange".
-- [ ] Clic-droit sur le calque oiseau_orange et dubliquer le calque dans le fichier 07_over_busy.psd
+- [ ] Clic-droit sur le calque oiseau_orange et dupliquer le calque dans le fichier 07_over_busy.psd
 - [ ] Dans le fichier 07_over_busy.psd appliquer un effet de noir et blanc sur le calque d'oiseau orange uniquement grâce au masque d'écrétage.
 
 ***
