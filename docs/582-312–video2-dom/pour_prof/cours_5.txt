@@ -1,0 +1,10 @@
+La colo avancé
+
+la colo en 5 nodes
+- node 1 : balance des blancs
+    corriger la balance des blanc avec le color wheel (lift,gamma,gain)
+    on travail avec le waveform monitor (pas à l'oeil)
+- node 2 : contraste globale
+- node 3 : correction secondaire
+- node 4 : power window
+- node 5 : look finale (LUT)

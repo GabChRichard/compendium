@@ -1,1 +1,24 @@
 # illustration num -- cours 5
+
+outils de remplissage
+- dégradé
+- fusionner les calques de fusion
+- pot de peinture
+	- Tolérence de pixel
+	- Options de fusion
+
+vectoriel
+- la plume (forme)
+	- ne pas oublier de parler de la grille
+	- forme a une forme a un bézier
+	- faire une forme à deux bézier
+	- la plume libre
+	- plume forme courbe
+
+	- associer et soustraire des formes
+		- dans la barre d'outils en haut 
+			(le petit carré)
+			(l'option nouveau caque etc)
+		- une fois terminé : option 'fusionner les formes'
+	
+- masque vectoriel
