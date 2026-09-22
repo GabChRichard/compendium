@@ -61,4 +61,4 @@
 [🛠️ Les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9){ .md-button } <br>  
 
 
-* [Dossier de Remise](){ .md-button } 
+* [Dossier de Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgCAHanaUPpiR5V3vQHIPEBXAQLstbBT66pfFH7liWVs_dY?e=PvZM6a){ .md-button } 
