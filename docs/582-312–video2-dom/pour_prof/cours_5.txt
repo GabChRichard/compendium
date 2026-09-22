@@ -2,9 +2,29 @@ La colo avancé
 
 la colo en 5 nodes
 - node 1 : balance des blancs
+    le but est donné une base technique propre
+
     corriger la balance des blanc avec le color wheel (lift,gamma,gain)
     on travail avec le waveform monitor (pas à l'oeil)
+        - balance des blanc (avec l'outil pipette)
+        - exposition (avec le gain(haute lumière))
+            doit être autour de 100 IRE
+        - Gamma (mid tones)
+            exposition globale
+        - Lift (les ombres)
+            par par 'boucher les noir' doit être autour de 0 IRE
+
+    > ne jamais se fier à l'écran
+
 - node 2 : contraste globale
+    ici, le but est de donner de la profondeu à l'image
+    - on ajoute une node en série
+    - ouvre le panneau curve
+    - sur la courbe rgb principale
+        - on ajoute un point dans les ombre et on le tire un peu vers le bas
+        - on ajoute un point en haut et on le tire légerement vers le haut
+        courbe en S -> le geste classique de cinema
+
 - node 3 : correction secondaire
 - node 4 : power window
 - node 5 : look finale (LUT)

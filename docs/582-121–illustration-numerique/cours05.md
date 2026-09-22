@@ -3,8 +3,8 @@
 ## Notions : Outils de remplissage et d'application de couleurs
 
 * [▶️ Outil dégradé](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETI21UOhr3lHrulnzpmdzOABFfTSXIJEb3ccDoYg4R7QwA?e=QDc8CR)  
-* [▶️ Fusionner les calques avec un mode de fusion](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_04_06_photoshop/12_outils_degrade_blending_pot_peinture/03_fusionner_avec_mode_fusion.mov?csf=1&web=1&e=imMdG7)  
-* [▶️ Pot de peinture](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_04_06_photoshop/12_outils_degrade_blending_pot_peinture/04_pot_peinture.mov?csf=1&web=1&e=h0STlX)  
+* [▶️ Fusionner les calques avec un mode de fusion](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCHO0OL0WheTJazY5UB-3PmAb82AvozeNkCKXaUYrf5MzU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y2QtMz)  
+* [▶️ Pot de peinture](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCGmh451NVTR5ZZ1xzMIXJ-AWiYhfeUjY4thsnMcTi0hPo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=q9x5Hk)  
 
 [🛠️ Fusionner les calques avec un mode de fusion](./exercices_photoshop/12_Mode_de_fusion.md){ .md-button } <br>  
 [🛠️ Peinturer avec le pot de peinture](./exercices_photoshop/12_Peinturer_avec_le_pot_de_peinture.md){ .md-button } <br>  
