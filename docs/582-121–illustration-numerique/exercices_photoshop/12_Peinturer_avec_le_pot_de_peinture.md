@@ -9,7 +9,7 @@ Le but de cet exercice est de peinturer une image grâce à un pot de peinture.
 
 Téléchargez et ouvrez les fichiers suivants:
 
-[📁 Document de départ_01](../assets/image/12_andy-visage_femme.jpg){ .md-button }   <br>
+[📁 Document de départ_01](../assets/image/12_andy_visage_femme.jpg){ .md-button }   <br>
 
 ## Étapes
 

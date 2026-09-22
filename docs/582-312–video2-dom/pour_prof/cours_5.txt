@@ -25,6 +25,54 @@ la colo en 5 nodes
         - on ajoute un point en haut et on le tire légerement vers le haut
         courbe en S -> le geste classique de cinema
 
+    montrer différence entre une courbe en S plus agressive et plus douce (punchy vs cinématique)
+
 - node 3 : correction secondaire
+    le but est d'isoler UNE couleur spécifique (typiquement la peau)
+    - sur un nouveau node allé dans l'onglet qualifier
+    - sélectionner l'outil pipette pour qualifier et cliquer sur la zone à isoler
+        (genre la peau du visage)
+    - Activer le Highlight
+        (l'image devient noir et blanc (le blanc est la zone selectionnée))
+    - Affiner avec le HUE/Sat et Lum et le softness
+        (le softness pour éviter un effet trop découpé)
+    - Une fois le masque propre, on peut désactiver le Highlight et faire la correction dans le color wheel
+
+    bien montrer le highlight mode
+
 - node 4 : power window
-- node 5 : look finale (LUT)
+    contrairement au Qualifier, le power window isole une zone dans l'image
+    ON l'utilise pour assombrir un fond ou éclaircir un sujet
+    - sur un noveau node, on ajoute une forme à l'aide de l'onglet window
+    - on place la forme dépendemment de ce qu'on veut faire
+    - on ajuste le softness (edge blend)
+    - si e plan bouge, on peu allé dans l'onglet tracker et sélectionner window tracker
+        - on clique sur track forward pour que notre masque suive le moouvement de maniere automatique
+    
+    bien important de faire le tracking! sinon le masque ne bougera pas
+
+    ici, on peut se mettre plusieurs node en parallele
+    par exemple:
+        - Branche A : Ellipse Window pour le visage 
+            (on vient éclaircir légèrement)
+        - Branche B : Ellipse Window inversé sur le fond
+            (pour assombrir le background)
+        - Branche C : une fenetre polygonale sur un objet spécifique
+            (correction ciblé)
+
+- node 5 : look finale (LUT (look up table))
+    le LUT ou split-toning est la touche stylistique finale qui donne un look de marque reconnaissable
+    ici, on a deux options:
+
+        - LUT créative
+            - sur un nouveau node en série
+                -> clic droit -> LUT -> et on choisi le LUT qu'on veut
+            - on peu ajuster l'opacité du node si la LUT est rop forte
+                (key mix/ node opacity en bas à droite)
+
+        - Split toning manuel
+            - sur une nouvelle node ne série, dans l'option color wheels
+                - LIFT : on pousse légerement vers le bleu/teal (pour les ombres)
+                - GAIN : pousse légerement vers le orange/jaune (pour les hautes lumières)
+        
+    La LUT est seulement un raccourcie pour le split toning manuel
