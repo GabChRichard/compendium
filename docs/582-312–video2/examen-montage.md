@@ -20,16 +20,18 @@ Travail individuelle *(15% de la note finale)*
 
 * Faire le montage du générique sur la musique "theme_main.wav"
 
+* Ajouter au moins 3 effets au choix 
+
+* Uniformiser la correction de couleur 
+
+* Ajouter un traitement de couleur sur l'ensemble du générique d'ouverture
+
 * Ajouter un générique de fin qui doit inclure : 
 
     1. Nom des intervenants
-
     2. Sources
-
     3. Encadrement
-
     4. Remerciements
-
     5. Logo TIM
 
 ### Le dossier de remise doit comprendre les éléments suivants :
@@ -51,10 +53,10 @@ Les aspects évalués sont les suivants :
 | | Fluidité du montage | /15 |
 | | Niveau sonore | /5 |
 | **Qualité esthétique du montage** | | **/50** |
-| | Rythme | /10 |
 | | Structure | /10 |
 | | Transitions | /10 |
 | | Effets | /10 |
+| | Colorisation | /10 |
 | | Générique de fin | /10 |
 | **Total** | | **/100** |
 
