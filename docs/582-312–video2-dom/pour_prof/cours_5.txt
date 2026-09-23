@@ -1,5 +1,26 @@
 La colo avancé
 
+C'est quoi la colo au juste??
+La caméra capture beaucoup plus d'information que ce qu'un écran peut afficher.
+Le but de la colo est de traduire cette info brute vers quelque chose de visible et intentionnel
+
+les couleurs complémentaire
+
+lecture des scopes
+- waveform monitor
+    (montre la luminance (brillance))
+    - les IRE -> unité de mesure de la lumière
+        (de 0 à 100)
+        l'idée ici est que nos noirs soient juste en haut de 0
+        et les blanc juste en dessous de 100
+        les midtones (genre la peau) est autour de 60 70
+
+- Parade (rgb parade)
+    - permet de repérer une dominante de couleur
+
+- vectorscope
+    (rendu là)
+
 la colo en 5 nodes
 - node 1 : balance des blancs
     le but est donné une base technique propre
@@ -25,6 +46,12 @@ la colo en 5 nodes
         - on ajoute un point en haut et on le tire légerement vers le haut
         courbe en S -> le geste classique de cinema
 
+        pourquoi on veut une courbe en S?
+            (pour augmenter le contraste)
+            - creuser les noirs
+            - booster les blancs
+
+
     montrer différence entre une courbe en S plus agressive et plus douce (punchy vs cinématique)
 
 - node 3 : correction secondaire
@@ -32,7 +59,7 @@ la colo en 5 nodes
     - sur un nouveau node allé dans l'onglet qualifier
     - sélectionner l'outil pipette pour qualifier et cliquer sur la zone à isoler
         (genre la peau du visage)
-    - Activer le Highlight
+    - Activer le Highlight (shift + H)
         (l'image devient noir et blanc (le blanc est la zone selectionnée))
     - Affiner avec le HUE/Sat et Lum et le softness
         (le softness pour éviter un effet trop découpé)
