@@ -4,7 +4,7 @@ Travail individuelle *(15% de la note finale)*
 
 ## Consignes
 
-À la maison, faire le montage d'un générique d'ouverture avec les médias fournis. 
+À la maison, faire le montage d'un générique d'ouverture de une (1) minute avec les médias fournis. 
 
 ### Étapes
 
@@ -18,7 +18,8 @@ Travail individuelle *(15% de la note finale)*
 
     > Si vous n'avez pas les médias nécessaire, vous pouvez les télécharger [ici](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAeDVmWJa2iTLCbnTnt8K9AAeuWtihukNyTEHr_qZq0U-k?e=B7pmqU)
 
-* Faire le montage du générique sur la musique "theme_main.wav"
+* Faire le montage du générique sur la musique "theme_main.wav" **OU** une musique libre de droit de votre choix.
+*(maximum une minute. Une pénalité de 10% seras ajouté par tranche de 10 secondes de plus ou de moins)*
 
 * Ajouter un générique de fin qui doit inclure : 
 
@@ -32,10 +33,20 @@ Travail individuelle *(15% de la note finale)*
 
     5. Logo TIM
 
+## Remise
+
+Remettre votre travail dans le [dossier de remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgBo_prL5rvaQIw__tFoqeMeAZqNgLYjLuc3H8lt7JqVSgI?e=HkFbMz)
+
+>Attention, tout travail remis uniquement sur Teams ne sera pas évalué.
+
 ### Le dossier de remise doit comprendre les éléments suivants :
 
 - Votre rendu finale. 
+
 - Votre fichier drp.
+
+- Votre musique (si vous n'avez pas utilisé theme_main.wav).
+
 - Des captures d'écran de l'organisation des dossiers dans votre dossier de travail. 
 
 ## Critères d'évaluation

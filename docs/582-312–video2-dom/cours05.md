@@ -192,7 +192,7 @@
 ## 6. Isoler un personnage et flouter l’arrière-plan
 
 <br>
-<img src="assets/image/blur.png">
+<img src="assets/image/colo_blur.png">
 <br>
 
 ### 🛠️ Isolement avec Power Window
