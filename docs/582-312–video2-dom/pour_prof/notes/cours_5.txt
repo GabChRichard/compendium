@@ -1,8 +1,52 @@
 La colo avancé
 
+téléphone
+
+Plan de cours 
+
+Retour sur l'examen
+
+Écoute des Devoirs
+
+La colo
 C'est quoi la colo au juste??
 La caméra capture beaucoup plus d'information que ce qu'un écran peut afficher.
 Le but de la colo est de traduire cette info brute vers quelque chose de visible et intentionnel
+
+Les outils
+- Les nodes
+    - serial vs parallele
+    - mixeur parallele vs mixeur de calques
+
+- les scopes
+    - oscilloscope
+    - parade
+    - vectorscope
+
+- les outils de correction
+    - Roues colorimétriques
+    - Mixeur RVB
+    - Courbes
+    - Déformation de couleur
+    - Sélecteur HSL
+    - Power Window
+    - Tracker
+    - Alpha
+
+- les effets
+
+Exercices
+
+Le workflow
+- démonstration
+
+Palettes de couleurs(shot matching)
+les type de look
+
+Exercices
+
+Présentation de l'examen
+
 
 les couleurs complémentaire
 

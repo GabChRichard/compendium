@@ -54,11 +54,16 @@
 - Apporter toutes les photographies nécessaires pour votre travail la semaine prochaine.   -->
 
 * Faire [le devoir 2]() suivant pour la semaine prochaine. <br>
-[🛠️ La gym](./devoirs_photoshop/vecteur_gym.md){ .md-button } <br>  
-[🛠️ Les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button } <br>  
-[🛠️ Dali](./devoirs_photoshop/vecteur_dali.md){ .md-button } <br>  
-[🛠️ Japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button } <br>  
-[🛠️ Les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9){ .md-button } <br>  
+
+    * [] [🛠️ La gym](./devoirs_photoshop/vecteur_gym.md){ .md-button } <br>  
+
+    * [] [🛠️ Les sinus](./devoirs_photoshop/vecteur_sinus.md){ .md-button } <br>  
+
+    * [] [🛠️ Dali](./devoirs_photoshop/vecteur_dali.md){ .md-button } <br>  
+
+    * [] [🛠️ Japanti](./devoirs_photoshop/vecteur_japanti.md){ .md-button } <br>  
+
+    * [] [🛠️ Les masques vectoriels](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/flpilote_cmontmorency_qc_ca/EpBjhXOwFLhAoOYwEEnfcjgBzVxx2OL5sTtmcUPoHJrU4A?e=B92tl9){ .md-button } <br>  
 
 
 * [Dossier de Remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgCAHanaUPpiR5V3vQHIPEBXAQLstbBT66pfFH7liWVs_dY?e=PvZM6a){ .md-button } 
