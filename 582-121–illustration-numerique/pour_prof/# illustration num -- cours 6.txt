@@ -1,0 +1,39 @@
+outils de fluidité
+    - modifier le corps
+        filtre -­> convertir pour les filtres dynamiques
+        fluidité
+        - outils à gauche
+            - déformation avant
+            - reconstruction
+            - arrondi
+
+            - tourbillon
+            - contraction
+            - dilatation   
+            - décalage à gauche
+            - outil visage
+
+        - param à droite
+
+    - modifier le visage
+
+décalage de couleurs
+    - faire une copie du calque sur lequel je veux travaillé 
+        (une par couleur)
+    - fx -> option de fusion -> gardé seulement la couleur qu'on veux
+
+image dynamique et effet de flou
+    filtre -­> convertir pour les filtres dynamiques
+    - gallerie d'effet
+    - flou
+    - on peut affecter le filtre. 
+
+effet duotone : courbe de transfert de dégradé
+    - calque remplissage ou réglage
+    -> courbe transfert dégradé. 
+
+ombre portée
+
+animation
+
+CRAP

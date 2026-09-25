@@ -1,0 +1,4189 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://tim-montmorency.com/compendium/582-312%E2%80%93video2-dom/c5.html">
+      
+      
+        <link rel="prev" href="c4.html">
+      
+      
+        <link rel="next" href="../582-121%E2%80%93illustration-numerique/index.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../_/favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+  <!-- Meta tags pour éviter l'indexation par les moteurs de recherche -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="slurp" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  <meta name="duckduckbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  
+  <!-- En-têtes HTTP supplémentaires via meta tags -->
+  <meta http-equiv="X-Robots-Tag" content="noindex, nofollow, noarchive, nosnippet, noimageindex, nocache">
+  
+  
+      
+        <title>Cours 5 - Notes de cours</title>
+      
+    
+
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/shift-away.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/lightgallery@2.8.2/css/lightgallery.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/reveal.js@6.0.1/dist/reveal.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/reveal.js@6.0.1/dist/theme/black.css">
+    
+      <link rel="stylesheet" href="../_/extra.css">
+    
+      <link rel="stylesheet" href="../_/presentation.css">
+    
+      <link rel="stylesheet" href="../_/course-search.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-BFKT7FS4P2"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-BFKT7FS4P2",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-BFKT7FS4P2",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cours-5-effets-colorisation-et-rendu" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Notes de cours" class="md-header__button md-logo" aria-label="Notes de cours" data-md-component="logo">
+      
+  <img src="../_/logo-tim.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Notes de cours
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Cours 5
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../582-312%E2%80%93video2/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Video 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Video 2 Groupe 1
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../582-121%E2%80%93illustration-numerique/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Illustration numérique
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../582-101%E2%80%93domaines-multimedias/index.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Domaines multimédias
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Notes de cours" class="md-nav__button md-logo" aria-label="Notes de cours" data-md-component="logo">
+      
+  <img src="../_/logo-tim.svg" alt="logo">
+
+    </a>
+    Notes de cours
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../582-312%E2%80%93video2/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video 2
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Video 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/references.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Références
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/da_vinci_base.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capsules Da Vinci / La base
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/da_vinci_colorisation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capsules Da Vinci / La colo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/ai.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/prompt.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/midjourney.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Midjourney
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/midjourney_code.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Midjourney code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/ai/runway.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Runway
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP1-partie1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP1-partie2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP1-partie3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP2-partie1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP2-partie-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/TP2-partie2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP2-partie-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/notions-camera-video.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notion caméra vidéo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/examen-camera.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examen Caméra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/examen-camera-groupe-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consigne Examen Caméra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/aide-memoire-parametrage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aide Memoire Parametrage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/c1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/c2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/c3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/c4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-312%E2%80%93video2/c5.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Video 2 Groupe 1
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Video 2 Groupe 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="references.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Références
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="da_vinci_base.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capsules Da Vinci / La base
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="da_vinci_colorisation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Capsules Da Vinci / La colo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ai/ai.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ai/prompt.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prompt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ai/midjourney.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Midjourney
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ai/midjourney_code.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Midjourney code
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ai/runway.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Runway
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TP1-partie1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TP1-partie2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TP1-partie3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP1-partie-3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TP2-partie1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP2-partie-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="TP2-partie2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TP2-partie-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="notions-camera-video.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Notion caméra vidéo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="examen-camera.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examen Caméra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="examen-camera-groupe-1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consigne Examen Caméra
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aide-memoire-parametrage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aide Memoire Parametrage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="c1.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="c2.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="c3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="c4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="c5.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ordre-du-jour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Ordre du jour
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retour-sur-lexamen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Retour sur l'examen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecoute-des-devoirs-exercice-mosaique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Écoute des devoirs (exercice mosaique)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-effets-dans-da-vinci-resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les effets dans Da Vinci Resolve
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les effets dans Da Vinci Resolve">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comment-ajouter-un-effet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Comment ajouter un effet
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-colorisation-dans-da-vinci-resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          La colorisation dans Da Vinci Resolve
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-outils" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les Outils
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Outils">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-scopes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les Scopes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-outils-de-corrections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les outils de corrections
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exercices
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-creer-un-look-polaroid-avec-le-mode-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Créer un look Polaroid avec le mode Log
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Créer un look Polaroid avec le mode Log">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#log-wheels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Log Wheels
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glow-lueur-diffuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Glow (Lueur diffuse)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-creer-un-look-duotone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Créer un look Duotone
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Créer un look Duotone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creation-dun-duotone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Création d’un Duotone
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-utilisation-des-layer-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Utilisation des Layer Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Utilisation des Layer Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#correction-avec-layer-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Correction avec Layer Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-utilisation-des-parallel-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Utilisation des Parallel Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Utilisation des Parallel Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#correction-avec-parallel-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Correction avec Parallel Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-isoler-un-personnage-et-flouter-larriere-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          5. Isoler un personnage et flouter l’arrière-plan
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Isoler un personnage et flouter l’arrière-plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#isolement-avec-power-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Isolement avec Power Window
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-effet-de-separation-des-couleurs-combine-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          6. Effet de séparation des couleurs (Combine Node)
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Effet de séparation des couleurs (Combine Node)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#separation-des-canaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Séparation des canaux
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-keying-pour-isoler-une-couleur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          7. Keying pour isoler une couleur
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Keying pour isoler une couleur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keying-dune-couleur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Keying d’une couleur
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-etapes-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les étapes de base
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les étapes de base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-correspondance-de-plan-shot-match-to-this-clip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          La correspondance de plan (<em>Shot Match to This Clip</em>)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choix-de-couleurs-en-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Choix de couleurs en vidéo
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Choix de couleurs en vidéo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nuancier-six-looks-cinematographiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Nuancier — Six looks cinématographiques
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orange-teal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Orange &amp; Teal
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sepia-vintage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Sépia / Vintage
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#film-noir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Film noir
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#horreur-froide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Horreur froide
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#golden-hour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Golden Hour
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cyberpunk-neon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Cyberpunk néon
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exercice
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Rendu
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#presentation-de-lexamen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Présentation de l'examen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../582-121%E2%80%93illustration-numerique/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Illustration numérique
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Illustration numérique
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/references.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Références
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/cours03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/cours04.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/cours05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-121%E2%80%93illustration-numerique/projets/projet01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projet 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../582-101%E2%80%93domaines-multimedias/index.html" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domaines multimédias
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domaines multimédias
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-101%E2%80%93domaines-multimedias/cours01.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-101%E2%80%93domaines-multimedias/cours02.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-101%E2%80%93domaines-multimedias/cours03.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-101%E2%80%93domaines-multimedias/cours04.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../582-101%E2%80%93domaines-multimedias/cours05.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cours 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ordre-du-jour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Ordre du jour
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retour-sur-lexamen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Retour sur l'examen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecoute-des-devoirs-exercice-mosaique" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Écoute des devoirs (exercice mosaique)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-effets-dans-da-vinci-resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les effets dans Da Vinci Resolve
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les effets dans Da Vinci Resolve">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comment-ajouter-un-effet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Comment ajouter un effet
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#la-colorisation-dans-da-vinci-resolve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          La colorisation dans Da Vinci Resolve
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-outils" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les Outils
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les Outils">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-scopes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les Scopes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-outils-de-corrections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les outils de corrections
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exercices
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-creer-un-look-polaroid-avec-le-mode-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          1. Créer un look Polaroid avec le mode Log
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Créer un look Polaroid avec le mode Log">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#log-wheels" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Log Wheels
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glow-lueur-diffuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Glow (Lueur diffuse)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-creer-un-look-duotone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          2. Créer un look Duotone
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Créer un look Duotone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creation-dun-duotone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Création d’un Duotone
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-utilisation-des-layer-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          3. Utilisation des Layer Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Utilisation des Layer Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#correction-avec-layer-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Correction avec Layer Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-utilisation-des-parallel-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          4. Utilisation des Parallel Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Utilisation des Parallel Nodes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#correction-avec-parallel-nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Correction avec Parallel Nodes
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-isoler-un-personnage-et-flouter-larriere-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          5. Isoler un personnage et flouter l’arrière-plan
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Isoler un personnage et flouter l’arrière-plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#isolement-avec-power-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Isolement avec Power Window
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-effet-de-separation-des-couleurs-combine-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          6. Effet de séparation des couleurs (Combine Node)
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Effet de séparation des couleurs (Combine Node)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#separation-des-canaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Séparation des canaux
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-keying-pour-isoler-une-couleur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          7. Keying pour isoler une couleur
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Keying pour isoler une couleur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keying-dune-couleur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          🛠️ Keying d’une couleur
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-etapes-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Les étapes de base
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les étapes de base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-correspondance-de-plan-shot-match-to-this-clip" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          La correspondance de plan (<em>Shot Match to This Clip</em>)
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choix-de-couleurs-en-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Choix de couleurs en vidéo
+        </span>
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Choix de couleurs en vidéo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nuancier-six-looks-cinematographiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Nuancier — Six looks cinématographiques
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orange-teal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Orange &amp; Teal
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sepia-vintage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Sépia / Vintage
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#film-noir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Film noir
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#horreur-froide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Horreur froide
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#golden-hour" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Golden Hour
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cyberpunk-neon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Cyberpunk néon
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Exercice
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Rendu
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#presentation-de-lexamen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <span class="md-typeset">
+          Présentation de l'examen
+        </span>
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="cours-5-effets-colorisation-et-rendu">Cours 5 - Effets, colorisation et rendu<a class="headerlink" href="#cours-5-effets-colorisation-et-rendu" title="Permanent link">¶</a></h1>
+<p><img alt="" src="assets/c5/render.jpg"></p>
+<h2 id="ordre-du-jour">Ordre du jour<a class="headerlink" href="#ordre-du-jour" title="Permanent link">¶</a></h2>
+<p><img alt="" src="assets/behold.png"></p>
+<ul>
+<li>Retour sur l'examen </li>
+</ul>
+<ul>
+<li>Visionnement de l'exercice mosaique</li>
+</ul>
+<ul>
+<li>La colorisation dans Da Vinci Resolve</li>
+</ul>
+<ul>
+<li>Rendu</li>
+</ul>
+<ul>
+<li>Présentation de l'examen</li>
+</ul>
+<h2 id="retour-sur-lexamen">Retour sur l'examen<a class="headerlink" href="#retour-sur-lexamen" title="Permanent link">¶</a></h2>
+<p>Le cumulatif des notes est disponible sur Teams. Voici ce que je retiens de la partie captation :</p>
+<ul>
+<li>Bien dans l'ensemble</li>
+</ul>
+<ul>
+<li>Attention de bien ouvrir les pattes des trépieds </li>
+</ul>
+<ul>
+<li>Encore de la difficulté avec trouver le milieu entre sous-exposé et sur-exposé</li>
+</ul>
+<ul>
+<li>ISO souvent très haut (max 1600) sinon l'image devient granuleuse (<em>noisy</em>)</li>
+</ul>
+<ul>
+<li>Shutter speed = framerate x2 (1/60sec pour 30img/sec et 1/120sec pour 60img/sec)</li>
+</ul>
+<ul>
+<li>Ne pas oublier de régler son fps</li>
+</ul>
+<ul>
+<li>Ne pas oublier de faire le white balance</li>
+</ul>
+<h2 id="ecoute-des-devoirs-exercice-mosaique">Écoute des devoirs (exercice mosaique)<a class="headerlink" href="#ecoute-des-devoirs-exercice-mosaique" title="Permanent link">¶</a></h2>
+<p><a class="md-button" href="https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgBFpYKjdhtZTIJK2pteFEjBAcKB4ehYI0efr5KGVHLwD1E?e=zg9miQ">Dossier de remise</a></p>
+<h2 id="les-effets-dans-da-vinci-resolve">Les effets dans Da Vinci Resolve<a class="headerlink" href="#les-effets-dans-da-vinci-resolve" title="Permanent link">¶</a></h2>
+<p>Comme nous l'avons vu, Da Vinci Resolve réunit tous les outils nécessaires à la réalisation d'un film dans un seul programme. En ce qui concerne les effets spéciaux, il est possible de combiner en utilisant le module Fusion. Néanmoins, c'est à partir de la bibliothèque d'effets que nous allons travailler. </p>
+<p>Les effets sont variés, mais puissants. Ainsi, on y retrouve de la 3D, du keying (green screen), du tracking (suivi de position), des particules, des émulations (camera shake, bloom, etc.), des transformations (position, échelle, etc.), des déformations (vague, ondes, etc.) et bien plus encore.</p>
+<p>En ce qui nous concerne, nous allons faire un tour d'horizon, mais vous serez invité à explorer pour l'examen de montage.</p>
+<h3 id="comment-ajouter-un-effet">Comment ajouter un effet<a class="headerlink" href="#comment-ajouter-un-effet" title="Permanent link">¶</a></h3>
+<p>Tout se passe sur la page <strong>Montage</strong> (<em>Edit</em>), à partir de deux panneaux : la <strong>bibliothèque d'effets</strong> (<em>Effects</em>, en haut à gauche) et l'<strong>inspecteur</strong> (<em>Inspector</em>, en haut à droite).</p>
+<ol>
+<li>
+<p><strong>Ouvrir la bibliothèque d'effets</strong> (<em>Effects</em>) et repérer les catégories :</p>
+<p>- <strong>Boîte à outils</strong> (<em>Toolbox</em>) : transitions vidéo, transitions audio, titres, générateurs et effets de base</p>
+<p>- <strong>Effets Open FX</strong> (<em>Open FX</em>) : les filtres (flou, halo, incrustation, stylisation, etc.)</p>
+<p>- <strong>Effets audio</strong> (<em>Audio FX</em>) : les traitements sonores</p>
+</li>
+<li>
+<p><strong>Appliquer l'effet</strong> en le glissant directement sur le clip visé dans la ligne de temps (<em>timeline</em>). Une transition se dépose plutôt sur le point de coupe entre deux clips.</p>
+</li>
+<li>
+<p><strong>Régler l'effet</strong> dans l'<strong>inspecteur</strong> (<em>Inspector</em>), sous l'onglet <strong>Effets</strong> (<em>Effects</em>). Chaque effet y apparaît avec ses paramètres.</p>
+</li>
+<li>
+<p><strong>Animer un paramètre</strong> (facultatif) en cliquant sur le losange à droite de celui-ci pour créer une <strong>image clé</strong> (<em>keyframe</em>), puis en déplaçant la <strong>tête de lecture</strong> (<em>playhead</em>) avant de modifier la valeur.</p>
+</li>
+<li>
+<p><strong>Retirer un effet</strong> en le sélectionnant dans l'<strong>inspecteur</strong> et en cliquant sur l'icône de corbeille.</p>
+</li>
+</ol>
+<blockquote>
+<p>Pour appliquer un même effet à plusieurs clips d'un coup, utilisez un <strong>plan d'effets</strong> (<em>Adjustment Clip</em>, dans <strong>Boîte à outils → Effets</strong>) : déposez-le sur une piste au-dessus de vos clips et appliquez-lui l'effet. Tout ce qui se trouve dessous est affecté.</p>
+</blockquote>
+<h2 id="la-colorisation-dans-da-vinci-resolve">La colorisation dans Da Vinci Resolve<a class="headerlink" href="#la-colorisation-dans-da-vinci-resolve" title="Permanent link">¶</a></h2>
+<p>Comme nous en avons discuté, au départ Da Vinci Resolve était simplement un outil de correction de couleurs. Bien que son usage soit aujourd'hui étendu, le module de colorisation du logiciel reste inégalé.</p>
+<p>La colorisation se fait donc à partir de la page Color qui est organisée avec des outils de mesure (Scopes) et d'ajustement (Color Wheels).</p>
+<p>Les Scopes permettent de mesurer la luminosité et l'intensité des couleurs alors que les Color Wheels en permettent l'ajustement.</p>
+<p>En ce qui nous concerne, nous allons simplement ajuster les paramètres de contraste, highlight, shadow et saturation.</p>
+<p>De manière un peu plus avancée, nous allons nous intéresser à la balance des couleurs en utilisant des courbes selon des mesures dans les scopes.</p>
+<!-- ### Les Paramètres
+
+1. Espace colorimétrique de la timeline -> DaVinci WG/Intermediate
+
+2. Espace colorimétrique de destination -> Rec.709 Gamma 2.2
+
+Le but ici est d'avoir un espace colorimétrique plus gros pour travailler, avant de revenir dans un espace colorimétrique standard pour l'exportation. -->
+
+<h2 id="les-outils">Les Outils<a class="headerlink" href="#les-outils" title="Permanent link">¶</a></h2>
+<h3 id="les-nodes">Les Nodes<a class="headerlink" href="#les-nodes" title="Permanent link">¶</a></h3>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Raccourci</th>
+<th>Usage principal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Serial</strong></td>
+<td>Alt + S</td>
+<td>Workflow linéaire, corrections en série</td>
+</tr>
+<tr>
+<td><strong>Parallel</strong></td>
+<td>Alt + P</td>
+<td>Corrections indépendantes en parallèle</td>
+</tr>
+<tr>
+<td><strong>Layer Mixer</strong></td>
+<td>Alt + L</td>
+<td>Corrections superposées avec modes de fusion</td>
+</tr>
+<tr>
+<td><strong>Outside</strong></td>
+<td>Alt + O</td>
+<td>Corriger l’extérieur d’un masque/qualif</td>
+</tr>
+<tr>
+<td><strong>Splitter &amp; Combine</strong></td>
+<td>Alt + Y</td>
+<td>Travailler canal par canal (R, G, B, Luma)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><a href="da_vinci_colorisation.html">Capsules Colo Davinci</a></p>
+</blockquote>
+<h3 id="les-scopes">Les Scopes<a class="headerlink" href="#les-scopes" title="Permanent link">¶</a></h3>
+<ul>
+<li>
+<p>Oscilloscope</p>
+<ul>
+<li>L'oscilloscope (ou <em>Waveform Monitor</em>) nous aide à bien voir la luminance de notre image. L'échelle va de 0 à 1023. On essaie de ne jamais atteindre le 0 ni le 1023.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>Parade (rgb parade)</p>
+<ul>
+<li>L'outil Parade permet de bien juger la balance des couleurs.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<p>vectorscope</p>
+<ul>
+<li>Le <em>Vectorscope</em> nous permet de bien repérer les couleurs de la peau.</li>
+</ul>
+</li>
+</ul>
+<h3 id="les-outils-de-corrections">Les outils de corrections<a class="headerlink" href="#les-outils-de-corrections" title="Permanent link">¶</a></h3>
+<ul>
+<li>Roues colorimétriques</li>
+</ul>
+<ul>
+<li>Mixeur RVB</li>
+</ul>
+<ul>
+<li>Courbes</li>
+</ul>
+<ul>
+<li>Déformation de couleur</li>
+</ul>
+<ul>
+<li>Sélecteur HSL</li>
+</ul>
+<ul>
+<li>Power Window</li>
+</ul>
+<ul>
+<li>Tracker</li>
+</ul>
+<ul>
+<li>Alpha</li>
+</ul>
+<h2 id="exercices">Exercices<a class="headerlink" href="#exercices" title="Permanent link">¶</a></h2>
+<h2 id="1-creer-un-look-polaroid-avec-le-mode-log">1. Créer un look Polaroid avec le mode Log<a class="headerlink" href="#1-creer-un-look-polaroid-avec-le-mode-log" title="Permanent link">¶</a></h2>
+<p><br>
+<img src="assets/image/colo_polaroid.png">
+<br></p>
+<h3 id="log-wheels">🛠️ Log Wheels<a class="headerlink" href="#log-wheels" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un <strong>Serial Node</strong> (Alt + S)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Passer en mode <strong>Log Wheels</strong>  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajuster :  <ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Highlights</strong> → rose/orange (adoucir et réchauffer)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Midtones</strong> → magenta/violet (donner une teinte artistique)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> <strong>Shadows</strong> → cyan/bleu (refroidir légèrement)  </li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter une légère saturation  </li>
+</ul>
+<h3 id="glow-lueur-diffuse">🛠️ Glow (Lueur diffuse)<a class="headerlink" href="#glow-lueur-diffuse" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un <strong>Serial Node</strong> (Alt + S)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Régler le <strong>Seuil de brillance</strong> (~0.31)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Régler la <strong>Diffusion</strong> (~1.21)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajuster la <strong>Diffusion relative</strong> : rouge ↑ / bleu ↓  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Régler le <strong>Gain</strong> (~0.40)  </li>
+</ul>
+<h2 id="2-creer-un-look-duotone">2. Créer un look Duotone<a class="headerlink" href="#2-creer-un-look-duotone" title="Permanent link">¶</a></h2>
+<p><br>
+<img src="assets/image/colo_duotone.png">
+<br></p>
+<h3 id="creation-dun-duotone">🛠️ Création d’un Duotone<a class="headerlink" href="#creation-dun-duotone" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un <strong>Serial Node</strong> (Alt + S)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Désaturer avec le <strong>RGB Mixer</strong> (Monochrome activé)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appliquer une teinte dans les <strong>Shadows</strong>  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appliquer une teinte contrastée dans les <strong>Highlights</strong>  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajuster les <strong>Midtones</strong> pour équilibrer  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Affiner avec les <strong>Curves</strong> </li>
+</ul>
+<h2 id="3-utilisation-des-layer-nodes">3. Utilisation des Layer Nodes<a class="headerlink" href="#3-utilisation-des-layer-nodes" title="Permanent link">¶</a></h2>
+<p><br>
+<img src="assets/image/colo_layer.png">
+<br></p>
+<h3 id="correction-avec-layer-nodes">🛠️ Correction avec Layer Nodes<a class="headerlink" href="#correction-avec-layer-nodes" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un <strong>Layer Node</strong> (Alt + L)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionner un personnage avec le <strong>Sélecteur 3D</strong> (layer supérieur)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Désaturer l’arrière-plan (layer inférieur)  </li>
+</ul>
+<h2 id="4-utilisation-des-parallel-nodes">4. Utilisation des Parallel Nodes<a class="headerlink" href="#4-utilisation-des-parallel-nodes" title="Permanent link">¶</a></h2>
+<p><br>
+<img src="assets/image/colo_parallele.png">
+<br></p>
+<h3 id="correction-avec-parallel-nodes">🛠️ Correction avec Parallel Nodes<a class="headerlink" href="#correction-avec-parallel-nodes" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer deux <strong>Parallel Nodes</strong> (Alt + P)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le premier, ajouter une <strong>Power Window avec dégradé</strong> et appliquer une couleur  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Dans le second, ajouter une <strong>Power Window avec dégradé</strong> et appliquer une autre couleur  </li>
+</ul>
+<h2 id="5-isoler-un-personnage-et-flouter-larriere-plan">5. Isoler un personnage et flouter l’arrière-plan<a class="headerlink" href="#5-isoler-un-personnage-et-flouter-larriere-plan" title="Permanent link">¶</a></h2>
+<p><br>
+<img src="assets/image/colo_blur.png">
+<br></p>
+<h3 id="isolement-avec-power-window">🛠️ Isolement avec Power Window<a class="headerlink" href="#isolement-avec-power-window" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer une <strong>Power Window</strong> autour du personnage</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Adoucir avec la <strong>Softness</strong>  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Tracker le mouvement  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Inverser la sélection et appliquer un <strong>Blur</strong>  </li>
+</ul>
+<h2 id="6-effet-de-separation-des-couleurs-combine-node">6. Effet de séparation des couleurs (Combine Node)<a class="headerlink" href="#6-effet-de-separation-des-couleurs-combine-node" title="Permanent link">¶</a></h2>
+<p><br>
+<img src="assets/image/colo_separation_canaux.png">
+<br></p>
+<h3 id="separation-des-canaux">🛠️ Séparation des canaux<a class="headerlink" href="#separation-des-canaux" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer un <strong>Splitter &amp; Combiner</strong> (Alt + Y)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Créer des nodes distincts pour chaque canal (R, G, B)  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Décaler chaque canal pour obtenir l’effet, dans échelle et échelle de noeuds.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter un effet de blur pour chaque canal (R, G, B)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Ajouter un node en série (Alt + S) et désaturer un peu l'image. </li>
+</ul>
+<h2 id="7-keying-pour-isoler-une-couleur">7. Keying pour isoler une couleur<a class="headerlink" href="#7-keying-pour-isoler-une-couleur" title="Permanent link">¶</a></h2>
+<p><br>
+<img src="assets/image/colo_keying.png">
+<br></p>
+<h3 id="keying-dune-couleur">🛠️ Keying d’une couleur<a class="headerlink" href="#keying-dune-couleur" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Sélectionner la couleur avec le <strong>Qualifier</strong>  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Affiner avec Threshold, Clean Black/White, Denoise  </li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label> Appliquer l’effet dans des nodes séparés </li>
+</ul>
+<h2 id="les-etapes-de-base">Les étapes de base<a class="headerlink" href="#les-etapes-de-base" title="Permanent link">¶</a></h2>
+<ol>
+<li>
+<p><strong>Ouvrir la page Étalonnage</strong> (<em>Color</em>) et sélectionner le clip à traiter dans la barre de vignettes, en haut de l'écran.</p>
+</li>
+<li>
+<p><strong>Lire les oscilloscopes</strong> (<em>Scopes</em>) avant de modifier quoi que ce soit : la forme d'onde (<em>Waveform</em>) pour juger l'exposition, la parade RVB (<em>Parade</em>) pour juger la balance des couleurs.</p>
+</li>
+<li>
+<p><strong>Corriger l'exposition</strong> avec les roues chromatiques (<em>Color Wheels</em>) : <em>Lift</em> pour les ombres, <em>Gamma</em> pour les tons moyens, <em>Gain</em> pour les hautes lumières.</p>
+</li>
+<li>
+<p><strong>Ajuster le contraste</strong> pour écarter les noirs et les blancs, sans écraser l'information aux extrémités.</p>
+</li>
+<li>
+<p><strong>Corriger la balance des couleurs</strong> pour retirer les dominantes (image trop bleue, trop orangée, etc.), en visant un blanc neutre dans la parade RVB.</p>
+</li>
+<li>
+<p><strong>Ajuster la saturation</strong>, généralement en dernier.</p>
+</li>
+<li>
+<p><strong>Uniformiser les plans</strong> d'une même scène entre eux (voir la correspondance de plan, plus bas).</p>
+</li>
+</ol>
+<blockquote>
+<p>L'ordre compte : sur une première node, on corrige d'abord pour rendre l'image juste et sur une autre node en série, on stylise ensuite pour lui donner un look. Autrement pour donner un look sur l'ensemble du film, on peut aussi utiliser un calque d'effets. </p>
+</blockquote>
+<h3 id="la-correspondance-de-plan-shot-match-to-this-clip">La correspondance de plan (<em>Shot Match to This Clip</em>)<a class="headerlink" href="#la-correspondance-de-plan-shot-match-to-this-clip" title="Permanent link">¶</a></h3>
+<p>Resolve peut aligner automatiquement l'étalonnage d'un plan sur celui d'un autre. C'est très pratique pour uniformiser une scène tournée sur plusieurs heures ou avec deux caméras.</p>
+<ol>
+<li>
+<p><strong>Étalonner d'abord un plan de référence</strong>, celui qui représente le mieux le résultat voulu.</p>
+</li>
+<li>
+<p><strong>Sélectionner le plan à corriger</strong> dans la barre de vignettes : c'est lui qui sera modifié.</p>
+</li>
+<li>
+<p><strong>Faire un clic droit sur la vignette du plan de référence</strong>, puis choisir <strong>Shot Match to This Clip</strong>.</p>
+</li>
+<li>
+<p><strong>Vérifier le résultat</strong> dans les oscilloscopes et ajuster à la main au besoin : la correspondance est un point de départ, rarement une finition.</p>
+</li>
+</ol>
+<blockquote>
+<p>Attention à ne pas inverser les deux plans : le plan <strong>sélectionné</strong> est celui qui change, alors que le plan sur lequel on fait le <strong>clic droit</strong> sert de référence.</p>
+</blockquote>
+<p>Le résultat est meilleur quand les deux plans ont été tournés dans des conditions semblables (même éclairage, même exposition, même balance des blancs). Des plans trop différents demanderont une correction manuelle.</p>
+<h2 id="choix-de-couleurs-en-video">Choix de couleurs en vidéo<a class="headerlink" href="#choix-de-couleurs-en-video" title="Permanent link">¶</a></h2>
+<p>En montage vidéo, les filtres appliqués sur un plan aident à guider le <em>mood</em> d'une scène simplement par le choix d'une couleur. Sans plus loin dans les détails, voici quelques exemples emblématiques couramment utilisés au cinéma et à la télévision. </p>
+<h3 id="nuancier-six-looks-cinematographiques">Nuancier — Six looks cinématographiques<a class="headerlink" href="#nuancier-six-looks-cinematographiques" title="Permanent link">¶</a></h3>
+<div style="display:flex;flex-direction:column;gap:10px;font-family:sans-serif;">
+
+  <!-- Orange & Teal -->
+  <div style="display:grid;grid-template-columns:140px 1fr;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.12);">
+    <div style="padding:10px 14px;background:#f5f5f2;display:flex;flex-direction:column;justify-content:center;border-right:1px solid rgba(0,0,0,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:3px;">Orange &amp; Teal</div>
+      <div style="font-size:11px;color:#666;">Action · Cinéma </div>
+    </div>
+    <div style="display:flex;">
+      <div style="flex:1;background:#0A1F2E;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#0A1F2E</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Noirs</div></div>
+      <div style="flex:1;background:#1A3A4A;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#1A3A4A</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Ombres</div></div>
+      <div style="flex:1;background:#1A9E7D;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#1A9E7D</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Teal</div></div>
+      <div style="flex:1;background:#5CC4A0;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#5CC4A0</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Teal clair</div></div>
+      <div style="flex:1;background:#C26030;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#C26030</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Orange</div></div>
+      <div style="flex:1;background:#E8824A;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#E8824A</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Hautes lum.</div></div>
+      <div style="flex:1;background:#F5C090;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#F5C090</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Peau</div></div>
+    </div>
+  </div>
+
+  <!-- Sépia / Vintage -->
+  <div style="display:grid;grid-template-columns:140px 1fr;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.12);">
+    <div style="padding:10px 14px;background:#f5f5f2;display:flex;flex-direction:column;justify-content:center;border-right:1px solid rgba(0,0,0,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:3px;">Sépia / Vintage</div>
+      <div style="font-size:11px;color:#666;">Nostalgie · Mémoire</div>
+    </div>
+    <div style="display:flex;">
+      <div style="flex:1;background:#1A100A;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#1A100A</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Noirs</div></div>
+      <div style="flex:1;background:#3D2510;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#3D2510</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Ombres</div></div>
+      <div style="flex:1;background:#7A4E28;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#7A4E28</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Bruns</div></div>
+      <div style="flex:1;background:#A67040;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#A67040</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Médiums</div></div>
+      <div style="flex:1;background:#C49A6C;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#C49A6C</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Clairs</div></div>
+      <div style="flex:1;background:#DEC090;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#DEC090</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Lumières</div></div>
+      <div style="flex:1;background:#F0E0C0;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#F0E0C0</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Blancs</div></div>
+    </div>
+  </div>
+
+  <!-- Film noir -->
+  <div style="display:grid;grid-template-columns:140px 1fr;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.12);">
+    <div style="padding:10px 14px;background:#f5f5f2;display:flex;flex-direction:column;justify-content:center;border-right:1px solid rgba(0,0,0,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:3px;">Film noir</div>
+      <div style="font-size:11px;color:#666;">Mystère · Fatalisme</div>
+    </div>
+    <div style="display:flex;">
+      <div style="flex:1;background:#080808;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#080808</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Noirs</div></div>
+      <div style="flex:1;background:#181818;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#181818</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Très foncé</div></div>
+      <div style="flex:1;background:#383838;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#383838</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Ombres</div></div>
+      <div style="flex:1;background:#606060;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#606060</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Médiums</div></div>
+      <div style="flex:1;background:#909090;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#909090</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Gris</div></div>
+      <div style="flex:1;background:#C0C0C0;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#C0C0C0</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Clairs</div></div>
+      <div style="flex:1;background:#F0F0F0;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#F0F0F0</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Blancs</div></div>
+    </div>
+  </div>
+
+  <!-- Horreur froide -->
+  <div style="display:grid;grid-template-columns:140px 1fr;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.12);">
+    <div style="padding:10px 14px;background:#f5f5f2;display:flex;flex-direction:column;justify-content:center;border-right:1px solid rgba(0,0,0,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:3px;">Horreur froide</div>
+      <div style="font-size:11px;color:#666;">Malaise · Surnaturel</div>
+    </div>
+    <div style="display:flex;">
+      <div style="flex:1;background:#040C14;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#040C14</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Noirs</div></div>
+      <div style="flex:1;background:#0A1520;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#0A1520</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Ombres</div></div>
+      <div style="flex:1;background:#0E2535;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#0E2535</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Bleu nuit</div></div>
+      <div style="flex:1;background:#1A4A30;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#1A4A30</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Vert foncé</div></div>
+      <div style="flex:1;background:#2E6848;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#2E6848</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Vert</div></div>
+      <div style="flex:1;background:#608070;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#608070</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Vert pâle</div></div>
+      <div style="flex:1;background:#A0C0B0;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#A0C0B0</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Lumières</div></div>
+    </div>
+  </div>
+
+  <!-- Golden hour -->
+  <div style="display:grid;grid-template-columns:140px 1fr;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.12);">
+    <div style="padding:10px 14px;background:#f5f5f2;display:flex;flex-direction:column;justify-content:center;border-right:1px solid rgba(0,0,0,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:3px;">Golden hour</div>
+      <div style="font-size:11px;color:#666;">Romantisme · Espoir</div>
+    </div>
+    <div style="display:flex;">
+      <div style="flex:1;background:#1A0E06;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#1A0E06</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Noirs</div></div>
+      <div style="flex:1;background:#3A1E0A;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#3A1E0A</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Ombres</div></div>
+      <div style="flex:1;background:#8A4010;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#8A4010</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Ambré foncé</div></div>
+      <div style="flex:1;background:#D06020;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#D06020</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Orange</div></div>
+      <div style="flex:1;background:#F08830;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#F08830</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Or chaud</div></div>
+      <div style="flex:1;background:#F5C060;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#F5C060</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Or</div></div>
+      <div style="flex:1;background:#FFF5D0;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#FFF5D0</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Blancs</div></div>
+    </div>
+  </div>
+
+  <!-- Cyberpunk -->
+  <div style="display:grid;grid-template-columns:140px 1fr;border-radius:10px;overflow:hidden;border:1px solid rgba(0,0,0,0.12);">
+    <div style="padding:10px 14px;background:#f5f5f2;display:flex;flex-direction:column;justify-content:center;border-right:1px solid rgba(0,0,0,0.08);">
+      <div style="font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:3px;">Cyberpunk</div>
+      <div style="font-size:11px;color:#666;">Dystopie · Futurisme</div>
+    </div>
+    <div style="display:flex;">
+      <div style="flex:1;background:#040008;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#040008</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Noirs</div></div>
+      <div style="flex:1;background:#0A0018;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#0A0018</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Fond violet</div></div>
+      <div style="flex:1;background:#200040;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#200040</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Violet foncé</div></div>
+      <div style="flex:1;background:#800080;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#800080</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Violet néon</div></div>
+      <div style="flex:1;background:#FF00AA;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(255,255,255,0.7);">#FF00AA</div><div style="font-size:9px;color:rgba(255,255,255,0.5);">Rose néon</div></div>
+      <div style="flex:1;background:#00CCAA;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#00CCAA</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Cyan</div></div>
+      <div style="flex:1;background:#AAFFEE;padding:28px 4px 6px;text-align:center;"><div style="font-size:9px;color:rgba(0,0,0,0.6);">#AAFFEE</div><div style="font-size:9px;color:rgba(0,0,0,0.4);">Cyan clair</div></div>
+    </div>
+  </div>
+
+</div>
+
+<h3 id="orange-teal">Orange &amp; Teal<a class="headerlink" href="#orange-teal" title="Permanent link">¶</a></h3>
+<p>Le <em>look</em> orange &amp; teal est un des plus dominant au cinéma. En utilisant le contraste entre la teinte de la peau et la complémentarité de l'environnement, les sujets humain ressortent instantanément du décor.</p>
+<ul>
+<li>Émotion : Tension, action, épique</li>
+</ul>
+<ul>
+<li>Harmonie : Complémentaire</li>
+</ul>
+<p><img alt="" src="assets/c5/orange%20and%20teal.jpg"></p>
+<h3 id="sepia-vintage">Sépia / Vintage<a class="headerlink" href="#sepia-vintage" title="Permanent link">¶</a></h3>
+<p>Le <em>look</em> Sépia / Vintage imite le rendu de la pellicule traditionnelle. La teinte chaude désaturée évoque le passé, le rêve ou la mémoire. </p>
+<ul>
+<li>Émotion : Nostalgie, mémoire, authenticité</li>
+</ul>
+<ul>
+<li>Harmonie : Monochromatique brun-jaune</li>
+</ul>
+<p><img alt="" src="assets/c5/Sepia011.jpg"></p>
+<h3 id="film-noir">Film noir<a class="headerlink" href="#film-noir" title="Permanent link">¶</a></h3>
+<p>Le <em>look</em> Film noir supprime totalement la couleur. Selon le contraste utilisé, l'ombre peut devenir un espace menaçant (avec un contraste fort) ou la lumière peut devenir apaisante (pour un contraste faible). Cet effet peut parfois être amplifié en laissant une seule teinte visible (comme dans <em>Sin City</em> par exemple) ou en appliquant le <em>look</em> noir sur un seul élément (comme dans <em>Spider-man into the spider-verse</em>).  </p>
+<ul>
+<li>Émotion : Nostalgie, mémoire, authenticité</li>
+</ul>
+<ul>
+<li>Harmonie : Monochromatique brun-jaune</li>
+</ul>
+<p><img alt="" src="assets/c5/noir.webp">
+<img alt="" src="assets/c5/sin-city-2.jpg">
+<img alt="" src="assets/c5/spider.webp"></p>
+<h3 id="horreur-froide">Horreur froide<a class="headerlink" href="#horreur-froide" title="Permanent link">¶</a></h3>
+<p>Le <em>look</em> horreur froide est typique pour les atmosphères sombres, hostiles ou d'épouvantes. Le mélange du bleu de la nuit avec le vert désaturé donne une teinte qui rappelle un état malade et fait disparaître la chaleur pour rendre les sujets vulnérables.  </p>
+<ul>
+<li>Émotion : Mystère, menace, fatalisme, tragédie</li>
+</ul>
+<ul>
+<li>Harmonie : Teintes analogues (bleu et vert)</li>
+</ul>
+<p><img alt="" src="assets/c5/horror1.webp">
+<img alt="" src="assets/c5/horror3.webp"></p>
+<h3 id="golden-hour">Golden Hour<a class="headerlink" href="#golden-hour" title="Permanent link">¶</a></h3>
+<p>Le <em>look</em> Golden Hour avec ses teintes de doré qui rappelle la lumière du couché/levé du soleil autant dans les tons clairs qu'obscurs apporte une atmosphère serene et de beauté.  </p>
+<ul>
+<li>Émotion : Romantisme, espoir, plénitude, beauté </li>
+</ul>
+<ul>
+<li>Harmonie : Teintes analogues (orange-or-jaune)</li>
+</ul>
+<p><img alt="" src="assets/c5/golden1.webp">
+<img alt="" src="assets/c5/golden2.jpg"></p>
+<h3 id="cyberpunk-neon">Cyberpunk néon<a class="headerlink" href="#cyberpunk-neon" title="Permanent link">¶</a></h3>
+<p>Le <em>look</em> Cyberpunk néon est emblématique des univers de ce nom. Les couleurs saturés qui rappelle l'éclairage au néon évoquent les publicités omniprésentes, les technologies permanentes et les villes nocturnes.   </p>
+<ul>
+<li>Émotion : Futurisme, dystopie, excès, aliénation urbaine</li>
+</ul>
+<ul>
+<li>Harmonie : Triadique saturé (violet-rose-cyan)</li>
+</ul>
+<p><img alt="" src="assets/c5/cyber.jpg"></p>
+<h2 id="exercice">Exercice<a class="headerlink" href="#exercice" title="Permanent link">¶</a></h2>
+<p>Choisir un style de colo  parmis ceux présenté ci-dessus et essayer de l'émuler. </p>
+<h2 id="rendu">Rendu<a class="headerlink" href="#rendu" title="Permanent link">¶</a></h2>
+<p>Le processus de rendu (ou d’exportation) se fait à partir de la page Deliver avec les étapes suivantes :</p>
+<ul>
+<li>Choisir une résolution (1080p, 4k, etc.) </li>
+</ul>
+<ul>
+<li>Choisir une fréquence d’images (24, 30, 60 fps, etc.)</li>
+</ul>
+<ul>
+<li>Choisir un codecs ou un format préconfigurer (YouTube, Vimeo, H.264, ProRes, etc.).</li>
+</ul>
+<ul>
+<li>Choisir un format audio (AAC est standard, WAV, etc.) et une fréquence d'échantillonnage (48kHz est standard)</li>
+</ul>
+<ul>
+<li>Choisir la plage à exporter (timeline complète ou clips individuels)</li>
+</ul>
+<ul>
+<li>Déterminer un nom et un chemin d’accès</li>
+</ul>
+<ul>
+<li>Ajouter à la file d’attente</li>
+</ul>
+<ul>
+<li>Lancer le rendu et écouter le fichier</li>
+</ul>
+<h2 id="presentation-de-lexamen">Présentation de l'examen<a class="headerlink" href="#presentation-de-lexamen" title="Permanent link">¶</a></h2>
+<!-- [Examen de montage](./examen-montage.md) --></div>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Techniques d’intégration multimédia | Collège Montmorency
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.code.copy", "toc.follow", "navigation.top", "navigation.tabs", "navigation.tracking", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.instant.prefetch", "search.suggest", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../_/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="https://unpkg.com/fireworks-js@2.x/dist/index.umd.js"></script>
+      
+        <script src="https://unpkg.com/lightgallery@2.8.2/lightgallery.min.js"></script>
+      
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+      
+        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+      
+        <script src="https://unpkg.com/reveal.js@6.0.1/dist/reveal.js"></script>
+      
+        <script src="../_/extra.js"></script>
+      
+        <script src="../_/image-zoom.js"></script>
+      
+        <script src="../_/gallery.js"></script>
+      
+        <script src="../_/tooltip.js"></script>
+      
+        <script src="../_/presentation.js"></script>
+      
+    
+  </body>
+</html>

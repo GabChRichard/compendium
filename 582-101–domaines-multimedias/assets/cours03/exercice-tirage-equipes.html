@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tirage au sort d'équipes</title>
+<style>
+  :root {
+    --bg: #f6f5f3;
+    --card: #ffffff;
+    --text: #1c1c1c;
+    --muted: #6b6b6b;
+    --border: #e2e0dc;
+    --accent: #6a4fb3;
+    --accent-text: #ffffff;
+    --danger: #b3402f;
+    --danger-bg: #fbeae7;
+    --chip-bg: #efeaf9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17171a;
+      --card: #212126;
+      --text: #ececec;
+      --muted: #a1a1a1;
+      --border: #34343a;
+      --accent: #9b83e0;
+      --accent-text: #17171a;
+      --danger: #ff8a75;
+      --danger-bg: #3a2320;
+      --chip-bg: #2c2740;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); margin-top: 0; margin-bottom: 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .card h2 { margin-top: 0; font-size: 1.1rem; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  input[type="text"], input[type="number"] {
+    flex: 1;
+    min-width: 160px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    font-size: 1rem;
+  }
+  button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    background: var(--accent);
+    color: var(--accent-text);
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  button.secondary {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-weight: 500;
+  }
+  button:active { transform: translateY(1px); }
+  .spacer { height: 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip {
+    background: var(--chip-bg);
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  .chip:hover { border-color: var(--danger); }
+  .chip::after { content: " ✕"; color: var(--muted); }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  .message {
+    display: none;
+    margin-top: 12px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: var(--danger-bg);
+    color: var(--danger);
+    font-size: 0.9rem;
+  }
+  .message.visible { display: block; }
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+  .team {
+    background: var(--chip-bg);
+    border-radius: 12px;
+    padding: 14px;
+  }
+  .team h3 { margin: 0 0 8px; font-size: 1rem; }
+  .team ul { margin: 0; padding-left: 18px; }
+  .team li { margin-bottom: 4px; }
+  details.concept {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+  }
+  details.concept summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  details.concept pre {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    margin: 10px 0 6px;
+  }
+  code { font-family: "Cascadia Code", Consolas, "Courier New", monospace; }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Tirage au sort d'équipes</h1>
+  <p class="subtitle">Ajoutez des noms, choisissez le nombre d'équipes, puis lancez le tirage.</p>
+
+  <div class="card">
+    <h2>1. Ajouter les noms</h2>
+    <div class="row">
+      <input type="text" id="nomInput" placeholder="Nom de l'étudiant·e" />
+      <button id="ajouterBtn">Ajouter</button>
+    </div>
+    <p class="muted" id="compteurNoms">Aucun nom ajouté pour l'instant.</p>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div class="card">
+    <h2>2. Former les équipes</h2>
+    <div class="row">
+      <label for="nombreEquipesInput" class="muted">Nombre d'équipes :</label>
+      <input type="number" id="nombreEquipesInput" min="1" value="2" />
+      <button id="formerBtn">Former les équipes</button>
+      <button id="resetBtn" class="secondary">Réinitialiser</button>
+    </div>
+    <p class="message" id="messageErreur"></p>
+    <div class="teams" id="teams"></div>
+  </div>
+
+  <div class="card">
+    <h2>Les concepts derrière ce projet</h2>
+    <p class="muted">Cette page utilise les 5 concepts de base vus en classe. Ouvrez chaque bloc pour voir le code correspondant.</p>
+
+    <details class="concept">
+      <summary>Variables</summary>
+      <p>Le programme garde en mémoire la liste des noms et le nombre d'équipes voulu, dans des variables :</p>
+      <pre><code>let noms = [];
+let nombreEquipes = 2;</code></pre>
+      <p class="muted">Chaque fois qu'on ajoute un nom ou qu'on change le nombre d'équipes, ces variables changent de valeur.</p>
+    </details>
+
+    <details class="concept">
+      <summary>Conditions</summary>
+      <p>Avant d'ajouter un nom ou de lancer le tirage, le programme vérifie que tout est valide :</p>
+      <pre><code>if (nom === "") {
+  afficherErreur("Écrivez un nom avant d'ajouter.");
+} else if (noms.includes(nom)) {
+  afficherErreur("Ce nom est déjà dans la liste.");
+} else {
+  noms.push(nom);
+}</code></pre>
+      <p class="muted">Sans ces conditions, on pourrait ajouter des noms vides ou en double, ou former des équipes impossibles (ex. plus d'équipes que de personnes).</p>
+    </details>
+
+    <details class="concept">
+      <summary>🔁 Boucles</summary>
+      <p>Deux boucles <code>for</code> font le vrai travail du tirage : une pour mélanger les noms au hasard (algorithme de Fisher-Yates), une pour les distribuer une par une dans chaque équipe :</p>
+      <pre><code>// Mélanger les noms
+for (let i = noms.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [noms[i], noms[j]] = [noms[j], noms[i]];
+}
+
+// Distribuer les noms un à un, équipe par équipe
+for (let i = 0; i < noms.length; i++) {
+  equipes[i % nombreEquipes].push(noms[i]);
+}</code></pre>
+      <p class="muted">C'est cette deuxième boucle qui garde les équipes équilibrées, peu importe le nombre de noms.</p>
+    </details>
+
+    <details class="concept">
+      <summary>⚙️ Fonctions</summary>
+      <p>Les actions répétées sont regroupées dans des fonctions réutilisables, plutôt que d'être réécrites à chaque fois :</p>
+      <pre><code>function ajouterNom() { ... }
+function formerEquipes() { ... }
+function reinitialiser() { ... }</code></pre>
+      <p class="muted">Par exemple, <code>formerEquipes()</code> contient tout le mélange et la distribution ; elle peut être appelée autant de fois qu'on veut (à chaque clic sur le bouton), sans dupliquer le code.</p>
+    </details>
+
+    <details class="concept">
+      <summary>🖱️ Événements</summary>
+      <p>Rien ne se passe tant que l'utilisateur·rice n'agit pas. Chaque bouton (et la touche Entrée) est branché à une fonction par un événement :</p>
+      <pre><code>ajouterBtn.addEventListener("click", ajouterNom);
+nomInput.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") ajouterNom();
+});
+formerBtn.addEventListener("click", formerEquipes);
+resetBtn.addEventListener("click", reinitialiser);</code></pre>
+      <p class="muted">C'est ce qui rend la page interactive : le code réagit aux clics et aux touches du clavier, au lieu de s'exécuter une seule fois au chargement.</p>
+    </details>
+  </div>
+
+  <footer>Cours 3 — Introduction à la programmation</footer>
+</div>
+
+<script>
+  // --- Variables ---
+  let noms = [];
+  let equipes = [];
+
+  const nomInput = document.getElementById("nomInput");
+  const ajouterBtn = document.getElementById("ajouterBtn");
+  const chipsEl = document.getElementById("chips");
+  const compteurNomsEl = document.getElementById("compteurNoms");
+  const nombreEquipesInput = document.getElementById("nombreEquipesInput");
+  const formerBtn = document.getElementById("formerBtn");
+  const resetBtn = document.getElementById("resetBtn");
+  const messageEl = document.getElementById("messageErreur");
+  const teamsEl = document.getElementById("teams");
+
+  function afficherErreur(texte) {
+    messageEl.textContent = texte;
+    messageEl.classList.add("visible");
+  }
+
+  function cacherErreur() {
+    messageEl.classList.remove("visible");
+    messageEl.textContent = "";
+  }
+
+  function rafraichirListeNoms() {
+    chipsEl.innerHTML = "";
+    noms.forEach((nom, index) => {
+      const chip = document.createElement("span");
+      chip.className = "chip";
+      chip.textContent = nom;
+      chip.title = "Cliquez pour retirer";
+      chip.addEventListener("click", () => {
+        noms.splice(index, 1);
+        rafraichirListeNoms();
+      });
+      chipsEl.appendChild(chip);
+    });
+
+    // --- Condition : message différent selon le nombre de noms ---
+    if (noms.length === 0) {
+      compteurNomsEl.textContent = "Aucun nom ajouté pour l'instant.";
+    } else if (noms.length === 1) {
+      compteurNomsEl.textContent = "1 nom ajouté.";
+    } else {
+      compteurNomsEl.textContent = noms.length + " noms ajoutés.";
+    }
+  }
+
+  // --- Fonction : ajouter un nom ---
+  function ajouterNom() {
+    const nom = nomInput.value.trim();
+
+    if (nom === "") {
+      afficherErreur("Écrivez un nom avant d'ajouter.");
+      return;
+    } else if (noms.includes(nom)) {
+      afficherErreur("Ce nom est déjà dans la liste.");
+      return;
+    } else {
+      cacherErreur();
+      noms.push(nom);
+      rafraichirListeNoms();
+      nomInput.value = "";
+      nomInput.focus();
+    }
+  }
+
+  // --- Fonction : former les équipes ---
+  function formerEquipes() {
+    const nombreEquipes = parseInt(nombreEquipesInput.value, 10);
+
+    if (noms.length === 0) {
+      afficherErreur("Ajoutez au moins un nom avant de former les équipes.");
+      return;
+    } else if (!nombreEquipes || nombreEquipes < 1) {
+      afficherErreur("Le nombre d'équipes doit être au moins 1.");
+      return;
+    } else if (nombreEquipes > noms.length) {
+      afficherErreur("Il ne peut pas y avoir plus d'équipes que de noms.");
+      return;
+    }
+    cacherErreur();
+
+    // Boucle : mélanger les noms (Fisher-Yates)
+    const nomsMelanges = [...noms];
+    for (let i = nomsMelanges.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [nomsMelanges[i], nomsMelanges[j]] = [nomsMelanges[j], nomsMelanges[i]];
+    }
+
+    // Boucle : distribuer les noms un à un dans chaque équipe
+    equipes = [];
+    for (let e = 0; e < nombreEquipes; e++) equipes.push([]);
+    for (let i = 0; i < nomsMelanges.length; i++) {
+      equipes[i % nombreEquipes].push(nomsMelanges[i]);
+    }
+
+    afficherEquipes();
+  }
+
+  function afficherEquipes() {
+    teamsEl.innerHTML = "";
+    equipes.forEach((membres, index) => {
+      const div = document.createElement("div");
+      div.className = "team";
+      const titre = document.createElement("h3");
+      titre.textContent = "Équipe " + (index + 1);
+      const liste = document.createElement("ul");
+      membres.forEach((membre) => {
+        const li = document.createElement("li");
+        li.textContent = membre;
+        liste.appendChild(li);
+      });
+      div.appendChild(titre);
+      div.appendChild(liste);
+      teamsEl.appendChild(div);
+    });
+  }
+
+  // --- Fonction : réinitialiser ---
+  function reinitialiser() {
+    noms = [];
+    equipes = [];
+    rafraichirListeNoms();
+    teamsEl.innerHTML = "";
+    cacherErreur();
+    nombreEquipesInput.value = 2;
+  }
+
+  // --- Événements ---
+  ajouterBtn.addEventListener("click", ajouterNom);
+  nomInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") ajouterNom();
+  });
+  formerBtn.addEventListener("click", formerEquipes);
+  resetBtn.addEventListener("click", reinitialiser);
+</script>
+</body>
+</html>
