@@ -13,12 +13,19 @@ Vous êtes approchés pour préparer et tourner une courte entrevue documentaire
 ### Le fichier écrit (Word) de préparation du tournage doit comprendre :
 
 - Le choix d'un sujet d'entrevue, une formation d'équipe avec la distribution des rôles, d'une personne à interviewer et un questionnaire de 1 question ouverte par membre d'équipe.
+
 - Des images de lieu de tournage ainsi qu'une liste d'accessoires ou meubles potentiels.
+
 - Une liste complète du matériel nécessaire.
+
 - La planification de la séance (durée estimée, horaire)
+
 - La liste du matériel d'éclairage avec le type, la couleur et le nombre de sources lumineuses ainsi qu'un schéma avec la position des sources.
+
 - La liste type et le positionnement des microphones utilisés, une description de la stratégie d'enregistrement du son ambiant ainsi qu'une liste des défis acoustiques potentiels du lieu de tournage et proposer des solutions.
+
 - Des croquis illustrant les positions ainsi que les mouvements de caméra et les cadrages. 
+
 - Une liste de 20 plans de coupe (inserts).
 
 ### La réalisation du tournage doit comprendre :
@@ -31,13 +38,17 @@ Vous êtes approchés pour préparer et tourner une courte entrevue documentaire
 ### Le montage offline (individuel) de la vidéo doit comprendre :
 
 - Un montage bout à bout de toute l'entrevue 
+
 - Une trame sonore 
+
 - Tous les sauts de temps cachés par un plan de coupe 
 
 ### Le dossier de remise (un par équipe) doit comprendre les éléments suivants :
 
 - Le fichier de préparation avec tous les médias et les drp
+
 - Le rendu final au format .mp4 codec H.264 à 30fps
+
 - Une copie du fichier de rétroaction par étudiant
 
 ### Consignes additionnelles 
