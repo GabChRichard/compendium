@@ -35,5 +35,7 @@ effet duotone : courbe de transfert de dégradé
 ombre portée
 
 animation
+    - se mettre en mode mouvement
+    - animation de cadre
 
 CRAP
