@@ -54,12 +54,14 @@ Un produit interactif est donc un produit où l'utilisateur a un certain contrô
 
 ## Types d'entreprises
 
-Quels sont les types d'entreprises et quel est leur *scope* (portée), avec un exemple?
+Quels sont les types d'entreprises que vous connaissez? Avez-vous des exemples?
 
 Ex. : **Studio de production** — studio spécialisé dans la création de contenu (vidéo, animation, motion design, etc.). Du petit studio indépendant comme Shed à Montréal aux grands studios comme ILM aux États-Unis.
 
-- Studios de développement de jeux vidéo
-- Studios de développement de logiciels
+### Quelques types d'entreprises
+
+- Studios de développement (logiciel et jeux vidéo)
+- Studios de création audiovisuel
 - Startups
 - Agences de marketing
 - Instituts culturels (ex. : musées)
@@ -68,6 +70,10 @@ Ex. : **Studio de production** — studio spécialisé dans la création de cont
 - Diffuseurs
 
 ### Types de produits et de services
+
+Quels sont les types de produits que vous connaissez? Avez-vous des exemples?
+
+### Quelques exemples
 
 - **Web** : site web et mobile, commerce électronique, balado, portails, web-docu, websérie
 - **Nouvelles technologies** : réalité virtuelle, augmentée et mixte, électronique, intelligence artificielle, robotique, applications mobiles, mapping vidéo, scénographie interactive, installation interactive, environnement immersif, bornes interactives, livre interactif, exposition interactive, univers sonores, etc.
@@ -80,7 +86,9 @@ Nous allons consacrer des moments pour couvrir les éléments importants pour we
 
 ## Changements récents et tendances
 
-Quelques éléments importants à noter parmi les dernières évolutions du domaine :
+Quels sont les changements importants que vous pouvez noter? 
+
+### Quelques changements importants à noter parmi les dernières évolutions du domaine 
 
 - **Immersion croissante** (réalité virtuelle et augmentée, espaces immersifs publics)
 - **Multiplication des supports** (téléphones, tablettes, objets connectés, etc.)
@@ -89,6 +97,8 @@ Quelques éléments importants à noter parmi les dernières évolutions du doma
 - **Modèle économique** (abonnements, microtransactions, financement public)
 - **Accent sur l'expérience utilisateur** (importance de l'ergonomie et de l'accessibilité)
 - **Demande constante** pour du contenu plus immersif
+
+Malgré cela, la plus grosse révolution actuelle, reste l'implémentation de l'intelligence artificielle générative. 
 
 ## Grands modèles de langage
 
@@ -119,7 +129,7 @@ Les LLM font partie de la grande famille de l'**IA générative**, qui comprend 
 - **Hallucination** : une réponse fausse ou inventée, présentée avec assurance.
 - **Température** : réglage qui contrôle la part de hasard dans les réponses (basse = plus prévisible, haute = plus créative).
 
-**Autour du modèle**
+#### **Autour du modèle**
 
 - **Harnais** (*harness*) : le logiciel qui entoure le modèle et le rend utilisable. Il construit le contexte, donne accès à des outils et gère les allers-retours. Par exemple, ChatGPT est l'application (le harnais) et GPT est le modèle. Deux applications utilisant le même modèle peuvent donner des résultats très différents.
 - **Outils** (*tools*) : fonctions que le modèle peut appeler (recherche web, exécution de code, lecture de fichiers, génération d'images).
@@ -278,19 +288,19 @@ Publier le dépôt avec GitHub Pages (voir [Publier sur GitHub Pages](cours04.md
 
 ## Éléments importants en web et développement logiciel
 
-**Pour l'utilisateur**
+### **Pour l'utilisateur**
 
 - **Expérience utilisateur** (*UX*) : l'application répond à un vrai besoin et permet d'accomplir une tâche rapidement, sans mode d'emploi. On la valide en observant de vrais utilisateurs (tests d'utilisabilité), pas en se fiant à son propre avis.
 - **Navigation** : claire, prévisible et cohérente d'un écran à l'autre. L'utilisateur sait toujours où il se trouve et comment revenir en arrière.
 - **Accessibilité** : utilisable par tous, y compris les personnes ayant une limitation visuelle, auditive ou motrice (contraste suffisant, texte alternatif pour les images, navigation au clavier). La norme de référence est le WCAG (*Web Content Accessibility Guidelines*).
 
-**Pour le design**
+### **Pour le design**
 
 - **Design fluide et adaptatif** (*responsive*) : la mise en page se réorganise selon la taille de l'écran. Comme la majorité des visites se font sur téléphone, on conçoit souvent pour le petit écran d'abord (*mobile first*), puis on élargit.
 - **Hiérarchie visuelle** : l'information et l'action les plus importantes ressortent (taille, couleur, position, contraste). L'œil sait où aller en premier.
 - **Design simple et constant** : une seule direction artistique (palette limitée, une ou deux polices), beaucoup d'espace négatif et des éléments qui se comportent toujours de la même façon (un bouton ressemble toujours à un bouton).
 
-**Pour le contenu et la technique**
+### **Pour le contenu et la technique**
 
 - **Contenu de qualité** : textes clairs, courts et sans fautes; images de bonne résolution, mais optimisées pour le web, et dont on détient les droits.
 - **Performance** : la page s'affiche rapidement, idéalement en moins de 3 secondes. Au-delà, une bonne partie des utilisateurs abandonnent.
@@ -390,7 +400,7 @@ Présenter à la classe, en s'appuyant sur votre page GitHub Pages :
 
 Le comité (l'enseignant et les autres équipes) vote ensuite pour le meilleur projet. Le projet qui récolte le plus remporte le financement.
 
-**Publication sur GitHub (individuelle)**
+#### **Publication sur GitHub (individuelle)**
 
 1. Ajouter les images (`navigation.png` et `ecran-principal.jpg`) dans le dépôt.
 2. Rédiger le `README.md` à partir du modèle ci-dessous.

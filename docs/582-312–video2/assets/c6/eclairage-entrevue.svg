@@ -43,17 +43,10 @@
   <text x="120" y="470" fill="#222" font-size="16" font-weight="700">Intervieweur</text>
   <text x="120" y="488" fill="#555" font-size="13">juste à côté de l'objectif</text>
 
-  <g transform="translate(340 430) rotate(-76.5)">
-    <rect x="-22" y="-14" width="36" height="28" rx="3" fill="#222"/>
-    <rect x="14" y="-8" width="16" height="16" fill="#555"/>
-  </g>
-  <text x="318" y="490" fill="#c62828" font-size="16" font-weight="700">Caméra A</text>
-  <text x="318" y="508" fill="#555" font-size="13">plan rapproché</text>
-
   <g transform="translate(470 445) rotate(-104.5)">
     <rect x="-22" y="-14" width="36" height="28" rx="3" fill="#222"/>
     <rect x="14" y="-8" width="16" height="16" fill="#555"/>
   </g>
-  <text x="455" y="500" fill="#c62828" font-size="16" font-weight="700">Caméra B</text>
-  <text x="455" y="518" fill="#555" font-size="13">gros plan</text>
+  <text x="455" y="500" fill="#c62828" font-size="16" font-weight="700">Caméra A</text>
+  <text x="455" y="518" fill="#555" font-size="13">plan demi-rapproché</text>
 </svg>
