@@ -16,7 +16,7 @@
 * [▶️ Différences entre les images matricielles et vectorielles](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EYqtrIluJABDvwv_L1ysV18Bkba0IWUN2zhP10JSMoG8Ag?e=woEVoj)  
 * [▶️ Présentation des raccourcis (Plume (P) / Sélection de tracé (A))](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/ETZGGcIDLWhHrYJ-T2Lkg3wBDZCCGv22Bw2XF2xQwFb2Gg?e=sbzlsg)  
 * [▶️ Outil plume : créer une forme et modifier la couleur](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/flpilote_cmontmorency_qc_ca/EQO7FUrlWbVHj3aYJYq2BB4BK6jLA9eVawnLQKkfeqL-vA?e=UDwcVv)  
-* [▶️ Outil plume : créer une forme avec points d'ancrage à angle droit](https://cmontmorency365-my.sharepoint.com/:v:/r/personal/flpilote_cmontmorency_qc_ca/Documents/01_cours/01_college/cours_illustration/cours_04_06_photoshop/14_outils_vecteurs/videos_explicatifs/05_ligne_droites.mov?csf=1&web=1&e=0bRyma)  
+* [▶️ Outil plume : créer une forme avec points d'ancrage à angle droit](https://cmontmorency365-my.sharepoint.com/:v:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQBNRk4NvN7nT7Mwya8kHOsFAZlswr-6jA3MgT68IXiOXro?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ilTv7p)  
 
 [🛠️ Créer des formes à angle droit](./exercices_photoshop/14_vecteur_angle_droit.md){ .md-button } <br>  
 
