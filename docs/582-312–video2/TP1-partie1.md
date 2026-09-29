@@ -12,6 +12,8 @@ Vous êtes approchés pour préparer et tourner une courte entrevue documentaire
 
 ### Le fichier écrit (Word) de préparation du tournage doit comprendre :
 
+> :material-download: [Télécharger le gabarit Word du document de préparation](./assets/tp1/TP1-preparation-tournage.docx){ download="TP1-preparation-tournage.docx" }
+
 - Le choix d'un sujet d'entrevue, une formation d'équipe avec la distribution des rôles, d'une personne à interviewer et un questionnaire de 1 question ouverte par membre d'équipe.
 - Des images de lieu de tournage ainsi qu'une liste d'accessoires ou meubles potentiels.
 - Une liste complète du matériel nécessaire.

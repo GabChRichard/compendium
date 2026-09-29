@@ -105,3 +105,67 @@ Le mandat client 3 (Son) débute la semaine prochaine, avec deux conférences ex
 Commentaires ou questions?
 
 
+### Éléments importants en audiovisuel (film, animation, etc.)
+
+- **Concept adapté à l'audience** : le but devrait être clair et le contenu adapté (ex. : pas de violence pour un projet qui s'adresse aux enfants).
+- Un **scénario** qui décrit visuellement l'action
+- Un **storyboard** visuel qui représente l'évolution de l'image (mouvements de caméra, mise en scène, etc.)
+- Une **intrigue** qui surprend ou qui amène le suspense
+- Des **personnages** avec des motivations (désirs et besoins) et qui évoluent (*character's arc*)
+- Un **univers** (*lore*) qui raconte une histoire (un passé, des enjeux, des cultures, etc.)
+- Une **direction cinématographique** (valorisation des plans)
+- Un **montage** cohérent et rythmique
+
+#### Exercice — Construction d'un exemple : un film
+
+Contraintes :
+
+- Thème moderne (mais pas nécessairement réaliste)
+- Action/aventure
+- 18+
+- Un(e) personnage principal(e)
+- Un revirement (*plot-twist*)
+- Spin-off d'une franchise connue
+
+### Éléments importants en jeux vidéo
+
+- **Le fun** : jouer au jeu devrait donner du plaisir
+- **Le flow** : la difficulté devrait augmenter en fonction de la progression du jeu et des compétences du joueur
+- **Des objectifs clairs** à court, moyen et long terme : le joueur ne devrait pas chercher quelque chose à faire, mais plutôt comment le faire
+- **Une boucle de jeu stimulante** (*gameplay loop*) : les mécaniques de jeu devraient être engageantes (combat, déplacement, gestion d'inventaire, fabrication, etc.)
+- **Agentivité** : le joueur devrait avoir des choix significatifs à faire, qu'ils soient narratifs (choisir un chemin ou un allié) ou mécaniques (choix d'un outil ou d'une stratégie)
+- Une **intrigue** qui ajoute une surprise ou du suspense, et des **personnages** qui évoluent
+- Un **style artistique** en lien direct avec le thème et l'atmosphère du jeu
+- Une **expérience accessible et performante** (pas de bug et interface simple)
+
+#### Exercice — Construction d'un exemple : un jeu mobile
+
+Contraintes :
+
+- Gestion de ressources
+- Thème fantastique
+- Multijoueur
+- 18-25 ans
+- Narration à embranchement
+- Interactions sociales
+
+### Éléments importants en installations interactives
+
+- **Engagement sensoriel** : interpeller plusieurs sens simultanément
+- **Conception spatiale** : définir un chemin à prendre
+- **Signaux visuels et sonores** : insister sur les détails et les rendre riches pour créer un environnement cohérent
+- **Interactivité et agentivité** : l'utilisateur doit interagir avec les éléments de l'installation de manière naturelle, accessible et intuitive. De plus, l'installation devrait avoir un rapport de cause à effet en donnant un retour perceptible (son entendu ou lumière lorsqu'un bouton est pesé).
+- **Technologie invisible** : les éléments de conception ne devraient pas être visibles par l'utilisateur.
+- **Storytelling** : que la narration soit linéaire ou non, elle devrait définir une évolution émotionnelle (l'histoire devrait donner une motivation pour la poursuivre).
+
+#### Exercice — Construction d'un exemple : un escape game
+
+Contraintes :
+
+- Thème Halloween
+- 4-6 joueurs
+- Grand public (pas d'horreur)
+- Un seul acteur (optionnel)
+- Un seul opérateur
+- Difficulté moyenne
+- Durée de 1h
