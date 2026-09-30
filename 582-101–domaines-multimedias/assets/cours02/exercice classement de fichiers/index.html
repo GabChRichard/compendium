@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Very Simple Web Page</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title">Simple Page</div>
+      <div class="row">
+        <button id="themeToggle" aria-pressed="false" title="Toggle dark mode">🌗 Toggle Theme</button>
+        <a href="#main" class="muted">Skip to content</a>
+      </div>
+    </header>
+
+    <nav aria-label="Primary" class="row" style="padding: 8px 0 16px">
+      <a href="#section-1">Intro</a>
+      <a href="#section-2">Details</a>
+      <a href="#section-3">Contact</a>
+    </nav>
+
+    <main id="main">
+      <section id="section-1" class="card">
+        <h2>Welcome 👋</h2>
+        <p class="muted">This is a tiny, single-file web page with HTML, CSS, and a sprinkle of JS.</p>
+        <div class="spacer"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu luctus nisi. Vivamus non arcu pulvinar, dictum ipsum at, dictum mi. Integer fermentum, lorem a gravida volutpat, massa magna convallis felis, at aliquet nisl erat eu erat.
+        </p>
+        <div class="spacer"></div>
+        <div class="row">
+          <button id="countBtn" class="btn-primary" aria-describedby="countLabel">Click me</button>
+          <span id="countLabel" class="muted">Clicked <strong id="count">0</strong> times.</span>
+        </div>
+      </section>
+
+      <section id="section-2" class="card">
+        <h2>More Ipsum</h2>
+        <p>
+          Curabitur ac tortor mi. Aenean vel suscipit mi. Vestibulum suscipit, urna vitae mattis feugiat, arcu urna elementum lacus, vitae condimentum dui justo sit amet turpis.
+        </p>
+        <details style="margin-top:10px">
+          <summary>Read more…</summary>
+          <p style="margin-top:8px">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+          </p>
+        </details>
+      </section>
+
+      <section id="section-3" class="card" aria-labelledby="contactTitle">
+        <h2 id="contactTitle">Contact</h2>
+        <form id="contactForm">
+          <label>
+            <span class="muted">Your email</span><br />
+            <input id="email" type="email" required placeholder="you@example.com" style="width:100%; padding:10px; border-radius:12px; border:1px solid var(--border); background:var(--card); color:var(--text)"/>
+          </label>
+          <div class="spacer"></div>
+          <label>
+            <span class="muted">Message</span><br />
+            <textarea id="message" required rows="4" placeholder="Lorem ipsum…" style="width:100%; padding:10px; border-radius:12px; border:1px solid var(--border); background:var(--card); color:var(--text)"></textarea>
+          </label>
+          <div class="spacer"></div>
+          <input type="submit" class="btn-primary" value="Send" />
+          <p id="formStatus" class="muted" role="status" aria-live="polite" style="margin-top:8px"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Simple Page. Built with pure HTML/CSS/JS.
+    </footer>
+  </div>
+  <script src="script/main.js"></script>
+</body>
+</html>
