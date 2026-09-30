@@ -1,4 +1,4 @@
-# TP1 – Réalisation d'une entrevue documentaire - Partie 3 : le reel
+# TP1 – Réalisation d'une entrevue documentaire - Partie 4 : le reel
 
 > Le devis du TP est sujet à changement d'ici sa distribution officielle
 
@@ -11,18 +11,27 @@ Vous êtes approchés pour adapter une courte entrevue documentaire en format mo
 ### Le reel (individuel) :
 
 - Un montage de l'entrevue résumée (30 sec. max)
+
 - Une trame sonore
+
 - Une introduction choc
+
 - Des transitions dynamiques 
+
 - Un traitement de colorisation intense 
+
 - Le travail est individuel, néanmoins vous êtes amenés à collaborer pour créer des reel différents en termes de traitement
 
 ### Présentation en classe :
 
 - La présentation du reel 
+
 - Une présentation en équipe pour répondre à trois questions :
+
 - Quel est l'élément dont tu es le plus fier?
+
 - Quel a été ta plus grande difficulté?
+
 - Qu'est-ce que tu ferais de différent? 
 
 ### Le dossier de remise doit comprendre les éléments suivants :
