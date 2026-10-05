@@ -40,7 +40,7 @@
     - Mode mise au point → MaP manuelle
 
 ### Enregistrement audio
-> Activer le son seulement si on a besoin du son de la caméra.
+> Activer le son seulement si on a besoin du son de la caméra. Dans le cas d'une entrevue, on veut le son de la caméra pour pouvoir synchroniser les clips avec la bande sonore.
 
 - Menu → Réglages prise de vue 2 : page 2/9
 
