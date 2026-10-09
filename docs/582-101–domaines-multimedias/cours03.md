@@ -23,7 +23,7 @@ De manière générale, une donnée correspond à une information factuelle (fai
 
 Un bit seul ne contient pas beaucoup d'information. On les assemble donc généralement en série de 8, qu'on appelle un **octet** (8 bits = 1 octet, *bits and bytes* en anglais). La capacité d'une composante de mémoire — comme la RAM ou les disques vus plus haut — se calcule en nombre d'octets.
 
-Puisque la quantité de mémoire nécessaire ne cesse d'augmenter, on utilise des préfixes métriques pour garder un suivi précis :
+Puisque la quantité de mémoire nécessaire ne cesse d'augmenter, on utilise des préfixes métriques pour garder un suivi précis et comme les octets comptent sur base 8 ce ne sont pas des chiffres ronds.  
 
 - **Kilo-octet (Ko)** : 1 024 octets (mille) 
 - **Méga-octet (Mo)** : 1 048 576 (million) 

@@ -1,20 +1,33 @@
-# Cours 7 – Mandat client 3 : Vidéo
+# Cours 7 – Étapes de production 
+
+![](assets/c7/small-steps-i.jpg)
 
 ## Ordre du jour
 
-- Présentation du mandat Vidéo
+![](assets/c6/behold.png)
+
+- Retour sur l'examen
+- La feuille de suivi
 - Étapes de production d'un projet multimédia
+- Retour sur l'exercice de création d'application
 - Éléments importants en audiovisuel
 - Introduction à OBS Studio
 - Atelier de production
 
-## Le mandat : Sport-Action Plein Air
+## Retour sur l'examen
 
-**Client fictif :** Sport-Action Plein Air, un commerce d'équipement sportif qui veut une courte capsule pour promouvoir sa nouvelle collection d'automne.
 
-**Livrable attendu :** une capsule promotionnelle de 30 à 60 secondes, précédée d'un mini-storyboard (3 à 5 cases).
+L'examen c'est très bien déroulé dans l'ensemble. La correction est terminée et les notes sont disponible sur [Col.net](https://enligne.cmontmorency.qc.ca/colnet/login.asp) dans la section cahier de notes. Je vous invite à lire les commentaires et à m'avise s'il y a une erreur. Autrement, il y a quelques notions importantes sur lesquelles revenir : 
 
-Consultez la grille de correction complète (10 points) dans le plan de cours.
+- Retour sur la nomenclature du département 
+- Toujours nommer les fichiers à son nom 
+- La question 16
+- Retour sur les préfixes 
+- Le classement des fichiers web (script et style)
+
+## La feuille de suivi 
+
+Maintenant que les accès sont distribués, nous allons finalement accéder à notre feuille de suivi et remplir au moins un projet. 
 
 ## Les étapes de production d'un projet multimédia
 
@@ -28,27 +41,215 @@ Pour la plupart des projets, on identifie les grandes phases suivantes :
 
 Selon le projet, certaines étapes peuvent être imbriquées, répétées ou partagées.
 
-### Préproduction
+### Développement logiciel
 
-C'est l'étape de planification : on détermine la portée (scope), le temps et l'argent, on scénarise, on schématise avec des storyboards/moodboards, et on identifie les besoins humains, techniques et logistiques.
+#### Idéation / recherche
 
-### Production
+- Recherche utilisateur (entrevues, persona)
+- Analyse de la concurrence
+- Définition du problème et de la proposition de valeur
 
-C'est l'étape où l'on construit : production du contenu (vidéo, images, audio), tests internes et corrections en continu.
+#### Préproduction
 
-### Postproduction
+- Cahier des charges et récits utilisateurs
+- Arborescence et maquettes (*wireframes*)
+- Choix des technologies et planification des sprints
 
-C'est l'étape de finition : montage final, effets visuels, mix audio, étalonnage des couleurs, export et rendu, tests publics et correction des bogues, puis livraison.
+#### Production
+
+- Design de l'interface (UI)
+- Programmation (*front-end* et *back-end*)
+- Tests au fil du développement
+
+#### Postproduction
+
+- Tests utilisateurs et correction des bogues
+- Optimisation (performance, accessibilité)
+- Mise en ligne ou publication sur les magasins d'applications
+
+#### Opération
+
+- Maintenance et mises à jour de sécurité
+- Soutien aux utilisateurs
+- Analyse des statistiques d'utilisation
+
+### Audiovisuel (cinéma, vidéo, animation)
+
+#### Idéation / recherche
+
+- Concept et public cible
+- Recherche documentaire et références visuelles
+- Synopsis
+
+#### Préproduction
+
+- Scénario et découpage technique
+- Storyboard et moodboard
+- Repérage, casting, budget et plan de tournage
+
+#### Production
+
+- Tournage (image, son, éclairage)
+- Animation ou captation
+- Direction des acteurs
+
+#### Postproduction
+
+- Montage image et son
+- Effets visuels et colorisation
+- Mixage, générique et rendu final
+
+#### Opération
+
+- Diffusion (festivals, télévision, web)
+- Promotion
+- Gestion des droits et archivage
+
+### Installation interactive
+
+#### Idéation / recherche
+
+- Concept et expérience recherchée
+- Étude du lieu et du public
+- Recherche technologique (capteurs, projection)
+
+#### Préproduction
+
+- Scénario d'interaction
+- Plans du lieu et schémas techniques
+- Prototypes et liste du matériel
+
+#### Production
+
+- Création des contenus (visuels, sons)
+- Programmation des interactions
+- Fabrication et intégration du matériel
+
+#### Postproduction
+
+- Montage sur place
+- Calibrage (projection, capteurs, son)
+- Tests avec le public
+
+#### Opération
+
+- Entretien et réparation du matériel
+- Surveillance pendant l'exposition
+- Démontage et documentation
+
+### Jeux vidéo
+
+#### Idéation / recherche
+
+- Concept et mécaniques de jeu
+- Public cible et analyse du marché
+- Prototype rapide pour valider le plaisir de jeu
+
+#### Préproduction
+
+- Document de conception (*game design document*)
+- Direction artistique
+- Prototype jouable et planification
+
+#### Production
+
+- Programmation des mécaniques
+- Création des personnages, décors et sons
+- Conception des niveaux (*level design*)
+
+#### Postproduction
+
+- Tests (assurance qualité) et correction des bogues
+- Optimisation et équilibrage
+- Certification et lancement
+
+#### Opération
+
+- Correctifs et mises à jour
+- Contenu additionnel
+- Gestion de la communauté
+
+## Retour sur l'exercice de création d'application
+
+Nous avons essentiellement fait la recherche et la préprod pour notre application. Nous allons maintenant mettre en commun nos réponses et faire un document de production pour commencer la production.   
 
 ## Éléments importants en audiovisuel
 
 - Un concept adapté à l'audience
-- Un scénario qui décrit visuellement l'action
-- Un storyboard qui représente l'évolution de l'image (mouvements de caméra, mise en scène)
-- Une intrigue qui surprend ou amène le suspense
-- Des personnages avec des motivations claires
+- Une intrigue complète qui surprend ou amène le suspense
+- Des personnages avec des motivations claires et une évolution
+- Un univers défini et unique
 - Une direction cinématographique cohérente
-- Un montage rythmique
+
+### Le concept et l'audience
+
+Le concept, c'est l'idée même du projet. Elle est si simple qu'on peut résumer en une phrase. Ensuite, le concept doit être pensé pour un public précis : le ton (léger, sérieux, humoristique), le sujet (de quoi ça parle?), la durée (en temps) et le format (cinéma, télévision, etc.) changent selon à qui l'on s'adresse.
+
+**Quelques trucs pour un concept adapté à l'audience**
+
+- **Définir le public cible** avant d'écrire : âge, intérêts, où et comment il regarde (cinéma, télévision, téléphone)
+- Résumer le concept en **une phrase** (*logline*) : un personnage, un objectif, un obstacle
+- **Adapter le contenu** : pas de violence pour un projet qui s'adresse aux enfants, un langage qui correspond au public
+- **Adapter le format** : une capsule pour les réseaux sociaux doit accrocher dans les 3 premières secondes et se comprendre sans le son
+- Garder un **but clair** : divertir, informer, émouvoir ou convaincre
+- **Tester l'idée** auprès d'une personne du public cible avant de se lancer dans la production
+
+### L'intrigue (*plot*)
+
+L'intrigue, c'est la suite d'évènements de l'histoire. C'est la partie logique de l'écriture, qui suit un ordre précis.
+
+Plusieurs structures facilitent son écriture : le **schéma narratif**, le **schéma actanciel**, le **monomythe** de Joseph Campbell (le voyage du héros) ou la **structure en cercle** de Dan Harmon. Il n'y a pas de meilleure structure : chacune est mieux adaptée à un média (théâtre, cinéma, télévision, etc.) ou à un style d'écriture.
+
+**Quelques trucs pour une histoire basée sur l'intrigue**
+
+- Miser sur le **suspense** (faire monter la tension autour d'un évènement à venir) et la **surprise** (faire intervenir quelque chose d'inattendu)
+- Varier les types de **conflits** (physiques, psychologiques et moraux)
+- Ne pas avoir peur des **revirements** (*plot twist*)
+- Trouver une tournure unique à une intrigue qui existe déjà (« et si...? »)
+- Guider vers de **fausses attentes** (le faux vilain ou le faux allié)
+- Terminer les étapes sur du suspense (*cliffhanger*)
+- Avoir quelque chose à dire sur un sujet (morale)
+
+### Les personnages
+
+Les personnages font avancer l'intrigue et transmettent l'émotion au spectateur. Le public s'attache à un personnage quand il comprend son point de vue.
+
+**Le désir et le besoin**
+
+- **Le désir** (*want*) : ce que le personnage veut. C'est un objectif extérieur et conscient, qui fait avancer l'intrigue.
+- **Le besoin** (*need*) : ce qu'il lui faut vraiment. C'est une leçon intérieure, souvent inconsciente, qui le fait évoluer.
+
+Le désir et le besoin sont souvent en conflit : en poursuivant ce qu'il veut, le personnage découvre ce qui lui faut. Par exemple, dans *Star Wars* le retour du Jedi, Darth Vador **veut** le pouvoir, mais il a **besoin** de se réconcilier avec son fils.
+
+**Quelques trucs additionnels pour des personnages intéressants**
+
+- Leur donner des caractéristiques physiques et psychologiques qui les rendent **uniques**
+- Les faire **évoluer** : la poursuite de leur objectif les change (*character arc*)
+- Leur donner des **défauts** : un personnage parfait n'est ni crédible ni attachant
+- Donner une **fonction précise** à chaque personnage et approfondir seulement les plus importants (héros, antagoniste)
+- Rester **cohérent** avec leur définition, sauf pour créer une surprise volontaire
+
+### L'univers (*lore*)
+
+Le folklore, c'est tout ce qui donne l'impression que l'univers a une histoire et qu'il existe en dehors de l'intrigue : géographie, faune, flore, cultures, croyances, rituels, objets, lieux, etc.
+
+**Quelques trucs pour un univers vivant**
+
+- Si l'univers est au cœur du projet, lui laisser de la **place** à l'écran
+- **Mettre l'univers en scène** plutôt que de l'expliquer : les décors d'une ruine devraient raconter son passé et celui de son peuple
+- Appuyer le folklore par la **direction artistique** (décors, costumes, accessoires)
+- Ne pas rendre l'intrigue dépendante des connaissances du folklore, mais y cacher des clins d'œil (*easter eggs*)
+
+### La direction cinématographique
+
+La direction cinématographique, c'est l'ensemble des choix visuels et sonores qui racontent l'histoire : cadrage, mouvements de caméra, éclairage, couleurs, montage et son. Elle est cohérente quand chaque choix sert l'histoire et que le style reste le même du début à la fin.
+
+**Quelques trucs pour une direction cinématographique cohérente**
+
+- Définir une **palette de couleurs** liée à l'ambiance (chaude, froide, désaturée) et la garder tout au long du projet
+- Utiliser l'**éclairage** pour créer l'ambiance : doux et clair pour une comédie, contrasté et sombre pour un drame
+- Adapter le **rythme du montage** à l'action : coupes rapides pour l'action, plans longs pour l'émotion
+- Rassembler ses références dans un **moodboard** et planifier les plans dans un **storyboard** avant le tournage
 
 ## Introduction à OBS Studio
 
@@ -59,64 +260,7 @@ OBS Studio est un logiciel de capture vidéo et de streaming en direct, open-sou
 - Mixeur audio pour ajuster les niveaux et ajouter des effets
 - Possibilité d'ajouter des widgets et des plugins
 
-Pour ce mandat, vous allez créer une scène simple : partage d'écran et enregistrement du micro.
-
-## Atelier — Production de la capsule
-
-1. Rédiger un mini-storyboard (3 à 5 cases) pour la capsule Sport-Action Plein Air
-2. Capter le contenu avec OBS Studio ou une caméra
-3. Monter la capsule (30 à 60 secondes)
-4. Exporter en .mp4
-
-## Introduction à l'IA générative (25 mins)
-
-Un grand modèle de langage (LLM) est un type d'intelligence artificielle entraîné sur de larges corpus de contenu, capable de générer du contenu spécifique à une demande.
-
-### À considérer
-
-- Les résultats sont basés sur des probabilités : erreurs et hallucinations possibles
-- Les résultats sont biaisés selon l'entraînement du modèle
-- Un LLM demande énormément de calcul et d'électricité
-
-### Pour une utilisation efficace et éthique
-
-- Définir le rôle demandé (« agis en tant que… »)
-- Demander un format précis, encourager le raisonnement étape par étape
-- Raffiner de manière itérative, éviter les questions vagues ou multiples
-- Ne jamais transmettre de données confidentielles, toujours vérifier l'information
-- Toujours citer l'utilisation d'un LLM, ne jamais faire passer son travail pour le vôtre
-
-### Exercice
-
-En petite équipe, discutez de la manière dont un outil d'IA générative pourrait vous aider (ou nuire) dans un mandat client, sans jamais remplacer votre jugement professionnel.
-
-
-## Mise à jour de la feuille de suivi
-
-Après ce mandat, évaluez-vous sur « Réaliser une présentation numérique » et sur votre gestion du temps de production.
-
-
-## Préparation pour la semaine prochaine
-
-Le mandat client 3 (Son) débute la semaine prochaine, avec deux conférences externes sur le son. Apportez vos écouteurs.
-
-## Merci et à la semaine prochaine!
-
-Commentaires ou questions?
-
-
-### Éléments importants en audiovisuel (film, animation, etc.)
-
-- **Concept adapté à l'audience** : le but devrait être clair et le contenu adapté (ex. : pas de violence pour un projet qui s'adresse aux enfants).
-- Un **scénario** qui décrit visuellement l'action
-- Un **storyboard** visuel qui représente l'évolution de l'image (mouvements de caméra, mise en scène, etc.)
-- Une **intrigue** qui surprend ou qui amène le suspense
-- Des **personnages** avec des motivations (désirs et besoins) et qui évoluent (*character's arc*)
-- Un **univers** (*lore*) qui raconte une histoire (un passé, des enjeux, des cultures, etc.)
-- Une **direction cinématographique** (valorisation des plans)
-- Un **montage** cohérent et rythmique
-
-#### Exercice — Construction d'un exemple : un film
+## Exercice — Construction d'un exemple : un film
 
 Contraintes :
 
@@ -127,45 +271,80 @@ Contraintes :
 - Un revirement (*plot-twist*)
 - Spin-off d'une franchise connue
 
-### Éléments importants en jeux vidéo
+### Partie 1 — Le concept sur GitHub Pages
 
-- **Le fun** : jouer au jeu devrait donner du plaisir
-- **Le flow** : la difficulté devrait augmenter en fonction de la progression du jeu et des compétences du joueur
-- **Des objectifs clairs** à court, moyen et long terme : le joueur ne devrait pas chercher quelque chose à faire, mais plutôt comment le faire
-- **Une boucle de jeu stimulante** (*gameplay loop*) : les mécaniques de jeu devraient être engageantes (combat, déplacement, gestion d'inventaire, fabrication, etc.)
-- **Agentivité** : le joueur devrait avoir des choix significatifs à faire, qu'ils soient narratifs (choisir un chemin ou un allié) ou mécaniques (choix d'un outil ou d'une stratégie)
-- Une **intrigue** qui ajoute une surprise ou du suspense, et des **personnages** qui évoluent
-- Un **style artistique** en lien direct avec le thème et l'atmosphère du jeu
-- Une **expérience accessible et performante** (pas de bug et interface simple)
+En équipe de 2-3, développez le concept du film en appliquant les éléments importants en audiovisuel. Chaque membre publie ensuite la page sur son propre compte GitHub.
 
-#### Exercice — Construction d'un exemple : un jeu mobile
+Copiez le modèle ci-dessous dans le `README.md` de votre dépôt, puis remplacez chaque `...`.
 
-Contraintes :
+```markdown
+# Titre du film
 
-- Gestion de ressources
-- Thème fantastique
-- Multijoueur
-- 18-25 ans
-- Narration à embranchement
-- Interactions sociales
+Projet conçu en équipe avec : [prénoms des coéquipiers]
 
-### Éléments importants en installations interactives
+## Le concept et l'audience
 
-- **Engagement sensoriel** : interpeller plusieurs sens simultanément
-- **Conception spatiale** : définir un chemin à prendre
-- **Signaux visuels et sonores** : insister sur les détails et les rendre riches pour créer un environnement cohérent
-- **Interactivité et agentivité** : l'utilisateur doit interagir avec les éléments de l'installation de manière naturelle, accessible et intuitive. De plus, l'installation devrait avoir un rapport de cause à effet en donnant un retour perceptible (son entendu ou lumière lorsqu'un bouton est pesé).
-- **Technologie invisible** : les éléments de conception ne devraient pas être visibles par l'utilisateur.
-- **Storytelling** : que la narration soit linéaire ou non, elle devrait définir une évolution émotionnelle (l'histoire devrait donner une motivation pour la poursuivre).
+- Une phrase (logline) : ...
+- Le public cible : ...
+- La franchise d'origine : ...
 
-#### Exercice — Construction d'un exemple : un escape game
+## L'intrigue
 
-Contraintes :
+- Le début : ...
+- Le milieu : ...
+- Le revirement (plot twist) : ...
+- La fin : ...
 
-- Thème Halloween
-- 4-6 joueurs
-- Grand public (pas d'horreur)
-- Un seul acteur (optionnel)
-- Un seul opérateur
-- Difficulté moyenne
-- Durée de 1h
+## Le personnage principal
+
+- Description (physique et psychologique) : ...
+- Son désir (ce qu'il veut) : ...
+- Son besoin (ce qu'il lui faut) : ...
+- Son évolution : ...
+
+## L'univers
+
+- Où et quand se passe l'histoire : ...
+- Un élément de folklore qui rend l'univers vivant : ...
+
+## La direction cinématographique
+
+- La palette de couleurs : ...
+- L'éclairage : ...
+- Le rythme du montage : ...
+- Un moodboard (3 à 5 images de référence) :
+
+![Moodboard](moodboard.jpg)
+```
+
+### Partie 2 — Publier sur GitHub Pages
+
+1. Créer un nouveau dépôt **public** nommé `concept-film`, avec un fichier `README.md`.
+2. Téléverser l'image du moodboard dans le dépôt : **Add file** → **Upload files**.
+3. Coller le modèle dans le `README.md` et le remplir.
+4. Aller dans **Settings** → **Pages**.
+5. Sous *Branch*, choisir **main** puis **/ (root)**, et cliquer sur **Save**.
+6. Rafraîchir la page après une minute : GitHub affiche l'adresse du site publié.
+
+Voir aussi [Publier sur GitHub Pages](cours04.md#publier-sur-github-pages) au cours 4.
+
+### Partie 3 — Présenter le concept avec OBS Studio
+
+Enregistrez une présentation de 2 minutes maximum de votre page GitHub Pages : le concept, le personnage principal (désir et besoin), le revirement et la direction cinématographique.
+
+1. Ouvrir la page GitHub Pages dans le navigateur.
+2. Dans OBS, sous **Sources**, cliquer sur **+** → **Capture de fenêtre** et choisir le navigateur.
+3. Vérifier que le micro réagit dans le **Mixeur audio**. Les barres doivent rester dans le vert ou le jaune, jamais dans le rouge.
+4. Facultatif : ajouter la webcam (**+** → **Périphérique de capture vidéo**) et la placer dans un coin.
+5. Dans **Paramètres** → **Sortie**, choisir le format d'enregistrement **mp4**.
+6. Cliquer sur **Démarrer l'enregistrement**, présenter, puis cliquer sur **Arrêter l'enregistrement**.
+7. Retrouver la vidéo avec **Fichier** → **Afficher les enregistrements**.
+
+**Remise sur Teams** : le lien de votre page GitHub Pages et la vidéo .mp4, nommée à votre nom.
+
+## Devoir
+
+Terminer le concept de film. 
+Ajouter des projets dans la feuille de suivi 
+
+
