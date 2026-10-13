@@ -29,9 +29,8 @@ Vous êtes approchés pour préparer et tourner une courte entrevue documentaire
 
 - Le fichier de préparation avec tous les médias et les drp
 
-- Le rendu final au format .mp4 codec H.264 à 30fps
+- Le rendu final
 
-- Une copie du fichier de rétroaction par étudiant
 
 ### Consignes additionnelles 
 
