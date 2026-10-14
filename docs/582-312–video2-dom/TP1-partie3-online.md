@@ -28,7 +28,7 @@ Vous êtes approchés pour faire le traitement de post-production et de diffusio
 ### Le dossier de remise (un par équipe) doit comprendre les éléments suivants :
 
 - Le rendu final au format .mp4 codec H.264 à 30fps
-- Une copie du fichier de rétroaction par étudiant
+
 
 ## Critères d'évaluation
 

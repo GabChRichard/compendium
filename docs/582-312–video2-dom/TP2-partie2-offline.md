@@ -73,7 +73,7 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 
 - Le rendu final au format .mp4 codec H.264 à 30fps
 
-- Une copie du fichier de rétroaction par étudiant
+
 
 ## Critères d'évaluation
 

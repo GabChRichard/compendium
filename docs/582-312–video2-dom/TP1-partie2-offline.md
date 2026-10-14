@@ -29,7 +29,7 @@ Vous êtes approchés pour préparer et tourner une courte entrevue documentaire
 
 - Le fichier de préparation avec tous les médias et les drp
 
-- Le rendu final
+- Le rendu final de chacun des membres de l'équipe (bien identifié).
 
 
 ### Consignes additionnelles 
