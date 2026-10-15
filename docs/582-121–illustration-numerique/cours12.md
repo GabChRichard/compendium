@@ -16,4 +16,4 @@
 Le professeur fournira des **commentaires** pour améliorer votre travail en vue de la présentation finale. **Aucune modification** effectuée peut impacter votre **note finale**. **Assurez-vous que tous vos documents sont ouverts**.
 
 ## Dossier de remise
-[Projet 2 : Partie 2 - Préapprobation](){ .md-button }
+[Projet 2 : Partie 2 - Préapprobation](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgC-HUfSLZs8R5EgCc5-i5FlATPGzWjRJewCAqhDoq0yK4M?e=9VeOHf){ .md-button }
