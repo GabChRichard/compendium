@@ -1,0 +1,51 @@
+# illustration num -- cours 4
+
+La sélection
+## outils de sélection
+
+peut ctrl-c ctrl-v
+contour progressif
+selection complexe
+	- shift -> ajoute
+	- alt -> réduit
+
+les différents types de sélectionneurs
+- carré
+- ellipsoidale
+- lasso libre
+- lasso a angle
+- lasso magnétique
+
+Les masques
+
+## selection avancé
+présenté les outils
+
+intervertir sélection 
+-> ctrl shift i
+
+baguette magique
+-> select un sujet
+	-> select et masque
+	-> mode d'affichage
+	-> outil amélioration des contours
+	-> param de sortie
+
+
+ne surtout pas faire delete
+
+supprimer un masque
+
+appliquer un masque seulement a un calque, démonstration avec l'oiseau
+
+la pipette
+
+les brosses : interface de personnalisation des brosses
+
+lissage = le drag
+préférence -> curseur -> afficher la laisse de pinceau pendant le lissage
+options de lissage
+
+toute les autres options de brosses
+
+

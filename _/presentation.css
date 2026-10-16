@@ -1,0 +1,93 @@
+#presentation-toggle {
+  position: fixed;
+  /* décalé sous l'en-tête (barre de titre + onglets de navigation.tabs)
+     pour ne pas chevaucher la recherche / le sélecteur de thème */
+  top: 5rem;
+  right: 1rem;
+  z-index: 10;
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#presentation-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: #000;
+}
+
+#presentation-exit {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1001;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 2rem;
+  padding: 0.4rem 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+body.presentation-active {
+  overflow: hidden;
+}
+
+/* Les images dimensionnées pour la colonne de documentation ne doivent pas
+   déborder d'une diapositive */
+.reveal .slides img {
+  max-height: 70vh;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Les intégrations mkdocs-video / mkdocs-audio portent parfois des largeurs
+   fixes en pixels */
+.reveal .slides video,
+.reveal .slides audio {
+  max-width: 100%;
+}
+
+/* Le pied-de-mouche des ancres toc.permalink n'a pas sa place sur une
+   diapositive */
+.reveal .headerlink {
+  display: none;
+}
+
+/* Les SVG mermaid et les mjx-container MathJax sont déjà rendus avant le
+   clonage ; on contraint tout de même leur largeur par précaution, puisque
+   reveal.js dimensionne chaque diapositive comme une boîte fixe */
+.reveal .slides svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Les notes de cours contiennent souvent plus de texte qu'une diapositive
+   classique n'en prévoit. reveal.js positionne chaque <section> en
+   position:absolute SANS hauteur explicite : la boîte s'ajuste donc à son
+   propre contenu (jamais de dépassement interne) et c'est le conteneur
+   .reveal (fixé à la hauteur configurée, 700px par défaut, overflow:hidden)
+   qui rogne silencieusement l'excédent, sans aucune barre de défilement.
+   On force donc chaque diapositive-feuille à occuper toute la hauteur de
+   .reveal (height:100%, résolu par rapport à .reveal ou à .stack, son
+   ancêtre positionné le plus proche) puis on active le défilement interne
+   sur cette boîte désormais réellement contrainte.
+   IMPORTANT : on exclut .stack (le conteneur horizontal qui empile les
+   diapositives verticales) — reveal.js lui donne aussi la classe "present"
+   en plus de la diapositive verticale active qu'il contient ; lui appliquer
+   le défilement fait défiler l'ensemble de la pile (dont la majorité est en
+   display:none) plutôt que le seul contenu visible, ce qui fait disparaître
+   la diapositive à l'écran. */
+.reveal .slides section:not(.stack) {
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

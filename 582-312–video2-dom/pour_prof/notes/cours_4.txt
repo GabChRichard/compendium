@@ -1,0 +1,36 @@
+intro du cours
+
+théorie sur le montage
+
+les différent type de coupe
+
+on consomme du media
+
+retour sur davinci
+
+commencer un projet
+
+l'importation de media
+
+le montage
+
+les effets
+- effets de transition
+    -> surtout ne pas trop faire
+
+- effets de vitesse
+    -> modifier la vitesse du plan
+    -> commande de variation de vitesse
+    -> courbe de variation de vitesse
+
+- plan d'effets
+    -> permet d'ajouter un effet sur plusieurs clip pendant longtemps
+
+le texte
+- présenter les différents type de textes
+
+la colo
+
+le son
+
+l'exportation
