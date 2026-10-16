@@ -7,6 +7,9 @@
 
 [Questionnaire sur les intentions de choix de cours](https://forms.cloud.microsoft/r/cbcLJgbtED?origin=lprLink){ .md-button }
 
+### outil de visualisation de cours préalables
+[visionneur de préalables TIM](https://alexis-guilbault.github.io/afficheur_prealables/){ .md-button }
+
 ## Retour sur le devoir 2
 
 - Le Gym
