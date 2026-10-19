@@ -7,6 +7,6 @@
 * Une absence entraîne la note zéro. 
 
 
-## Présentation du projet 1 pour le prochain cours
+<!-- ## Présentation du projet 1 pour le prochain cours
 * [projet 1](./projets/projet01.md)
-* Une absence entraîne la note zéro. 
+* Une absence entraîne la note zéro.  -->
