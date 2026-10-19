@@ -1,0 +1,32 @@
+"Pour bénéficier d’une expérience d’édition optimale, téléversez ce fichier .csv comme rubrique dans Microsoft Teams."
+
+"582 312 - Reel","100"
+""
+""
+,"REMARQUABLE","","RÉUSSI","","MOYEN","","ÉCHOUÉ",
+"Rythme et respect de la durée (30 sec. max)","",10,"",7.5,"",5,"",2.5
+"10"
+"Trame sonore","",5,"",4,"",3,"",2
+"5"
+"Qualité de l'introduction choc","",25,"",20,"",15,"",10
+"25"
+"Qualité des transitions dynamiques",25,"",20,"",15,"",10
+"25"
+"Qualité de la coloration intense","",10,"",7.5,"",5,"",2.5
+"10"
+"Bon déroulement du visionnemnt","La vidéo joue du début à la fin sans problème technique: aucun plan noir, image figée, média hors ligne ou saut de lecture. Début et fin propres.",5,"Un problème technique mineur qui ne nuit pas au visionnement.",4,"Quelques problèmes techniques qui dérangent le visionnement.",3,"Problèmes techniques majeurs. La vidéo ne peut être visionnée normalement.",2
+"5"
+"Pertinence des réponses aux questions","Réponses complètes, précises et justifiées, qui démontrent une bonne compréhension des notions et des choix de montage.",5,"Réponses adéquates, mais parfois incomplètes ou peu justifiées.",4,"Réponses vagues, superficielles ou partiellement hors sujet.",3,"Réponses absentes ou sans lien avec les questions.",2
+"5"
+"Respect des formats du dossier de remise","Tous les fichiers respectent les formats exigés (codec, résolution, cadence, nomenclature et structure de dossier).",5,"Un écart mineur aux formats exigés.",4,"Plusieurs écarts aux formats exigés.",3,"Formats exigés non respectés: fichiers inutilisables.",2
+"5"
+"Présence de tous les éléments dans le dossier de remise","Tous les éléments exigés sont présents dans le dossier de remise.",5,"Un élément manquant.",4,"Plusieurs éléments manquants.",3,"Dossier de remise majoritairement incomplet.",2
+"5"
+
+"Respect des consignes (-10)","",,"",,"",,"",
+"0"
+"Qualité de la langue (-10)","",,"",,"",,"",
+"0"
+"Absent à la remise et travail non remis (-100%)","",,"",,"",,"",
+"0"
+v.11p
