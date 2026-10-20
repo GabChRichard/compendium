@@ -16,7 +16,7 @@
 
 Consultez la grille de correction complète (10 points) dans le plan de cours.
 
-## Éléments importants en jeux vidéo et installations interactives
+## Éléments importants en jeux vidéo 
 
 - **Le fun** — l'expérience devrait donner du plaisir
 - **Des objectifs clairs** — le visiteur ne devrait pas chercher quoi faire, mais comment le faire
@@ -24,11 +24,6 @@ Consultez la grille de correction complète (10 points) dans le plan de cours.
 - **Agentivité** — l'utilisateur doit avoir des choix significatifs
 - **Technologie invisible** — les éléments techniques ne devraient pas être visibles par l'utilisateur
 - **Storytelling** — même une interaction simple gagne à raconter quelque chose
-
-## Maquettes low-res et high-res
-
-- **Maquette basse résolution (low-res / wireframe)** — structure sans éléments graphiques (pas de logo, pas d'image, pas de police définie). Sert à valider le fonctionnement AVANT le design visuel.
-- **Maquette haute résolution (high-res)** — contient tous les éléments de design graphique (logo, images, typographies). Sert de référence visuelle complète avant intégration.
 
 ## Le prototype
 

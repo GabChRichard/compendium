@@ -112,7 +112,7 @@ nav:
       - Cours 5: 582-101–domaines-multimedias/cours05.md
       - Cours 6: 582-101–domaines-multimedias/cours06.md
       - Cours 7: 582-101–domaines-multimedias/cours07.md
-      # - Cours 8: 582-101–domaines-multimedias/cours08.md
+      - Cours 8: 582-101–domaines-multimedias/cours08.md
       # - Cours 9: 582-101–domaines-multimedias/cours09.md
       # - Cours 10: 582-101–domaines-multimedias/cours10.md
       # - Cours 11: 582-101–domaines-multimedias/cours11.md
@@ -120,7 +120,8 @@ nav:
       # - Cours 13: 582-101–domaines-multimedias/cours13.md
       # - Cours 14: 582-101–domaines-multimedias/cours14.md
       # - Cours 15: 582-101–domaines-multimedias/cours15.md
-
+      - TP1 - Diffusion: 582-101–domaines-multimedias/evaluation-diffusion.md
+      
 ###########################################################################
 
 theme:
