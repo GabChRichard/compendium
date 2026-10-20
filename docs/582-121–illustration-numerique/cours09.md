@@ -3,7 +3,32 @@
 
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC6pqzd3FtqTbsiE_AmQkYVAbR1Wa-iEJhAQrFbLbUFROs?e=vX5U0c){ .md-button }   <br>
 
-## Présentation des travaux
+## Atelier en classe
+### L'affiche d'évènementiel
+En équipe de deux, faire une affiche publicitaire pour un évènement fictif. 
+
+Une fois cette affiche terminer, nous allons la présenter en classe et passer au vote. 
+
+L'équipe gagnante remporteras un prix.
+
+### L'affiche de film
+
+En équipe de deux, faire une affiche publicitaire d'un film fictif.
+
+Une fois cette affiche terminer, nous allons la présenter en classe et passer au vote. 
+
+L'équipe gagnante remporteras un prix.
+
+### Le cover de magasine
+
+Faire une page couverture pour un magasine fictif. 
+
+### La pochette d'album
+
+Faire une pochette d'album fictif. 
+ 
+
+
 
 ## Dossier de remise
 [Projet 1 : Partie 3 - Présentation](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgA3BBVgEDBrTZt7pUqe2tW0AWfyYgQcRYfABs3-VPPtoHs?e=H3XEcp){ .md-button }
