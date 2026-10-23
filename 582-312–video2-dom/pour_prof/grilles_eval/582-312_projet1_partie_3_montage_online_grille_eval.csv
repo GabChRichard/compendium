@@ -1,0 +1,33 @@
+"Pour bénéficier d’une expérience d’édition optimale, téléversez ce fichier .csv comme rubrique dans Microsoft Teams."
+
+"582 312 - Montage Online Entrevue","100"
+""
+""
+,"REMARQUABLE","","RÉUSSI","","MOYEN","","ÉCHOUÉ",
+"Rythme","Rythme maîtrisé et adapté au propos. Coupes justes, durée des plans pertinente. Aucun temps mort: plans d'insert utilisés judicieusement.",10,"Rythme adéquat. Quelques longueurs ou coupes abruptes.",7.5,"Rythme inégal: longueurs fréquentes, plans trop longs ou coupes saccadées ou peu de plans d'insert.",5,"Rythme non maîtrisé qui nuit gravement au visionnement.",2.5
+"10"
+"Trame sonore","Mixage équilibré et constant. Voix claire et intelligible en tout temps, musique et ambiances bien dosées sous la parole. Aucun saut de volume, coupe sonore ou bruit parasite.",5,"Mixage adéquat. Voix intelligible, mais quelques écarts de niveau, transitions sonores brusques ou musique parfois trop présente.",4,"Mixage inégal. Voix parfois difficile à comprendre, sauts de volume fréquents, coupes sonores audibles ou bruits parasites.",3,"Trame sonore négligée qui nuit gravement à la compréhension de l'entrevue.",2
+"5"
+"Qualité des transition","Transitions fluides, qui suit le propos et cohérentes avec le style de la vidéo. Raccords invisibles, aucun saut d'image non voulu.",25,"Transitions généralement fluides. Quelques effets moins justifiés ou raccords un peu visibles.",20,"Transitions inégales ou dérangente. Effets incohérents, sauts d'image fréquents ou raccords maladroits.",15,"Transitions mal exécutées qui nuisent gravement au visionnement.",10
+"25"
+"Qualité de la coloration","Correction et étalonnage maîtrisés. Balance des blancs juste, exposition et contraste corrects, tons chair naturels. Raccords colorimétriques parfaits entre les plans et les caméras. Style cohérent avec le propos.",25,"Coloration adéquate. Quelques écarts de teinte ou d'exposition entre les plans, ou style visuel moins affirmé.",20,"Coloration inégale. Dominantes de couleur, plans sur- ou sous-exposés, tons chair peu naturels ou raccords visibles entre les caméras.",15,"Coloration absente ou ratée qui nuit gravement à l'image.",10
+"25"
+"Qualité du traitement des textes (typo et animation)","Typographie lisible et cohérente avec le style de la vidéo. Hiérarchie claire, durée à l'écran suffisante, placement dans les zones sécuritaires. Animations fluides et sobres.",10,"Textes adéquats. Quelques problèmes de lisibilité, de durée à l'écran, de placement ou d'animation.",7.5,"Traitement inégal. Choix typographiques incohérents, textes difficiles à lire ou trop brefs à l'écran ou animations saccadées",5,"Textes illisibles ou mal traités qui nuisent gravement au visionnement.",2.5
+"10"
+"Présence de tous les éléments au générique","Tous les éléments exigés sont présents au générique, exacts et bien présentés.",5,"Un élément manquant ou inexact.",4,"Plusieurs éléments manquants ou inexacts.",3,"Générique absent ou majoritairement incomplet.",2
+"5"
+"Bon déroulement du visionnemnt","La vidéo joue du début à la fin sans problème technique: aucun plan noir, image figée, média hors ligne ou saut de lecture. Début et fin propres.",5,"Un problème technique mineur qui ne nuit pas au visionnement.",4,"Quelques problèmes techniques qui dérangent le visionnement.",3,"Problèmes techniques majeurs. La vidéo ne peut être visionnée normalement.",2
+"5"
+"Pertinence des réponses aux questions","Réponses complètes, précises et justifiées, qui démontrent une bonne compréhension des notions et des choix de montage.",5,"Réponses adéquates, mais parfois incomplètes ou peu justifiées.",4,"Réponses vagues, superficielles ou partiellement hors sujet.",3,"Réponses absentes ou sans lien avec les questions.",2
+"5"
+"Respect des formats du dossier de remise","Tous les fichiers respectent les formats exigés (codec, résolution, cadence, nomenclature et structure de dossier).",5,"Un écart mineur aux formats exigés.",4,"Plusieurs écarts aux formats exigés.",3,"Formats exigés non respectés: fichiers inutilisables.",2
+"5"
+"Présence de tous les éléments dans le dossier de remise","Tous les éléments exigés sont présents dans le dossier de remise.",5,"Un élément manquant.",4,"Plusieurs éléments manquants.",3,"Dossier de remise majoritairement incomplet.",2
+"5"
+"Respect des consignes (-10)","",,"",,"",,"",
+"0"
+"Qualité de la langue (-10)","",,"",,"",,"",
+"0"
+"Absent à la remise et travail non remis (-100%)","",,"",,"",,"",
+"0"
+v.11p
