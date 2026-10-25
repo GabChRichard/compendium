@@ -3,32 +3,89 @@
 
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC6pqzd3FtqTbsiE_AmQkYVAbR1Wa-iEJhAQrFbLbUFROs?e=vX5U0c){ .md-button }   <br>
 
+## Ordre du jour
+
+- Messages d'intérêt général
+
+- Explication de la partie 3
+
+- Période de travail pour terminer les autoportraits
+
+- Activité de création
+
+## Messages d'intérêt général
+
+## Explication de la partie 3 du projet 1
+
+[Page du projet 1](./projets/projet01.md){ .md-button }
+
+## Période de travail pour terminer les autoportraits
+
+C'est votre dernière chance pour avoir des commentaires avant la présentation orale de la semaine prochaine.
+
 ## Atelier en classe
-### L'affiche d'évènementiel
-En équipe de deux, faire une affiche publicitaire pour un évènement fictif. 
+Pour cet atelier, vous allez être amené à faire de la création en équipe. Pour chacune des catégories suivantes, vous allez avoir une trentaine de minutes pour réaliser une composition que vous allez présenter rapidement (environ une minute) à la classe par la suite. 
 
-Une fois cette affiche terminer, nous allons la présenter en classe et passer au vote. 
+Pour la présentation, vous devez nous dire : 
 
-L'équipe gagnante remporteras un prix.
+- Le theme que vous avez choisi.
 
-### L'affiche de film
+- Le processus de création (Comment avez-vous réalisé votre composition?).
+
+- Ce que vous feriez de différent?
+
+### Affiche d'événementiel
+En équipe de deux, faire une affiche publicitaire pour un évènement fictif. <br>
+
+Étapes : 
+
+- Choisir un thème (festival, concert, exposition artistique, défilé de mode, etc. )
+
+- Trouver un concept général (quel style artistique va avoir votre affiche? Je vous suggère de faire un croquis rapidement)
+
+- Trouver les médias nécessaire pour faire votre composition
+
+- Faire la composition
+
+- Exporter votre travail en format .jpg et le remettre dans le dossier
+
+[Dossier de remsie](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgCaIs5rhNGJQ6jaUlfmwEdkAXG3rD-FEh9E2lKq-EwOaLw?e=IdX4yK)
+
+
+
+### Affiche de film
 
 En équipe de deux, faire une affiche publicitaire d'un film fictif.
 
-Une fois cette affiche terminer, nous allons la présenter en classe et passer au vote. 
+Étapes : 
 
-L'équipe gagnante remporteras un prix.
+- Choisir un thème (action, anime, horreur, romance, comédie, drame, etc. )
 
-### Le cover de magasine
+- Trouver un concept général (quel style artistique va avoir votre affiche? Je vous suggère de faire un croquis rapidement)
 
-Faire une page couverture pour un magasine fictif. 
+- Trouver les médias nécessaire pour faire votre composition
+
+- Faire la composition
+
+- Exporter votre travail en format .jpg et le remettre dans le dossier
+
+[Dossier de remsie](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAI5I2eDMx8QJodpgCde5ptAWdMOGMVFZybsTvb88_lOCw?e=9z9gWX)
 
 ### La pochette d'album
 
-Faire une pochette d'album fictif. 
- 
+En équipe de deux, faire une pochette d'album fictif. 
 
+Étapes : 
 
+- Choisir un thème (hip hop, rock, pop, metal, soul, etc. )
+
+- Trouver un concept général (quel style artistique va avoir votre affiche? Je vous suggère de faire un croquis rapidement)
+
+- Trouver les médias nécessaire pour faire votre composition
+
+- Faire la composition
+
+- Exporter votre travail en format .jpg et le remettre dans le dossier
 
 ## Dossier de remise
 [Projet 1 : Partie 3 - Présentation](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgA3BBVgEDBrTZt7pUqe2tW0AWfyYgQcRYfABs3-VPPtoHs?e=H3XEcp){ .md-button }
