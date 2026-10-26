@@ -49,7 +49,7 @@ En équipe de deux, faire une affiche publicitaire pour un évènement fictif. <
 
 - Exporter votre travail en format .jpg et le remettre dans le dossier
 
-[Dossier de remsie](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgCaIs5rhNGJQ6jaUlfmwEdkAXG3rD-FEh9E2lKq-EwOaLw?e=IdX4yK)
+[Dossier de remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgCaIs5rhNGJQ6jaUlfmwEdkAXG3rD-FEh9E2lKq-EwOaLw?e=IdX4yK){ .md-button }
 
 
 
@@ -69,7 +69,7 @@ En équipe de deux, faire une affiche publicitaire d'un film fictif.
 
 - Exporter votre travail en format .jpg et le remettre dans le dossier
 
-[Dossier de remsie](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAI5I2eDMx8QJodpgCde5ptAWdMOGMVFZybsTvb88_lOCw?e=9z9gWX)
+[Dossier de remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgAI5I2eDMx8QJodpgCde5ptAWdMOGMVFZybsTvb88_lOCw?e=9z9gWX){ .md-button }
 
 ### La pochette d'album
 
@@ -87,7 +87,9 @@ En équipe de deux, faire une pochette d'album fictif.
 
 - Exporter votre travail en format .jpg et le remettre dans le dossier
 
-## Dossier de remise
+[Dossier de remise](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgD7adKzjogDSrABI-0vjifQAadzGRDTIGNsvBRRFbngjqg?e=rm3lGE){ .md-button }
+
+## Dossier de remise pour la partie 3 du projet 1
 [Projet 1 : Partie 3 - Présentation](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgA3BBVgEDBrTZt7pUqe2tW0AWfyYgQcRYfABs3-VPPtoHs?e=H3XEcp){ .md-button }
 
 <!-- ## Correction des travaux 
