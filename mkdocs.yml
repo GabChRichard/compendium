@@ -56,8 +56,8 @@ nav:
       - TP1 partie 2 Montage Offline: 582-312–video2-dom/TP1-partie2-offline.md
       - TP1 partie 3 Montage Online: 582-312–video2-dom/TP1-partie3-online.md
       - TP1 partie 4 Reel: 582-312–video2-dom/TP1-partie4-reel.md
-      # - TP2-partie-1: 582-312–video2-dom/TP2-partie1.md
-      # - TP2-partie-2: 582-312–video2-dom/TP2-partie2.md
+      - TP2-partie-1: 582-312–video2-dom/TP2-partie1.md
+      - TP2-partie-2: 582-312–video2-dom/TP2-partie2.md
       - Notion caméra vidéo: 582-312–video2-dom/notions-camera-video.md
       # - Examen Caméra: 582-312–video2-dom/examen-camera.md
       # - Consigne Examen Caméra: 582-312–video2-dom/examen-camera-groupe-1.md
@@ -71,6 +71,7 @@ nav:
       - Cours 7: 582-312–video2-dom/c7.md
       - Cours 8: 582-312–video2-dom/c8.md
       - Cours 9: 582-312–video2-dom/c9.md
+      - Cours 10: 582-312–video2-dom/c10.md
       # - Cours 2: 582-312–video2/cours02.md
       # - Cours 3: 582-312–video2/cours03.md
       # - Cours 4: 582-312–video2/cours04.md

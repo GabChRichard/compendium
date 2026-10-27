@@ -5,3 +5,6 @@
 
 ## Présentation des travaux
 
+## Devoir pour le prochain cours
+
+- Trouver un générique d'intro d'une série qui vous plaît. 
