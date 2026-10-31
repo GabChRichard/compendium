@@ -26,14 +26,6 @@ Vous êtes approchés pour adapter une courte entrevue documentaire en format mo
 
 - La présentation du reel 
 
-- Une présentation en équipe pour répondre à trois questions :
-
-- Quel est l'élément dont tu es le plus fier?
-
-- Quel a été ta plus grande difficulté?
-
-- Qu'est-ce que tu ferais de différent? 
-
 ### Le dossier de remise doit comprendre les éléments suivants :
 
 - Le rendu final au format .mp4 codec H.264 à 30fps
