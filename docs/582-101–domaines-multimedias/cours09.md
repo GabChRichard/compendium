@@ -449,10 +449,6 @@ Notions complémentaires, utiles pour affiner votre concept ou votre prochain pr
 - **Le *storytelling*** : trois piliers sont mobilisés (Extra Credits, 2018) : l'**intrigue**, les **personnages** et le **folklore** (*lore*). En jeu vidéo, la narration est toujours au service du *gameplay* : on la justifie par l'esthétique et la mécanique.
 - **La conception de niveaux** : un bon niveau est *fun* à explorer, montre l'intrigue plutôt que de la raconter, montre **quoi** faire sans dire **comment** (objectif clair, moyen flou), apprend de nouvelles choses au joueur, fait progresser la tension dramatique et surprend. Le croquis à vol d'oiseau est un guide qui évolue avec les tests.
 
-## Préparation pour la semaine prochaine
-
-La semaine prochaine : constitution du dossier de mandats. Choisissez dès maintenant vos 3 meilleurs mandats parmi les 5 réalisés.
-
 ## Merci et à la semaine prochaine!
 
 Commentaires ou questions?
