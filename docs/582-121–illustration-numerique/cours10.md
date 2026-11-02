@@ -5,6 +5,8 @@
 
 ## Présentation des travaux
 
+[Ordre de passage](https://cmontmorency365-my.sharepoint.com/:x:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQD2PLR5DhwGQJ9ga-4l8pDJARfV_QowmhTe7L1XX1MJDxg?e=XHHh4S){ .md-button }   <br>
+
 ## Devoir pour le prochain cours
 
-- Trouver un générique d'intro d'une série qui vous plaît. 
+- Trouver un générique d'introduction (film, série, youtubeur, anime, etc.) qui vous plaît et le poster dans l'équipe Teams.

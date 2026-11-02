@@ -18,8 +18,8 @@ Pour réaliser ce projet, nous vous suggerons les thèmes suivant : </br>
 
 - Amalgamme 
 
-Exemples:  
-[Projets artistes ](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EdWLzr5Q0PdOnqxowv9_kBYBJzHbx4gT3zch9B2hIO3jzw?e=84Ld9o)
+<!-- Exemples:  
+[Projets artistes ](https://cmontmorency365-my.sharepoint.com/:w:/g/personal/flpilote_cmontmorency_qc_ca/EdWLzr5Q0PdOnqxowv9_kBYBJzHbx4gT3zch9B2hIO3jzw?e=84Ld9o) -->
 
 ---
 
@@ -49,18 +49,12 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 
 - La vidéo doit durer environ cinq (5) minutes
 
-## Le document (dans une présentation Powerpoint ou Canva) de préproduction doit comprendre :
+## Pour la préprod vous devez :
 
-- Le synopsis de votre vidéo.
+- Remplir le document de préprod : [Document de proprod](https://cmontmorency365-my.sharepoint.com/:f:/g/personal/dominic_roberts_cmontmorency_qc_ca/IgB9DohvUSQkRYdMMHHz1jHdAVMAK42OxYyymTdTO1aeg_o?e=1C6dmW)
 
-- Un scénario ainsi qu'un scénarimage.
+- Préparer une courte présentation (maximum 2 minutes). Votre présentation doit inclure : 
 
-- Des croquis illustrant les positions ainsi que les mouvements de caméra et les cadrages.
+    - Le synopsis
 
-- Des images de lieu de tournage ainsi qu'une liste d'accessoires ou meubles potentiels.
-
-- Une liste complète du matériel nécessaire.
-
-- La planification de la séance (durée estimée, horaire)
-
-- La liste du matériel d'éclairage avec le type, la couleur et le nombre de sources lumineuses ainsi qu'un schéma avec la position des sources.
+    - La direction artistique (Quel sera l'atmosphère de votre oeuvre?)
