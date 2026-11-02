@@ -1,4 +1,4 @@
-# Projet 2 : Installation Immersive et Vidéo Mosaïque 
+# Projet 2 : Installation Immersive et Vidéo Mosaïque - Montage Offline
 
 > Le devis du TP est sujet à changement d'ici sa distribution officielle
 
@@ -51,21 +51,16 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 - Une liste complète du matériel nécessaire.
 - La planification de la séance (durée estimée, horaire)
 - La liste du matériel d'éclairage avec le type, la couleur et le nombre de sources lumineuses ainsi qu'un schéma avec la position des sources.
- 
-<!-- - Une liste de 20 plans de coupe (inserts). -->
 
 ### La réalisation du tournage doit comprendre :
 
 - Réaliser le tournage en respectant le plan de tournage
-<!-- - Au moins 2 plans différents de la personne interviewée
-- 20 plans de coupe tournés (objets significatifs, environnement, images d'archives, etc.) -->
 - Veiller à la qualité technique (image nette, composition cohérente, éclairage adéquat)
 
 ### Le montage offline (individuel) de la vidéo doit comprendre :
 
 - Un montage bout à bout rythmé de tout le vidéo
 - Une trame sonore 
-<!-- - Tous les sauts de temps cachés par un plan de coupe  -->
 
 ### Le dossier de remise (un par équipe) doit comprendre les éléments suivants :
 
