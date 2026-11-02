@@ -76,10 +76,14 @@ Dans les grands studios, chaque facette de la conception et de la production dev
 
 ### Entrer dans le domaine
 
-- Une formation : DEC en intégration multimédia, AEC ou études universitaires.
-- Un **portfolio** de petits jeux et de prototypes, même simples.
-- Des **game jams** (marathons de création de jeu de 24 à 72 heures) pour pratiquer en équipe.
-- Un stage. L'assurance qualité est souvent une porte d'entrée vers d'autres postes.
+Le jeu vidéo est un domaine très recherché : les postes sont compétitifs, surtout pour les débutants. Un DEC en intégration multimédia donne une base large, mais il est rarement suffisant à lui seul. Il faut généralement :
+
+- **Se spécialiser** dans un métier du jeu (programmation, art, conception, son, assurance qualité) par une formation complémentaire, une AEC ou des études universitaires.
+- Bâtir un **portfolio** de petits jeux et de prototypes, même simples, et pratiquer en équipe, par exemple avec des **game jams** (marathons de création de jeu de 24 à 72 heures).
+- Faire un **stage** et développer son réseau.
+- **Maîtriser l'anglais** : plusieurs équipes sont bilingues ou anglophones.
+
+Les compétences du domaine (interactivité, narration, 2D et 3D, programmation) se transposent aussi aux jeux sérieux, aux installations interactives, au web et à l'animation.
 
 ## Éléments importants en jeux vidéo 
 
