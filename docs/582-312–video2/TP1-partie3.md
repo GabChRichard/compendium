@@ -2,7 +2,7 @@
 
 > Le devis du TP est sujet à changement d'ici sa distribution officielle
 
-*(15% de la note finale)*
+*(5% de la note finale)*
 
 ## Consignes
 

@@ -1,4 +1,4 @@
-# Projet 2 : Installation Immersive et Vidéo Mosaïque - Montage Offline
+# Projet 2 : Installation Immersive et Vidéo Mosaïque - Partie 1 : la préproduction
 
 > Le devis du TP est sujet à changement d'ici sa distribution officielle
 
@@ -8,11 +8,14 @@
 
 ## Consignes
 Créer une expérience immersive en utilisant des éléments visuels et sonores pour raconter une histoire. Le travail est en équipe (4 personnes). 
-Pour réaliser ce projet, nous vous suggerons le thème suivant : </br>
+Pour réaliser ce projet, nous vous suggerons les thèmes suivant : </br>
 
 - Anomalie
+
 - Passage
+
 - Rupture
+
 - Amalgamme 
 
 Exemples:  
@@ -37,58 +40,27 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 
 - **Critères de réussite pour la version Installation :**
   1. **Cohérence visuelle et sonore :** Tous les éléments (écrans, télévision, lumières, son) doivent fonctionner ensemble pour raconter une histoire immersive.
+
   2. **Synchronisation précise :** Les vidéos et le son doivent être parfaitement synchronisés pour maximiser l'impact narratif.
+
   3. **Interaction des lumières :** Les lumières doivent renforcer l’immersion en réagissant de manière cohérente avec les vidéos et le son.
-
-## La partie 1 comprend :
-
-### Une présentation (Powerpoint ou Canva) de préparation du tournage doit comprendre :
-
-- Le synopsis de votre vidéo.
-- Un scénario ainsi qu'un scénarimage.
-- Des croquis illustrant les positions ainsi que les mouvements de caméra et les cadrages.
-- Des images de lieu de tournage ainsi qu'une liste d'accessoires ou meubles potentiels.
-- Une liste complète du matériel nécessaire.
-- La planification de la séance (durée estimée, horaire)
-- La liste du matériel d'éclairage avec le type, la couleur et le nombre de sources lumineuses ainsi qu'un schéma avec la position des sources.
-
-### La réalisation du tournage doit comprendre :
-
-- Réaliser le tournage en respectant le plan de tournage
-- Veiller à la qualité technique (image nette, composition cohérente, éclairage adéquat)
-
-### Le montage offline (individuel) de la vidéo doit comprendre :
-
-- Un montage bout à bout rythmé de tout le vidéo
-- Une trame sonore 
-
-### Le dossier de remise (un par équipe) doit comprendre les éléments suivants :
-
-- Le fichier de préparation avec tous les médias et les drp
-- Le rendu final au format .mp4 codec H.264 à 30fps
-- Une copie du fichier de rétroaction par étudiant
 
 ### Consignes additionnelles 
 
 - La vidéo doit durer environ cinq (5) minutes
 
-## Critères d'évaluation
+## Le document (dans une présentation Powerpoint ou Canva) de préproduction doit comprendre :
 
-Les aspects évalués sont les suivants :
+- Le synopsis de votre vidéo.
 
-| Catégorie | Sous-critère | Points |
-|---|---|---|
-| **Préparation du tournage** | | **/20** |
-| | Pertinence du sujet et qualité du scénario | /10 |
-| | Qualité de la fiche technique | /10 |
-| **Tournage** | | **/30** |
-| | Qualité technique de l'image (stabilité, cadrage, éclairage) | /30 |
-| **Montage offline** | | **/50** |
-| | Cohérence narrative | /20 |
-| | Rythme | /20 |
-| | Qualité de la trame sonore | /10 |
-| **Total** | | **/100** |
+- Un scénario ainsi qu'un scénarimage.
 
-> Un manquement au respect du format et à la présence de tous les éléments sera pénalisé sur la préparation du tournage.
+- Des croquis illustrant les positions ainsi que les mouvements de caméra et les cadrages.
 
-> N'oubliez pas que la qualité de la langue est évaluée jusqu'à concurrence de 10% de la note finale du travail (1% par faute).
+- Des images de lieu de tournage ainsi qu'une liste d'accessoires ou meubles potentiels.
+
+- Une liste complète du matériel nécessaire.
+
+- La planification de la séance (durée estimée, horaire)
+
+- La liste du matériel d'éclairage avec le type, la couleur et le nombre de sources lumineuses ainsi qu'un schéma avec la position des sources.
