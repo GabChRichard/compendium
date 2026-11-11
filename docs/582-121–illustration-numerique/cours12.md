@@ -3,6 +3,10 @@
 
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC6pqzd3FtqTbsiE_AmQkYVAbR1Wa-iEJhAQrFbLbUFROs?e=vX5U0c){ .md-button }   <br>
 
+## Ordre du jour
+- Présentation des moodboards
+- Explication de la partie 2
+
 ## À faire pour le prochain cours
 
 ### PROJET 2 – PARTIE 2 : PRÉ-APPROBATION – GÉNÉRIQUE

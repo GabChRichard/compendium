@@ -3,26 +3,41 @@
 
 [📁 Plan de cours](https://cmontmorency365-my.sharepoint.com/:b:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC6pqzd3FtqTbsiE_AmQkYVAbR1Wa-iEJhAQrFbLbUFROs?e=vX5U0c){ .md-button }   <br>
 
-## Présentation du travail 2
-[📁 Projet 2](./projets/projet02.md){ .md-button }   <br>
+## ordre du jour
 
-[🖼️ Exemple de projet étudiants](https://timmontmorency.myportfolio.com/image){ .md-button }   <br>
+- Les principes du design
 
-## Formation des équipes
+- La typographie
 
-## CRAP
+- Atelier
+
+- Explication du projet 2
+
+## Les principes du design : CRAP
 * [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EaXDO17xGqVPmf_gAqTsmhABbvSnAlNnr8OZR8UK1Ayirg?e=5HYJ6B) 
 
-
-## Typographie
+## La typographie
 * [Typographie à l'écran](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/ETp5XZFert9Au1b4Or13FxwBfmMVnHPfmk_dabrP9ZK-Jg?e=y0EqYi) 
-
 
 ## Courants artistiques
 * [Courants artistiques](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbeRydm1ZApDtvRR_Q4Zn9sBATF6_jX7MIQCEuFurwYOiA?e=zl03hb)
 
 ## Synopsis
 * [Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EZVIYRt62_5ItWVUsDlonGUBgBfSLdBljZ9ZJj4dcbPZ_g?e=03AxC4)
+
+## Atelier en classe
+### Partie 1
+En équipe de deux, écrire un court synopsis pour un film. 
+
+### Partie 2
+En équipe de deux, faire le croquis de six images qu'on pourrait retrouvers dans le film que vous avez inventé lors de la partie précédente
+
+## Présentation du travail 2
+[📁 Projet 2](./projets/projet02.md){ .md-button }   <br>
+
+[🖼️ Exemple de projet étudiants](https://timmontmorency.myportfolio.com/image){ .md-button }   <br>
+
+## Formation des équipes
 
 ## Devoir 
 * [ ] Création du Moodboard avec images, typographie et palette de couleurs

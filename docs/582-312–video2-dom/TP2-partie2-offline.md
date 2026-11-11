@@ -69,9 +69,11 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 
 ### Le dossier de remise (un par équipe) doit comprendre les éléments suivants :
 
-- Le fichier de préparation avec tous les médias et les drp
+- Le fichier de préparation
 
-- Le rendu final au format .mp4 codec H.264 à 30fps
+- les drp de chacun des membres de l'équipe
+
+- Le rendu final au format .mp4 codec H.264 à 30fps de chacun des membres de l'équipe
 
 
 
