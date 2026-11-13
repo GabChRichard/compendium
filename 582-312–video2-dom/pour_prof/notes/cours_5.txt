@@ -1,0 +1,149 @@
+La colo avancé
+
+téléphone
+
+Plan de cours 
+
+Retour sur l'examen
+
+Écoute des Devoirs
+
+La colo
+C'est quoi la colo au juste??
+La caméra capture beaucoup plus d'information que ce qu'un écran peut afficher.
+Le but de la colo est de traduire cette info brute vers quelque chose de visible et intentionnel
+
+Les outils
+- Les nodes
+    - serial vs parallele
+    - mixeur parallele vs mixeur de calques
+
+- les scopes
+    - oscilloscope
+    - parade
+    - vectorscope
+
+- les outils de correction
+    - Roues colorimétriques
+    - Mixeur RVB
+    - Courbes
+    - Déformation de couleur
+    - Sélecteur HSL
+    - Power Window
+    - Tracker
+    - Alpha
+
+- les effets
+
+Exercices
+
+Le workflow
+- démonstration
+
+Palettes de couleurs(shot matching)
+les type de look
+
+Exercices
+
+Présentation de l'examen
+
+
+les couleurs complémentaire
+
+lecture des scopes
+- waveform monitor
+    (montre la luminance (brillance))
+    - les IRE -> unité de mesure de la lumière
+        (de 0 à 100)
+        l'idée ici est que nos noirs soient juste en haut de 0
+        et les blanc juste en dessous de 100
+        les midtones (genre la peau) est autour de 60 70
+
+- Parade (rgb parade)
+    - permet de repérer une dominante de couleur
+
+- vectorscope
+    (rendu là)
+
+la colo en 5 nodes
+- node 1 : balance des blancs
+    le but est donné une base technique propre
+
+    corriger la balance des blanc avec le color wheel (lift,gamma,gain)
+    on travail avec le waveform monitor (pas à l'oeil)
+        - balance des blanc (avec l'outil pipette)
+        - exposition (avec le gain(haute lumière))
+            doit être autour de 100 IRE
+        - Gamma (mid tones)
+            exposition globale
+        - Lift (les ombres)
+            par par 'boucher les noir' doit être autour de 0 IRE
+
+    > ne jamais se fier à l'écran
+
+- node 2 : contraste globale
+    ici, le but est de donner de la profondeu à l'image
+    - on ajoute une node en série
+    - ouvre le panneau curve
+    - sur la courbe rgb principale
+        - on ajoute un point dans les ombre et on le tire un peu vers le bas
+        - on ajoute un point en haut et on le tire légerement vers le haut
+        courbe en S -> le geste classique de cinema
+
+        pourquoi on veut une courbe en S?
+            (pour augmenter le contraste)
+            - creuser les noirs
+            - booster les blancs
+
+
+    montrer différence entre une courbe en S plus agressive et plus douce (punchy vs cinématique)
+
+- node 3 : correction secondaire
+    le but est d'isoler UNE couleur spécifique (typiquement la peau)
+    - sur un nouveau node allé dans l'onglet qualifier
+    - sélectionner l'outil pipette pour qualifier et cliquer sur la zone à isoler
+        (genre la peau du visage)
+    - Activer le Highlight (shift + H)
+        (l'image devient noir et blanc (le blanc est la zone selectionnée))
+    - Affiner avec le HUE/Sat et Lum et le softness
+        (le softness pour éviter un effet trop découpé)
+    - Une fois le masque propre, on peut désactiver le Highlight et faire la correction dans le color wheel
+
+    bien montrer le highlight mode
+
+- node 4 : power window
+    contrairement au Qualifier, le power window isole une zone dans l'image
+    ON l'utilise pour assombrir un fond ou éclaircir un sujet
+    - sur un noveau node, on ajoute une forme à l'aide de l'onglet window
+    - on place la forme dépendemment de ce qu'on veut faire
+    - on ajuste le softness (edge blend)
+    - si e plan bouge, on peu allé dans l'onglet tracker et sélectionner window tracker
+        - on clique sur track forward pour que notre masque suive le moouvement de maniere automatique
+    
+    bien important de faire le tracking! sinon le masque ne bougera pas
+
+    ici, on peut se mettre plusieurs node en parallele
+    par exemple:
+        - Branche A : Ellipse Window pour le visage 
+            (on vient éclaircir légèrement)
+        - Branche B : Ellipse Window inversé sur le fond
+            (pour assombrir le background)
+        - Branche C : une fenetre polygonale sur un objet spécifique
+            (correction ciblé)
+
+- node 5 : look finale (LUT (look up table))
+    le LUT ou split-toning est la touche stylistique finale qui donne un look de marque reconnaissable
+    ici, on a deux options:
+
+        - LUT créative
+            - sur un nouveau node en série
+                -> clic droit -> LUT -> et on choisi le LUT qu'on veut
+            - on peu ajuster l'opacité du node si la LUT est rop forte
+                (key mix/ node opacity en bas à droite)
+
+        - Split toning manuel
+            - sur une nouvelle node ne série, dans l'option color wheels
+                - LIFT : on pousse légerement vers le bleu/teal (pour les ombres)
+                - GAIN : pousse légerement vers le orange/jaune (pour les hautes lumières)
+        
+    La LUT est seulement un raccourcie pour le split toning manuel
