@@ -1,4 +1,4 @@
-# Compendium
+# Compendium[^1]
 
 ## Session 1
 
@@ -29,3 +29,5 @@
 * [582-511 | Web 5](./582-511-web5)
 * [582-533 | Controle qualité](./582-533-controle-qualite)
 * [582-541 | Préparation en milieu de travail](./582-541–preparation-milieu-travail) -->
+
+[^1]: Site codé avec Claude Code
