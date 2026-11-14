@@ -1,7 +1,7 @@
 # PROJET 2 – LE GÉNÉRIQUE
  
 ## OBJECTIF
-Créer **12 planches** représentant un générique de film en pause. Les images doivent <!--être **vectorielles** et --> conserver une **cohérence visuelle** entre elles.
+Créer **10 planches** représentant un générique de film en pause. Les images doivent <!--être **vectorielles** et --> conserver une **cohérence visuelle** entre elles.
 
 ## CONSIGNES / GÉNÉRIQUE
 
@@ -35,7 +35,7 @@ Créer **12 planches** représentant un générique de film en pause. Les images
 
 - **Illustrations et Moodboard**
   * [ ] Un **moodboard**.
-  * [ ] 8 **images de générique**.
+  * [ ] 5 **images de générique**.
 
 Le professeur fournira des **commentaires** pour améliorer votre travail en vue de la présentation finale. **Aucune modification** effectuée peut impacter votre **note finale**. **Assurez-vous que tous vos documents sont ouverts**.
 
@@ -47,7 +47,7 @@ Le professeur fournira des **commentaires** pour améliorer votre travail en vue
 
 #### Présentation des Illustrations
 - **PowerPoint**
-  * [ ] Importez vos 12 images de générique.
+  * [ ] Importez vos 10 images de générique.
   * [ ] Sauvegardez vos fichiers en **JPG** et conservez également vos copies **PSD**.
   * [ ] Importez les JPG dans un document **PowerPoint** ou autre support au format **16/9**, avec un **fond blanc ou noir**, sans transitions.
   * [ ] Intégrez une **musique** qui jouera tout au long de l'exposé.
