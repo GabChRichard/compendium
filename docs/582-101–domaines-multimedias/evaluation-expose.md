@@ -2,7 +2,7 @@
 
 Vous êtes amenés à déposer votre candidature pour un projet au moyen de la création d'une présentation numérique structurée et visuelle (PowerPoint, Google Slides ou Canva) qui illustre votre profil à l'intérieur du domaine multimédia ainsi que **deux idées potentielles** pour le travail final. Vous aurez ensuite 10 minutes pour la présentez à l'oral en petit groupe. L'évaluation est individuelle et vaut **15 % de la note**.
 
-**Échéance :** cours 11 (mardi 24 novembre 2026 ou vendredi 27 novembre 2026, selon votre groupe).
+**Échéance :** cours 11 (mardi 24 novembre 2026 ou vendredi 20 novembre 2026, selon votre groupe).
 
 ## Consignes
 
