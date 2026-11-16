@@ -33,7 +33,7 @@
 Écrire un court synopsis (cinq phrases) pour un film ou série. 
 
 ### Partie 2 (30 minutes)
-Faire un scénarimage de huit images représentant le générique d'ouverture pour le synopsis qui vous est fourni. Vous devez préparer une présentation qui inclut :
+Faire un scénarimage de deux images (image titre et une image avec le nom de l'acteur principale) représentant le générique d'ouverture pour le synopsis qui vous est fourni. Vous devez préparer une présentation qui inclut :
 
 - Le scénarimage (un croquis par image)
 
