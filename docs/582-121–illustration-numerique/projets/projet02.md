@@ -58,16 +58,16 @@ Le professeur fournira des **commentaires** pour améliorer votre travail en vue
 
 * [ ] Une fois la présentation visuelle terminée, commencez votre exposé. 
 
-### 🧩 1. Synopsis du projet (30 s)
+### 🧩 1. Synopsis du projet
 * [ ] Résumer l’histoire ou le concept du générique en 2–3 phrases
 * [ ] Indiquer le ton (dramatique, poétique, humoristique, etc.)
 
-### 🎨 2. Moodboard et univers visuel (1 min)
+### 🎨 2. Moodboard et univers visuel 
 * [ ] Présenter vos références principales (artistiques, cinématographiques, styles)
 * [ ] Expliquer ce que vous avez retenu : couleurs, textures, ambiance, motifs
 * [ ] Justifier vos choix graphiques (composition, formes, effets, typographie)
 * [ ] Souligner la cohérence stylistique entre les planches
 
-### 🎬 3. Intention finale (30 s)
+### 🎬 3. Intention finale 
 * [ ] Expliquer l’idée globale derrière vos choix artistiques
 
