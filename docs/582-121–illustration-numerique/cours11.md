@@ -16,16 +16,16 @@
 - Explication du projet 2
 
 ## Les principes du design : CRAP
-* [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCKhjxm7EytQrZ-EJXV_0ITAbpuT0BYpkzCgbMN7ZJ4aVY?e=XaiVuU) 
+[Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCKhjxm7EytQrZ-EJXV_0ITAbpuT0BYpkzCgbMN7ZJ4aVY?e=XaiVuU){ .md-button }   <br> 
 
 ## La typographie
-* [Typographie à l'écran](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC_Sr6vTwoaR4CGp-aHrR_2AQ9INz13-8vQG65Tc7y5epA?e=hA2ZsW){ .md-button }   <br>
+[Typographie à l'écran](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQC_Sr6vTwoaR4CGp-aHrR_2AQ9INz13-8vQG65Tc7y5epA?e=hA2ZsW){ .md-button }   <br>
 
 ## Courants artistiques
-* [Courants artistiques](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbeRydm1ZApDtvRR_Q4Zn9sBATF6_jX7MIQCEuFurwYOiA?e=zl03hb){ .md-button }   <br>
+[Courants artistiques](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/flpilote_cmontmorency_qc_ca/EbeRydm1ZApDtvRR_Q4Zn9sBATF6_jX7MIQCEuFurwYOiA?e=zl03hb){ .md-button }   <br>
 
 ## Synopsis
-* [Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQAQ9sUopgpFRZoMmeAg0jBUAb1IDqyNi3npmi6ZX9X8Rp8?e=hfWnhT){ .md-button }   <br>
+[Synopsis](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQAQ9sUopgpFRZoMmeAg0jBUAb1IDqyNi3npmi6ZX9X8Rp8?e=hfWnhT){ .md-button }   <br>
 
 ## Atelier en classe
 
