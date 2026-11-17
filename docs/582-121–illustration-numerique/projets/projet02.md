@@ -6,7 +6,7 @@ Créer **10 planches** représentant un générique de film en pause. Les images
 ## CONSIGNES / GÉNÉRIQUE
 
 * **Projet de Générique**
-  * [ ] **Nombre :** Créez 12 planches pour le générique de film.
+  * [ ] **Nombre :** Créez 10 planches pour le générique de film.
   * [ ] **Cohérence Visuelle :** Les planches doivent présenter une cohérence visuelle forte.
   * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
   * [ ] **Typographie :** Utilisez deux graisses différentes pour la typographie.
@@ -31,7 +31,7 @@ Créer **10 planches** représentant un générique de film en pause. Les images
 
 ### PROJET 2 – PARTIE 2 : PRÉ-APPROBATION – GÉNÉRIQUE
 
-À ce stade, vous devez présenter 8 de vos **illustrations terminées** au professeur. Voici la liste des éléments à fournir :
+À ce stade, vous devez présenter 5 de vos **illustrations terminées** au professeur. Voici la liste des éléments à fournir :
 
 - **Illustrations et Moodboard**
   * [ ] Un **moodboard**.

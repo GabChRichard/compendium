@@ -11,9 +11,9 @@
 
 - Atelier en classe
 
-- Retour sur le devoir
-
 - Explication du projet 2
+
+- Retour sur le devoir
 
 ## Les principes du design : CRAP
 [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCKhjxm7EytQrZ-EJXV_0ITAbpuT0BYpkzCgbMN7ZJ4aVY?e=XaiVuU){ .md-button }   <br> 
@@ -32,16 +32,20 @@
 ### Partie 1 (15 minutes)
 Écrire un court synopsis (cinq phrases) pour un film ou série. 
 
-### Partie 2 (30 minutes)
+### Partie 2 (45 minutes)
 Faire deux images (image titre et une image avec le nom de l'acteur principale) représentant le générique d'ouverture pour le synopsis qui vous est fourni. Vous devez préparer une présentation qui inclut :
 
-- Les deux images (une image avec le titre et une image avec le nom de l'acteur principal)
+- Une palette de couleurs
 
 - Un moodboard qui exprime le style visuel qu'aurait votre générique (le courant artistique)
 
 - Le choix des typographies (une typographie pour les titres et une pour les noms)
 
-- Une palette de couleurs
+- Les deux images faites sur photoshop (une image avec le titre et une image avec le nom de l'acteur principal)
+
+### Partie 3
+Présentation
+
 
 ## Présentation du travail 2
 [📁 Projet 2](./projets/projet02.md){ .md-button }   <br>
@@ -50,6 +54,8 @@ Faire deux images (image titre et une image avec le nom de l'acteur principale) 
 
 ## Formation des équipes
 Vous pouvez faire le projet seul ou en équipe de deux. Si vous le faites en équipe de deux, vous devez faire 18 images au lieu de 10.
+
+## Retour sur le devoir
 
 ## Devoir 
 * [ ] Création du Moodboard avec images, typographie et palette de couleurs
