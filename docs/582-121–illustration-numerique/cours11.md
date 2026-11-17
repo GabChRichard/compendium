@@ -5,6 +5,8 @@
 
 ## ordre du jour
 
+- Vocabulaire
+
 - Les principes du design
 
 - La typographie
@@ -14,6 +16,13 @@
 - Explication du projet 2
 
 - Retour sur le devoir
+
+## Vocabulaire
+### Saillance
+Chose qui peut être remarquée par contraste par rapport à un alignement général. </br>
+*[Saillance - définition](https://www.linternaute.fr/dictionnaire/fr/definition/saillance/)*
+
+### Affect
 
 ## Les principes du design : CRAP
 [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCKhjxm7EytQrZ-EJXV_0ITAbpuT0BYpkzCgbMN7ZJ4aVY?e=XaiVuU){ .md-button }   <br> 
@@ -44,7 +53,7 @@ Faire deux images (image titre et une image avec le nom de l'acteur principale) 
 - Les deux images faites sur photoshop (une image avec le titre et une image avec le nom de l'acteur principal)
 
 ### Partie 3
-Présentation
+Rapidement présenter comment vous avec exprimer les éléments du scénario dans vos composition. Mentionnez comment vous avez utilisé les principes de design pour exprimer ces éléments.
 
 
 ## Présentation du travail 2
