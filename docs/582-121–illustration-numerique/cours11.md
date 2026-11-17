@@ -44,6 +44,8 @@ Chose qui peut être remarquée par contraste par rapport à un alignement gén�
 ### Partie 2 (45 minutes)
 Faire deux images (image titre et une image avec le nom de l'acteur principale) représentant le générique d'ouverture pour le synopsis qui vous est fourni. Vous devez préparer une présentation qui inclut :
 
+- Un titre
+
 - Une palette de couleurs
 
 - Un moodboard qui exprime le style visuel qu'aurait votre générique (le courant artistique)
@@ -53,7 +55,7 @@ Faire deux images (image titre et une image avec le nom de l'acteur principale) 
 - Les deux images faites sur photoshop (une image avec le titre et une image avec le nom de l'acteur principal)
 
 ### Partie 3
-Rapidement présenter comment vous avec exprimer les éléments du scénario dans vos composition. Mentionnez comment vous avez utilisé les principes de design pour exprimer ces éléments.
+Lire le synopsis et rapidement présenter comment vous avec exprimer les éléments du scénario dans vos composition. Mentionnez comment vous avez utilisé les principes de design pour exprimer ces éléments.
 
 
 ## Présentation du travail 2
