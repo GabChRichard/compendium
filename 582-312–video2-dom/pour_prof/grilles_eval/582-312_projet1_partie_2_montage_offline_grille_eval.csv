@@ -1,0 +1,27 @@
+"Pour bénéficier d’une expérience d’édition optimale, téléversez ce fichier .csv comme rubrique dans Microsoft Teams."
+
+"582 312 - Montage Offline Entrevue","100"
+""
+""
+,"REMARQUABLE","","RÉUSSI","","MOYEN","","ÉCHOUÉ",
+"Pertinence du sujet et qualité du questionnaire","Sujet original, pertinent et clairement défini. Questions ouvertes, bien formulées et ordonnées logiquement.",10,"Sujet pertinent et bien défini. Questions claires et majoritairement ouvertes. Quelques questions moins utiles au propos.",7.5,"Sujet peu approfondi ou vaguement défini. Questions souvent fermées, redondantes ou mal ordonnées.",5,"Sujet non pertinent ou absent. Questionnaire incomplet, inadéquat ou non remis.",2.5
+"10"
+"Qualité de la fiche technique","Fiche complète, exacte et soignée: titre, durée, équipe et rôles, équipement, lieux et dates de tournage, formats et paramètres d'exportation.",10,"Fiche complète et exacte. Quelques imprécisions ou oublis mineurs.",7.5,"Fiche incomplète, plusieurs informations manquantes ou erronées.",5,"Fiche absente ou largement inutilisable.",2.5
+"10"
+"Qualité technique de l'image (stabilité, cadrage, éclairage)","Plans stables en tout temps. Cadrage maîtrisé et varié (valeurs de plan, règle des tiers, espace de regard). Éclairage et exposition justes. Mise au point et balance des blancs constantes.",30,"Image généralement stable et bien cadrée avec un éclairage adéquat. Quelques défauts ponctuels (léger tremblement, exposition ou mise au point inégale) qui ne nuisent pas à la lecture.",22.5,"Défauts fréquents: instabilité, cadrages approximatifs, sous-exposition, surexposition ou flou qui nuisent par moments à la lecture de l'image.",15,"Défauts majeurs et constants (image instable, mal cadrée, trop sombre ou floue) rendant le visionnement difficile.",7.5
+"30"
+"Qualité technique du son (clarté, volume, absence de bruits parasites)","Voix claires et intelligibles en tout temps. Niveaux constants et bien équilibrés, sans saturation. Aucun bruit parasite.",10,"Son clair et niveaux généralement constants. Quelques bruits ou variations de volume mineurs.",7.5,"Intelligibilité inégale, variations de volume, saturation ou bruits parasites fréquents.",5,"Son inaudible, saturé ou gravement parasité rendant le propos est difficile à suivre.",2.5
+"10"
+"Cohérence narrative","Structure claire (introduction, développement, conclusion). Enchaînement logique et fluide des propos.",15,"Structure claire dans l'ensemble. Quelques transitions ou passages moins fluides.",12,"Structure floue, enchaînements arbitraires ou répétitifs. Le propos est difficile à suivre par moments.",8,"Aucune structure perceptible ou propos incohérent.",4
+"15"
+"Rythme","Rythme maîtrisé et adapté au propos. Coupes justes, durée des plans pertinente. Aucun temps mort: plans d'insert utilisés judicieusement.",15,"Rythme adéquat. Quelques longueurs ou coupes abruptes.",12,"Rythme inégal: longueurs fréquentes, plans trop longs ou coupes saccadées ou peu de plans d'insert.",8,"Rythme non maîtrisé qui nuit gravement au visionnement.",4
+"15"
+"Qualité de la trame sonore","Musique et ambiances bien choisies qui appuient le propos. Mixage équilibré avec les voix. Transitions sonores fluides.",10,"Trame sonore appropriée. Mixage généralement équilibré, quelques transitions abruptes.",7.5,"Choix musicaux peu adaptés. La musique couvre parfois les voix et/ou coupes sonores abruptes.",5,"Trame sonore absente, inadéquate ou qui nuit à la compréhension.",2.5
+"10"
+"Respect des consignes (-10)","",,"",,"",,"",
+"0"
+"Qualité de la langue (-10)","",,"",,"",,"",
+"0"
+"Absent à la remise et travail non remis (-100%)","",,"",,"",,"",
+"0"
+v.11p
