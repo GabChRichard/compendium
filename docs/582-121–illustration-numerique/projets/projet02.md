@@ -3,6 +3,8 @@
 ## OBJECTIF
 Créer **10 planches** représentant un générique de film en pause. Les images doivent <!--être **vectorielles** et --> conserver une **cohérence visuelle** entre elles.
 
+> Vous devez faire 18 images si vous travaillez en équipe
+
 ## CONSIGNES / GÉNÉRIQUE
 
 * **Projet de Générique**
@@ -36,6 +38,8 @@ Créer **10 planches** représentant un générique de film en pause. Les images
 - **Illustrations et Moodboard**
   * [ ] Un **moodboard**.
   * [ ] 5 **images de générique**.
+
+> Vous devez avoir fait 8 images si vous travaillez en équipe
 
 Le professeur fournira des **commentaires** pour améliorer votre travail en vue de la présentation finale. **Aucune modification** effectuée peut impacter votre **note finale**. **Assurez-vous que tous vos documents sont ouverts**.
 

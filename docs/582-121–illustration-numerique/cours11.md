@@ -22,8 +22,6 @@
 Chose qui peut être remarquée par contraste par rapport à un alignement général. </br>
 *[Saillance - définition](https://www.linternaute.fr/dictionnaire/fr/definition/saillance/)*
 
-### Affect
-
 ## Les principes du design : CRAP
 [Règles composition d'images](https://cmontmorency365-my.sharepoint.com/:p:/g/personal/dominic_roberts_cmontmorency_qc_ca/IQCKhjxm7EytQrZ-EJXV_0ITAbpuT0BYpkzCgbMN7ZJ4aVY?e=XaiVuU){ .md-button }   <br> 
 
