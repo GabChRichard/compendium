@@ -13,7 +13,10 @@ Créer **10 planches** représentant un générique de film en pause. Les images
   * [ ] **Dimensions :** Travaillez en format 1920 x 1080 pixels, orientation horizontale.
   * [ ] **Typographie :** Utilisez deux graisses différentes pour la typographie.
   * [ ] **Éléments Textuels :** Ajoutez un titre du projet sur une planche et les noms ou postes sur les autres.
-  * [ ] **Calques Vectoriels :** Chaque planche doit inclure environ 10 calques vectoriels.
+  * [ ] **Calques Vectoriels :** Chaque planche doit inclure environ 10 calques vectoriels. (8 est acceptable, mais 7 n'est pas assez) <br/>
+  Ce qui est considéré comme un calque vectoriel : 
+  - Tous les calques avec le logo vectoriel dans le coin inférieur droit de la vignette (le petit carré)
+  - Tous les calques avec des masques vectoriels
 
 ## ÉTAPES D'APPROBATION
 
