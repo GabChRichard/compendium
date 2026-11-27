@@ -58,7 +58,7 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 
 ### Le montage online (en équipe) :
 
-- choisir un montage offline parmis ceux que vous avez réalisé à l'étape précédente ou mettre en commun les meilleurs parties de vos montages.
+- choisir un montage offline parmi ceux que vous avez réalisé à l'étape précédente ou mettre en commun les meilleurs parties de vos montages.
 
 - Des transitions appropriées
 
@@ -74,7 +74,9 @@ Cette version combine trois écrans sur un cyclorama, une télévision au sol, d
 
 ### Le dossier de remise (un par équipe) doit comprendre les éléments suivants :
 
-- Le fichier de préparation avec tous les médias et les drp
+- Le fichier de préparation (préproduction)
+
+- Le fichier drp
 
 - Le rendu final au format .mp4 codec H.264 à 30fps
 
@@ -89,11 +91,11 @@ Les aspects évalués sont les suivants :
 | | Trame sonore | /5 |
 | | Qualité des transitions | /25 |
 | | Qualité de la coloration | /25 |
-| | Qualité du traitement des texte (typo et animation) | /10 |
+| | Qualité du traitement des textes (typo et animation) | /10 |
 | | Présence de tous les éléments au générique | /5 |
 | **Présentation en classe** | | **/10** |
 | | Bon déroulement du visionnement | /5 |
-| | Pertinence des réponses aux questions | /5 |
+| | Cohérence du récit | /5 |
 | **Dossier de remise** | | **/10** |
 | | Respect des formats | /5 |
 | | Présence de tous les éléments | /5 |
